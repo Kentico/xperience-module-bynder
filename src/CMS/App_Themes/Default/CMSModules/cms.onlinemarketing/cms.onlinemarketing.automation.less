@@ -1,0 +1,514 @@
+﻿@import "../Default/Bootstrap/variables.less";
+@import "../Default/Bootstrap/mixins.less";
+
+@right-section-width: 26 * @base-unit;
+@automation-step-properties-wrapper-width: @right-section-width + (7 * @base-unit);
+@automation-step-properties-width: @automation-step-properties-wrapper-width - (@base-unit / 2);
+@automation-step-header-height: @base-unit * 3.5;
+@automation-step-properties-close-btn-padding: (@automation-step-header-height - @icon-size-100) / 2;
+@automation-step-properties-background-color: @color-white;
+@selector-first-button-max-width: @automation-step-properties-wrapper-width - @input-max-width - 4 * @base-unit;
+@shadow-color: @color-gray-100;
+
+.ma-template-selector-wrapper {
+    margin: @base-unit @base-unit 0 @base-unit;
+}
+
+.ma-template-selector-item .ma-template-selector-item-envelope {
+    float: left;
+    background-color: @color-gray-160;
+    border: 1px solid @color-gray-130;
+    text-align: center;
+    height: @base-unit * 15.25;
+    width: @base-unit * 17.5;
+    margin: 0 @base-unit * 2 @base-unit * 2 0;
+    position: relative;
+}
+
+.ma-template-selector-item.scratch .ma-template-selector-item-envelope {
+    background-color: @color-white;
+    border: 1px dashed @color-gray-100;
+}
+
+.ma-template-selector-item .ma-template-selector-item-envelope:hover {
+    background: @color-blue-130;
+}
+
+.ma-template-selector-item-envelope {
+    cursor: pointer;
+
+    .ma-template-selector-item-content {
+        height: 100%;
+    }
+}
+
+.vertical-overflow() {
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+
+.ma-template-selector-item-name {
+    .vertical-overflow();
+    padding: 0 @base-unit / 2;
+    height: @base-unit * 3;
+    margin-bottom: @base-unit / 2;
+}
+
+.ma-template-selector-item-description {
+    .vertical-overflow();
+    -webkit-line-clamp: 4;
+    padding: 0 @base-unit;
+}
+
+.ma-template-selector-item-icon {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding: @base-unit * 2 0 @base-unit;
+    i {
+        color: @color-gray-70;
+        font-size: @base-unit * 3 !important;
+    }
+}
+
+.ma-template-selector-item-actions {
+    position: absolute;
+    right: 0;
+
+    .btn.dropdown-toggle {
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: unset;
+
+        &:hover i {
+            color: @color-blue-70;
+        }
+    }
+
+    &.open > .btn.dropdown-toggle {
+        background-color: @color-gray-140;
+    }
+
+    .dropdown-menu {
+        min-width: 0;
+        text-align: right;
+
+        li a {
+            line-height: @base-unit;
+            padding: @base-unit / 2 @base-unit @base-unit / 2 @base-unit * 2;
+        }
+    }
+}
+
+.main-view iframe {
+    position: absolute;
+    min-height: calc(~"100% - 48px");
+    width: 100%;
+}
+
+.analytics-main-content {
+    width: calc(~"70% -"@base-unit * 2);
+    float: left;
+    overflow-x: auto;
+    min-height: calc(~"100vh -"@base-unit * 2);
+    padding: @base-unit 0 @base-unit @base-unit;
+
+    .control-group-inline {
+        margin-bottom: @base-unit;
+    }
+}
+
+.analytics-right-panel {
+    position: fixed;
+    right: 0;
+    width: calc(~"30% - 2px -"@base-unit * 2);
+    height: calc(~"100vh -"@base-unit * 2);
+    border-top: 1px solid @color-gray-140;
+    border-left: 1px solid @color-gray-140;
+    padding: @base-unit;
+
+    div:first-child {
+        height: 100%;
+
+        h3 {
+            display: inline-block;
+            margin: 20px 5px 20px 0;
+        }
+
+        .analytics-chart {
+            height: 60%;
+        }
+    }
+
+}
+
+div.automation-header {
+    width: calc(~"100% -"@base-unit * 2);
+    height: @base-unit * 3;
+    text-align: right;
+    padding: 0 @base-unit;
+
+    .btn,
+    .btn-default {
+        margin: @base-unit / 2 0 @base-unit / 2 @base-unit / 2;
+    }
+
+    .btn-actions {
+        margin-bottom: 0;
+
+        .btn-group {
+            position: absolute;
+            display: block;
+
+            .btn {
+                margin: @base-unit / 2 0;
+            }
+        }
+    }
+
+    .dropdown-menu-right {
+        text-align: left;
+        margin-top: -@base-unit / 2;
+    }
+
+    div.automation-header-icon {
+        font-size: @base-unit / 2;
+        display: inline;
+        padding-right: 4px;
+        line-height: @base-unit * 3;
+
+        .enabled {
+            color: @color-green-100;
+        }
+
+        .disabled {
+            color: @color-black;
+        }
+    }
+}
+
+.automation-wrapper {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.automation-graph-wrapper {
+    flex-grow: 1;
+    z-index: 1;
+
+    .GraphWrapper {
+        z-index: 2;
+    }
+}
+
+.automation-toolbar-wrapper {
+    background-color: @color-white;
+    overflow: auto;
+    padding: 0vh 0 2vh 2vh;
+    width: 270px;
+    height: calc(~"98vh - 1px");
+    z-index: 9997;
+    border-left: 1px solid @color-gray-140;
+    border-top: 1px solid @color-gray-140;
+
+    .nav-search-container {
+        position: absolute;
+        z-index: 9998;
+        background-color: @color-white;
+        padding: 16px 0 16px 0;
+        width: 250px;
+
+        .form-search-container {
+            width: 240px;
+        }
+    }
+
+    .automation-steps-container {
+        padding-top: 65px;
+
+        .automation-steps-category {
+            &:not(:first-of-type) {
+                margin-top: @base-unit * 0.25;
+            }
+
+            .category-steps {
+                &:first-of-type {
+                    margin-top: @base-unit * 0.5;
+                }
+
+                &:last-of-type {
+                    margin-bottom: @base-unit;
+                }
+            }
+        }
+
+        .collapsible-div {
+            .anchor {
+                user-select: none;
+                margin-bottom: 0;
+                display: block;
+            }
+
+            .toggle-icon {
+                cursor: pointer;
+                float: left;
+                margin: @base-unit * 0.5;
+                font-size: floor(@base-unit * 1.125); // ~18px
+                line-height: floor(@base-unit * 1.5); // ~24px
+                color: @color-gray-90;
+            }
+        }
+
+        .automation-step {
+            z-index: 9999;
+            cursor: move;
+            width: 240px;
+            height: 40px;
+            border: 1px solid @color-blue-70;
+            border-radius: 3px;
+            background-color: @color-white;
+            margin: 3px 0 3px 0;
+
+            &:not(.ui-draggable-dragging) {
+                &:hover {
+                    background-color: #d0e8ed;
+                }
+            }
+
+            .automation-step-icon {
+                height: 40px;
+                width: 40px;
+                float: left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: @color-white;
+
+                &.black {
+                    background-color: @color-gray-50;
+                }
+
+                &.red {
+                    background-color: @color-red-70;
+                }
+
+                &.blue {
+                    background-color: @color-blue-70;
+                }
+
+                &.yellow {
+                    background-color: @color-yellow-100;
+                }
+
+                &.undefined {
+                    background-color: @color-gray-70;
+                }
+
+                i {
+                    font-size: 20px;
+                }
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            .automation-step-content {
+                padding-left: 15px;
+                font-size: @font-size-base;
+                width: 185px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+
+                &::after {
+                    font-family: Core-icons;
+                    content: "\e6d7";
+                    float: right;
+                    font-size: @icon-size-80;
+                    color: @color-gray-140;
+                    width: 30px;
+                    text-align: center;
+                }
+
+                .automation-step-title {
+                    line-height: 40px;
+                    width: 155px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+
+.automation-step-properties {
+    position: absolute;
+    z-index: 12000;
+    height: 100%;
+    top: 0;
+    right: 0;
+
+    .automation-step-properties-wrapper {
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        width: 0;
+
+        &.automation-step-properties-wrapper-visible {
+            width: @automation-step-properties-wrapper-width;
+        }
+
+        .automation-step-properties-slidable {
+            position: absolute;
+            height: 100%;
+            width: @automation-step-properties-width;
+            right: -@automation-step-properties-width;
+            transition: right 0.2s ease;
+            box-shadow: 4px 0 8px 4px @shadow-color;
+
+            &.automation-step-properties-slidable-visible {
+                right: 0;
+            }
+
+            .automation-step-properties-loader {
+                display: none;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background-color: @color-white;
+
+                .loader-general {
+                    position: absolute;
+                    display: inline-block;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            iframe {
+                height: 100%;
+                width: 100%;
+                border: none;
+            }
+        }
+    }
+}
+
+.automation-step-properties-sidebar {
+    height: inherit;
+    background-color: @automation-step-properties-background-color;
+
+    .automation-step-properties-header {
+        height: @automation-step-header-height;
+        padding-left: @base-unit;
+        background-color: @color-gray-70;
+        color: @color-white;
+
+        h1 {
+            line-height: @automation-step-header-height;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 0;
+        }
+
+        .automation-step-properties-close {
+            height: 100%;
+            width: @automation-step-header-height;
+            float: right;
+            background-color: @color-gray-80;
+
+            .automation-step-properties-close-btn {
+                padding: @automation-step-properties-close-btn-padding;
+                border: 0;
+                outline: 0;
+                color: @color-gray-130;
+                background-color: transparent;
+
+                i[class^="icon-"] {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .header-actions-container {
+        height: @automation-step-header-height;
+    }
+
+    iframe {
+        height: calc(~"100vh -"@automation-step-header-height);
+        width: 100%;
+        border: none;
+    }
+}
+
+.automation-step-panel {
+    padding-left: 5px;
+
+    .automation-step-panel-selector {
+        input[type="text"] {
+            display: block;
+            float: left;
+        }
+
+        button:first-of-type {
+            display: block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: @selector-first-button-max-width;
+        }
+    }
+}
+
+.automation-sidepanel-content {
+    #field_RoleName .control-group-inline,
+    #field_ContactStatus .control-group-inline,
+    #field_Account .control-group-inline,
+    #field_ContactGroupName .control-group-inline,
+    .condition-builder.control-group-inline,
+    .doublebutton-input .control-group-inline,
+    .automation-step-panel-selector .control-group-inline {
+        display: flex;
+        max-width: @input-max-width;
+        flex-wrap: wrap;
+
+        input,
+        select,
+        .editing-form-control-nested-control {
+            flex: 1 0 100%;
+            margin-bottom: @base-unit * 0.5;
+        }
+
+        button {
+            &:first-of-type {
+                margin-left: auto;
+            }
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
+    #field_RoleName .control-group-inline > input {
+        margin-right: 0;
+        margin-bottom: @base-unit * 0.5;
+    }
+
+    .control-label {
+        padding-bottom: (@base-unit * 0.25) - 1;  // ~ 3px
+    }
+}

@@ -1018,6 +1018,7 @@
     <Content Include="CMSAdminControls\UI\UniGrid\Controls\MassActions.ascx" />
     <Content Include="CMSAdminControls\UI\UniGrid\Pages\MassDelete.aspx" />
     <Content Include="CMSAdminControls\UI\FontIconSelector.ascx" />
+    <Content Include="CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx" />
     <Content Include="CMSInstall\Controls\WizardSteps\CollationDialog.ascx" />
     <Content Include="CMSModules\AdminControls\Controls\UIControls\SmartTipPlaceholder.ascx" />
     <Content Include="CMSModules\BizForms\FormControls\FormFieldSelector.ascx" />
@@ -3201,6 +3202,13 @@
     </Compile>
     <Compile Include="CMSAdminControls\UI\FontIconSelector.ascx.designer.cs">
       <DependentUpon>FontIconSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx.cs">
+      <DependentUpon>BynderImageSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx.designer.cs">
+      <DependentUpon>BynderImageSelector.ascx</DependentUpon>
     </Compile>
     <Compile Include="CMSFormControls\SQL\SqlQueryTextbox.ascx.cs">
       <DependentUpon>SqlQueryTextbox.ascx</DependentUpon>
@@ -14312,7 +14320,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CMSScripts\Custom\" />
-    <Folder Include="CMSScripts\WebComponents\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CMSScripts\WebComponents\app-globals-8931cc91.js" />

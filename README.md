@@ -7,6 +7,10 @@ This repository contains source code for integration of Kentico Xperience with B
 
 ## Description
 
+## Get involved
+
+Check out the [contributing](CONTRIBUTING.md) page to see the best places to file issues, start discussions, and begin contributing.
+
 ## [Questions & Support](https://github.com/Kentico/Home/blob/master/README.md)
 
 See the [Kentico home repository](https://github.com/Kentico/Home/blob/master/README.md) for more information about the product(s), general advice on submitting your questions or directly contacting us.

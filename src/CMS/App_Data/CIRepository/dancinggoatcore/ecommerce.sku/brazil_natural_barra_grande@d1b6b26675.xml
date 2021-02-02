@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUDepartmentID>
+    <CodeName>Coffees</CodeName>
+    <GUID>39323402-eac1-4fc0-a4a9-cceafab8cc67</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>Taste Natural Barra Grande from the high altitudes of Poco Fundo in&nbsp;Minas Gerais in Brazil, where a family business with a strong keenness&nbsp;on natural processing has been growing coffee for three generations.</p>
+
+<p>The path of the Barra Grande has not always been so smooth. The father of Sildes Caixeta, the current owner, was forced to sell their company when Sildes was just&nbsp;five years old. After long years of waiting, Sildes&nbsp;managed to buy the company back and now says that this patience is the family secret&nbsp;for growing good coffee and&nbsp;has taught&nbsp;this motto to his son.</p>
+
+<p>This coffee is a blend of Yellow Catuai and Mundo Novo,&nbsp;whose excellent large beans are patio dried and create a creamy mouth sensation and a cherry flavor with a pinch of chocolate and caramel.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>a3c11d36-bba9-4c39-b370-4f42d40331b9</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/3f1272fa-86a8-4e27-ac21-1e3e6bb73b84/brazil]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 08:36:15Z</SKUInStoreFrom>
+  <SKUName>Brazil Natural Barra Grande</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>CO-BRA-BARRAGRANDE</SKUNumber>
+  <SKUPrice>5</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>True</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Naturally processed Brazilian coffee grown with the nurturing and kindness of the family grower with a creamy mouth sensation,&nbsp;and a cherry and chocolaty flavor.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>0.5</SKUWeight>
+</ecommerce.sku>

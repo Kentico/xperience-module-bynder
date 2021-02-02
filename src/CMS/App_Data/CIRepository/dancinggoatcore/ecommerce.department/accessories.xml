@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.department>
+  <DepartmentDefaultTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DepartmentDefaultTaxClassID>
+  <DepartmentDisplayName>Accessories</DepartmentDisplayName>
+  <DepartmentGUID>88ec5d97-4868-468f-bd2f-ed964bf0a591</DepartmentGUID>
+  <DepartmentName>Accessories</DepartmentName>
+  <DepartmentSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </DepartmentSiteID>
+</ecommerce.department>

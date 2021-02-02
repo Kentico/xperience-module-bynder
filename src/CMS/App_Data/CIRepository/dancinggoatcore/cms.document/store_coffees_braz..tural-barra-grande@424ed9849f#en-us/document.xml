@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Brazil Natural Barra Grande -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 08:37:37Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>be3eeef1-a363-481a-8a3c-ebbe0f8545dd</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 08:37:37Z</DocumentModifiedWhen>
+  <DocumentName>Brazil Natural Barra Grande</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Coffees/Brazil-Natural-Barra-Grande</CodeName>
+    <GUID>51d50f43-45e1-4194-b63d-0f8992437081</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>Taste Natural Barra Grande from the high altitudes of Poco Fundo in&nbsp;Minas Gerais in Brazil, where a family business with a strong keenness&nbsp;on natural processing has been growing coffee for three generations.</p>
+
+<p>The path of the Barra Grande has not always been so smooth. The father of Sildes Caixeta, the current owner, was forced to sell their company when Sildes was just&nbsp;five years old. After long years of waiting, Sildes&nbsp;managed to buy the company back and now says that this patience is the family secret&nbsp;for growing good coffee and&nbsp;has taught&nbsp;this motto to his son.</p>
+
+<p>This coffee is a blend of Yellow Catuai and Mundo Novo,&nbsp;whose excellent large beans are patio dried and create a creamy mouth sensation and a cherry flavor with a pinch of chocolate and caramel.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Brazil Natural Barra Grande</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Naturally processed Brazilian coffee grown with the nurturing and kindness of the family grower with a creamy mouth sensation,&nbsp;and a cherry and chocolaty flavor.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

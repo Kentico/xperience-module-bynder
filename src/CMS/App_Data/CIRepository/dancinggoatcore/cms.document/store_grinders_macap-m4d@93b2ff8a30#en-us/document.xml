@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Macap M4D -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:56:54Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>63cd7c46-6fd5-43d2-9316-f733ec2cdde2</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:56:54Z</DocumentModifiedWhen>
+  <DocumentName>Macap M4D</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Grinders/Macap-M4D</CodeName>
+    <GUID>987be32b-72b8-42a5-aeda-c1eac9d182a8</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>Who can make a cup of coffee if not an Italian? This Italian-made espresso electric grinder is one of the best solutions for home and professional use. The Macap M4D is a super easy to use and yet highly expert appliance &ndash; only one button, an LED display providing information to ensure a precise dose, and a stepless adjustment wheel for the best quality grinding. This beautiful grinder and its flat steel burrs are powered by a high-performance 250-Watt engine.</p>
+
+<ul>
+	<li>Stepless adjustment wheel for grinding</li>
+	<li>Three&nbsp;different settings of grinding dosage &ndash; 1-cup, 2-cup, and continuous</li>
+	<li>250-Watt engine</li>
+	<li>Made in Venice, Italy</li>
+</ul>
+
+<p>Specifications:</p>
+
+<ul>
+	<li>16.9&quot; H x 7.5&quot; W x 12.2&quot; D (43 cm H x 19 cm W x 31 cm D)</li>
+	<li>22 lb (10 kg)</li>
+	<li>Blade diameter: 2.3&quot; (5.8 cm)</li>
+</ul>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Macap M4D</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Macap M4D is an easy-to-use, highly expert electric grinder with a stepless adjustment wheel for various settings.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

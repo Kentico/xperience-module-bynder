@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.metafile>
+  <MetaFileExtension>.jpg</MetaFileExtension>
+  <MetaFileGroupName>Image</MetaFileGroupName>
+  <MetaFileGUID>3419ea63-6531-486f-9277-99218d6f1001</MetaFileGUID>
+  <MetaFileImageHeight>1080</MetaFileImageHeight>
+  <MetaFileImageWidth>1080</MetaFileImageWidth>
+  <MetaFileMimeType>image/jpeg</MetaFileMimeType>
+  <MetaFileName>ethiopia.jpg</MetaFileName>
+  <MetaFileObjectID>
+    <GUID>06e0f8b5-e2ae-4d47-a36a-98388d02fffe</GUID>
+    <ObjectType>ecommerce.sku</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </MetaFileObjectID>
+  <MetaFileObjectType>ecommerce.sku</MetaFileObjectType>
+  <MetaFileSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </MetaFileSiteID>
+  <MetaFileSize>75063</MetaFileSize>
+</cms.metafile>

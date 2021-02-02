@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>2</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Accessories</CodeName>
+    <GUID>88ec5d97-4868-468f-bd2f-ed964bf0a591</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>Bleached paper filters 1.5&quot; (3.8 cm) wide for AeroPress&nbsp;coffee makers.</p>
+
+<p>A new and clean filter that gives you a wonderful taste of coffee. These paper filters allow the coffee to flow through the filter while at the same time trapping the coffee grounds inside.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>243b5c4a-2dd9-4b0f-be72-f4b6c8c6116c</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/06513de6-230e-4328-895b-9734c7e9bf98/aero-press-filters]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:32:05Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Aerobie</CodeName>
+    <GUID>f1e47d46-8c90-457a-8f36-4b68d968c673</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>AeroPress Filters</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>AER-AP-F</SKUNumber>
+  <SKUPrice>4.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUPublicStatusID>
+    <CodeName>DancingGoatCore.Bestseller</CodeName>
+    <GUID>3fafd72b-6b04-4dec-9039-159a327d769d</GUID>
+    <ObjectType>ecommerce.publicstatus</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUPublicStatusID>
+  <SKUReorderAt>10</SKUReorderAt>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Bleached paper filters for AeroPress coffee makers.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>1</SKUWeight>
+</ecommerce.sku>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>0</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Brewers</CodeName>
+    <GUID>b06d8273-92ec-473e-ba84-e7d2be2ebe62</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>A coffee brewer that can raise the spirit of your home as well? Of course, the Chemex, with its unique hand-fitting shape, wrapped in a polished wooden collar and a leather tie.</p>
+
+<p>Using Chemex, you will produce a full-flavoured brew at the strength of your liking. The glass is heat-resistant, so it&#39;s safe and you can use its handle to manipulate the device safely. The filters (sold separately) are natural and unbleached and deliver a taste without bitterness or sediment.</p>
+
+<p>You&#39;ll appreciate its elegance, proven by its forty-year tradition. This remains to this day one of &#39;the&#39; truly chic ways of making coffee. Made in the USA.</p>
+
+<p>All you need do is insert a filter and beans and pour freshly hot water over them.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>d27a64a2-3c2e-4ca0-ad3f-a0ed0d46691c</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/90fb1e0c-241e-46e7-8244-0f0343aabac1/chemex]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:07:04Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Chemex</CodeName>
+    <GUID>56e0ed52-bba7-4246-92d1-a44ac1bee53c</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Chemex</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>CM</SKUNumber>
+  <SKUPrice>49.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>True</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[With this unique hand-fitting American-made brewer, not only can you prepare a cup of fine coffee, but you also look cool while doing it.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>2</SKUWeight>
+</ecommerce.sku>

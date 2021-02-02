@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>aafa6246-845c-4460-a316-8c24e7d4d40d</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Manufacturers/Hario/Hario-Vacuum-Pot</CodeName>
+    <GUID>9842658f-0683-42bd-8d6d-27a2385f278c</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Manufacturers/Hario/Hario-Vacuum-Pot</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[89710DB2C8CC711820B1AD278F09F76A63AD2486DB8C1452F382D971E49EB10B]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

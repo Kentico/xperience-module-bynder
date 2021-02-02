@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>es-ES</PageUrlPathCulture>
+  <PageUrlPathGUID>2db7e5e1-d7b0-4606-b0ba-beaf75b0e91f</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Store/Grinders/Macap-M2D</CodeName>
+    <GUID>0f6dd27b-3b78-4583-9a00-141e617406f6</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>es-ES/Store/Grinders/Macap-M2D</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[0C1C7417C1AF2A0556580C92ABFB0D1AA8515318D6AEE8C2DA1EB4ECD2F105B3]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

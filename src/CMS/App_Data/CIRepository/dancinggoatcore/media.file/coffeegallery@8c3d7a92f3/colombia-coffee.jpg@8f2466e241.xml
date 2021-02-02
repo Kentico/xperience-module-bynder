@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.file>
+  <FileCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileCreatedByUserID>
+  <FileCreatedWhen>2020-08-10 09:25:23Z</FileCreatedWhen>
+  <FileDescription />
+  <FileExtension>.jpg</FileExtension>
+  <FileGUID>d5ae89ce-e8a3-4160-9279-4f1baaad2454</FileGUID>
+  <FileImageHeight>800</FileImageHeight>
+  <FileImageWidth>1200</FileImageWidth>
+  <FileLibraryID>
+    <CodeName>CoffeeGallery</CodeName>
+    <GUID>80c4f14d-9abf-445d-a507-0f46fdc96493</GUID>
+    <ObjectType>media.library</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </FileLibraryID>
+  <FileMimeType>image/jpeg</FileMimeType>
+  <FileModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileModifiedByUserID>
+  <FileName>Colombia-Coffee</FileName>
+  <FilePath>Colombia-Coffee.jpg</FilePath>
+  <FileSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FileSiteID>
+  <FileSize>127733</FileSize>
+  <FileTitle>Colombia Coffee</FileTitle>
+</media.file>

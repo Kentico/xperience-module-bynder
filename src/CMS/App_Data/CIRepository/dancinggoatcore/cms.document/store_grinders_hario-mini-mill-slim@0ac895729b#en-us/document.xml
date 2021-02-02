@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Hario Mini Mill Slim -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:54:01Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>9a41b173-bfeb-4aa6-9540-c07647db4e9f</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:54:01Z</DocumentModifiedWhen>
+  <DocumentName>Hario Mini Mill Slim</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Grinders/Hario-Mini-Mill-Slim</CodeName>
+    <GUID>9424ccec-0296-48ef-8bfd-f44565c56c5b</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+    <![CDATA[Are you a traveler? Then this is a grinder for you. It&#39;s so small, it fits backpacks and suitcases, light because of its plastic but elegant body, and also durable, so it can sustain even the longest journeys. Although it&#39;s compact, you can hold up to 24 grams. After use, just put it in a dishwasher or wash it by hand, it&#39;s so easy. Simply choose any brewing method you like.]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Hario Mini Mill Slim</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[The Hario Mini Mill Slim is super suitable for traveling, can be hold up to 24 grams of coffee, and has an elegant plastic body.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.attachment>
+  <AttachmentDocumentID>
+    <CodeName>en-US</CodeName>
+    <GUID>8686a679-2713-4e61-9df3-16ef59d99194</GUID>
+    <ObjectType>cms.documentlocalization</ObjectType>
+    <Parent>
+      <CodeName>/Specials/References/Jimmie-Dimmick</CodeName>
+      <GUID>a488da40-a961-4adc-9ad4-067a8df8a9bc</GUID>
+      <ObjectType>cms.node</ObjectType>
+      <Site>
+        <CodeName>DancingGoatCore</CodeName>
+        <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </Site>
+    </Parent>
+  </AttachmentDocumentID>
+  <AttachmentExtension>.jpg</AttachmentExtension>
+  <AttachmentGUID>7686d9a0-624b-4e9d-a595-845b842f1491</AttachmentGUID>
+  <AttachmentImageHeight>655</AttachmentImageHeight>
+  <AttachmentImageWidth>980</AttachmentImageWidth>
+  <AttachmentMimeType>image/jpeg</AttachmentMimeType>
+  <AttachmentName>reference.jpg</AttachmentName>
+  <AttachmentSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </AttachmentSiteID>
+  <AttachmentSize>117366</AttachmentSize>
+</cms.attachment>

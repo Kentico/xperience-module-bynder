@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.skuoption>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>c9447e4a-cbe0-40cf-8706-3b0a6db53b02</SKUGUID>
+  <SKUInStoreFrom>2020-08-03 07:17:12Z</SKUInStoreFrom>
+  <SKUName>8 cups</SKUName>
+  <SKUNeedsShipping>False</SKUNeedsShipping>
+  <SKUOptionCategoryID>
+    <CodeName>VolumeInCups</CodeName>
+    <GUID>66fd2742-e6a8-4d91-921a-7930aa48e877</GUID>
+    <ObjectType>ecommerce.optioncategory</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUOptionCategoryID>
+  <SKUOrder>3</SKUOrder>
+  <SKUPrice>0</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+</ecommerce.skuoption>

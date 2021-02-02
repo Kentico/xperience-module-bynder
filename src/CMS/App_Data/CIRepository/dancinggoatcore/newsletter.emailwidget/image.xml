@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.emailwidget>
+  <EmailWidgetCode>
+<![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="padding" align="center" style="padding: 10px 0 15px 0;">
+      <img src="{% ImageUrl == String.Empty ? "~/getmedia/d82041ac-2264-463f-81fb-5a7bbda33cd3/default-image-product.png" : ImageUrl |(identity)GlobalAdministrator|(hash)43961e420398c7ac5da45e21c0e4e0c45f6d0dd58bdd955cb2cc3449262fcd8c%}" width="500" border="0" alt="{% AlternateText %}" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="img-max">
+    </td>
+  </tr>
+</table>
+]]>
+  </EmailWidgetCode>
+  <EmailWidgetDescription>Displays a selected image.</EmailWidgetDescription>
+  <EmailWidgetDisplayName>Image</EmailWidgetDisplayName>
+  <EmailWidgetGuid>eca73089-2d52-4f1c-b99b-a0395b7772b3</EmailWidgetGuid>
+  <EmailWidgetIconCssClass>icon-picture</EmailWidgetIconCssClass>
+  <EmailWidgetName>Image</EmailWidgetName>
+  <EmailWidgetProperties>
+    <form version="2">
+      <field column="ImageUrl" columnsize="450" columntype="text" guid="e041f952-98d3-446d-a943-3f6690cc53a4" visible="true">
+        <properties>
+          <fieldcaption>Select an image</fieldcaption>
+          <fielddescription>URL of the image.</fielddescription>
+        </properties>
+        <settings>
+          <controlname>MediaSelectionControl</controlname>
+          <ShowPreview>True</ShowPreview>
+        </settings>
+      </field>
+      <field column="AlternateText" columnsize="50" columntype="text" guid="b2148563-4220-43fb-ae78-50281d6b5faa" visible="true">
+        <properties>
+          <fieldcaption>Alternative text</fieldcaption>
+          <fielddescription>Sets the alternative text for the selected image.</fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </EmailWidgetProperties>
+  <EmailWidgetSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </EmailWidgetSiteID>
+</newsletter.emailwidget>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Changeable Paper Filters for Vacuum Pot -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:39:15Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>9cf1bf44-9d4c-48ec-9fce-54e9a83aa584</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:39:15Z</DocumentModifiedWhen>
+  <DocumentName>Changeable Paper Filters for Vacuum Pot</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Accessories/Changeable-Paper-Filters-for-Vacuum-Pot</CodeName>
+    <GUID>5a9b16ca-3fdd-4c88-96f3-d54ebe56878d</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>Throw away the impractical cotton filter that you got&nbsp;with your Vacuum Pot Hario TCA-2 and replace it with these easy-to-use paper filters.</p>
+
+<p>No need for&nbsp;cleaning, just use&nbsp;one and throw it away. The quickest and cleanest way to make a cup of coffee. Paper filters allow the coffee to flow through the filter. Additionally, they trap the coffee grounds inside the filter.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Changeable Paper Filters for Vacuum Pot</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Easy-to-use paper filters for Vacuum Pot Hario TCA-2 ,replacing the original impractical cotton filter.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.formclass>
+  <ClassContactMapping>
+    <form>
+      <field column="ContactEmail" mappedtofield="UserEmail" />
+      <field column="ContactFirstName" mappedtofield="UserFirstName" />
+      <field column="ContactLastName" mappedtofield="UserLastName" />
+    </form>
+  </ClassContactMapping>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassDisplayName>Contact Us</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="DancingGoatCoreContactUsNewID" columntype="integer" guid="24f5ef64-ea10-43a6-bd22-957409ea85ac" isPK="true">
+        <properties>
+          <fieldcaption>DancingGoatCoreContactUsNewID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="FormInserted" columnprecision="7" columntype="datetime" guid="4bef8ad7-bac1-41a1-ac81-cb2258131753" system="true">
+        <properties>
+          <fieldcaption>Form inserted</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+        </settings>
+      </field>
+      <field column="FormUpdated" columnprecision="7" columntype="datetime" guid="87882a51-caf7-4eab-b3b1-50d9e2dbb305" system="true">
+        <properties>
+          <fieldcaption>Form updated</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="UserFirstName" columnsize="500" columntype="text" guid="8b5772d7-0e92-4a14-831a-0e11f6657847" visible="true">
+        <properties>
+          <fieldcaption>First name</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+        </settings>
+        <validationrulesdata>
+          <ValidationRuleConfiguration>
+            <Identifier>Kentico.MaximumLength</Identifier>
+            <ValidationRule>
+              <InstanceIdentifier>1ef8499f-9cc9-4c52-a120-0e220bc4727c</InstanceIdentifier>
+              <ErrorMessage>
+                <![CDATA[{$dancinggoatmvc.general.maximuminputlengthexceeded$}]]>
+              </ErrorMessage>
+              <MaximumLength>200</MaximumLength>
+            </ValidationRule>
+          </ValidationRuleConfiguration>
+        </validationrulesdata>
+      </field>
+      <field allowempty="true" column="UserLastName" columnsize="500" columntype="text" guid="b2878eb5-79c1-479f-828f-fc858bfedf3f" visible="true">
+        <properties>
+          <fieldcaption>Last name</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+        </settings>
+        <validationrulesdata>
+          <ValidationRuleConfiguration>
+            <Identifier>Kentico.MaximumLength</Identifier>
+            <ValidationRule>
+              <InstanceIdentifier>0d0925ad-9d12-48c3-950e-66d6424ce5bc</InstanceIdentifier>
+              <ErrorMessage>
+                <![CDATA[{$dancinggoatmvc.general.maximuminputlengthexceeded$}]]>
+              </ErrorMessage>
+              <MaximumLength>200</MaximumLength>
+            </ValidationRule>
+          </ValidationRuleConfiguration>
+        </validationrulesdata>
+      </field>
+      <field column="UserEmail" columnsize="500" columntype="text" guid="187a859f-be94-4a63-968c-74461782acf9" visible="true">
+        <properties>
+          <fieldcaption>Email</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.EmailInput</componentidentifier>
+        </settings>
+        <validationrulesdata>
+          <ValidationRuleConfiguration>
+            <Identifier>Kentico.MaximumLength</Identifier>
+            <ValidationRule>
+              <InstanceIdentifier>fb3a2bb7-496f-4b42-9cd9-4e9d780ec33d</InstanceIdentifier>
+              <ErrorMessage>
+                <![CDATA[{$dancinggoatmvc.general.maximuminputlengthexceeded$}]]>
+              </ErrorMessage>
+              <MaximumLength>100</MaximumLength>
+            </ValidationRule>
+          </ValidationRuleConfiguration>
+        </validationrulesdata>
+      </field>
+      <field column="UserMessage" columntype="longtext" guid="c4282da9-6526-4d1e-98ab-b8359c19c66a" visible="true">
+        <properties>
+          <fieldcaption>Message</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextArea</componentidentifier>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>7fa7c62a-9223-41b8-be21-ecc41b61fd1e</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>False</ClassHasURL>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>False</ClassIsDocumentType>
+  <ClassIsForm>True</ClassIsForm>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassName>bizform.DancingGoatCoreContactUsNew</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchCreationDateColumn>FormInserted</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="1982371b-41eb-43a4-b052-7d451308aa5e" name="DancingGoatCoreContactUsNewID" searchable="True" tokenized="False" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="9217d095-a7f7-4c42-94eb-a5d180cc6516" name="FormUpdated" searchable="True" tokenized="False" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="ea34e564-02c2-405b-b62e-12e9015d56c7" name="FormInserted" searchable="True" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>Form_DancingGoatCore_ContactUsNew</ClassTableName>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+  <ClassXmlSchema>
+<![CDATA[
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Form_DancingGoatCore_ContactUsNew">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DancingGoatCoreContactUsNewID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="FormInserted" type="xs:dateTime" />
+              <xs:element name="FormUpdated" type="xs:dateTime" />
+              <xs:element name="UserFirstName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserLastName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserEmail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserMessage">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Form_DancingGoatCore_ContactUsNew" />
+      <xs:field xpath="DancingGoatCoreContactUsNewID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
+]]>
+  </ClassXmlSchema>
+</cms.formclass>

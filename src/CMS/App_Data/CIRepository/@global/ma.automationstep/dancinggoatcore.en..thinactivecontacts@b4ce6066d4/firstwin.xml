@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ma.automationstep>
+  <StepActionParameters />
+  <StepDefinition>
+    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <TimeoutEnabled>false</TimeoutEnabled>
+      <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
+      <SourcePoints>
+        <SourcePoint xsi:type="CaseSourcePoint" Guid="3447379e-7832-4c18-8b09-f90009048bed">
+          <Label>Contact has email</Label>
+          <Text />
+          <Tooltip />
+          <Condition>
+            <![CDATA[{%Rule("(Contact.ContactEmail.Contains(\"@\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CMSContactFieldContainsValue\" ><p n=\"field\"><t>Email address</t><v>ContactEmail</v><r>1</r><d>select field</d><vt>text</vt><tv>0</tv></p><p n=\"op\"><t>contains</t><v>Contains</v><r>0</r><d>select operator</d><vt>text</vt><tv>0</tv></p><p n=\"value\"><t>@</t><v>@</v><r>0</r><d>enter value</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)1febf3b941dd6e550accb7e19be584e9e52fbd6ee186e34237f2f9379a83f702%}]]>
+          </Condition>
+          <Type>1</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+        <SourcePoint xsi:type="CaseSourcePoint" Guid="b448d78b-1961-4556-8470-352971399150">
+          <Label>Contact has phone number</Label>
+          <Text />
+          <Tooltip />
+          <Condition>
+            <![CDATA[{%(Contact.ContactMobilePhone.NotEquals(""))|(identity)GlobalAdministrator|(hash)68a5f8f4aba19f601821e21b7909eaa316a3e205f7729749f37de160dc53b2d8%}]]>
+          </Condition>
+          <Type>1</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+        <SourcePoint xsi:type="ElseSourcePoint" Guid="8e2f2ce0-5a15-4331-a88c-99bb2b6f7be3">
+          <Label>Else</Label>
+          <Type>2</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+      </SourcePoints>
+      <Position>
+        <X>2180</X>
+        <Y>240</Y>
+      </Position>
+    </Step>
+  </StepDefinition>
+  <StepDisplayName>First win</StepDisplayName>
+  <StepGUID>99648990-5a0c-45a3-9e3f-339a4aa18290</StepGUID>
+  <StepName>FirstWin</StepName>
+  <StepRolesSecurity>0</StepRolesSecurity>
+  <StepType>8</StepType>
+  <StepUsersSecurity>0</StepUsersSecurity>
+  <StepWorkflowID>
+    <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+    <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </StepWorkflowID>
+  <StepWorkflowType>3</StepWorkflowType>
+</ma.automationstep>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.attachment>
+  <AttachmentDocumentID>
+    <CodeName>en-US</CodeName>
+    <GUID>22bfb952-c0a0-4d4b-b4bd-e27b000c1803</GUID>
+    <ObjectType>cms.documentlocalization</ObjectType>
+    <Parent>
+      <CodeName>/Articles/Which-brewing-fits-you</CodeName>
+      <GUID>1d82aecd-4c75-4442-bd89-3751b2c60319</GUID>
+      <ObjectType>cms.node</ObjectType>
+      <Site>
+        <CodeName>DancingGoatCore</CodeName>
+        <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </Site>
+    </Parent>
+  </AttachmentDocumentID>
+  <AttachmentExtension>.jpg</AttachmentExtension>
+  <AttachmentGUID>6fb2b0c3-e737-4694-ae35-cc9a342eeffb</AttachmentGUID>
+  <AttachmentImageHeight>666</AttachmentImageHeight>
+  <AttachmentImageWidth>1000</AttachmentImageWidth>
+  <AttachmentMimeType>image/jpeg</AttachmentMimeType>
+  <AttachmentName>which-brewing-fits-you-1080px.jpg</AttachmentName>
+  <AttachmentSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </AttachmentSiteID>
+  <AttachmentSize>125770</AttachmentSize>
+</cms.attachment>

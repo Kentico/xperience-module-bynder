@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.skuvariant>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>ce79e76f-e667-4d48-b646-3c753a1dff04</SKUGUID>
+  <SKUName>Brazil Natural Barra Grande (16 oz)</SKUName>
+  <SKUNumber>CO-BRA-BARRAGRANDE-16-oz</SKUNumber>
+  <SKUParentSKUID>
+    <GUID>a3c11d36-bba9-4c39-b370-4f42d40331b9</GUID>
+    <ObjectType>ecommerce.sku</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUParentSKUID>
+  <SKUPrice>15</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUWeight>1</SKUWeight>
+</ecommerce.skuvariant>

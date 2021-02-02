@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.form>
+  <FormBuilderLayout>
+<![CDATA[
+{
+  "editableAreas": [
+    {
+      "identifier": "DefaultFormBuilderArea",
+      "sections": [
+        {
+          "identifier": "00000000-0000-0000-0000-000000000000",
+          "type": "Kentico.DefaultSection",
+          "zones": [
+            {
+              "identifier": "771b792c-2181-446e-ba18-b665c65d51d6",
+              "formComponents": [
+                {
+                  "identifier": "b1ac740c-8b11-4e44-a250-edb873303dff"
+                },
+                {
+                  "identifier": "24869232-567e-4b70-9c3f-e2c6df9f9e13"
+                },
+                {
+                  "identifier": "f503bf1c-2a71-45df-8fa5-c9d421e8f199"
+                },
+                {
+                  "identifier": "5da9e206-58d0-444e-a8ad-bad97a268394"
+                },
+                {
+                  "identifier": "294e9efb-dc46-4404-9b9a-a6d9520b254d"
+                },
+                {
+                  "identifier": "cf5668b1-e002-4a8c-a53f-0682a39e2d25"
+                },
+                {
+                  "identifier": "5ae2921e-9b50-4be3-8c24-667b18ddf970"
+                },
+                {
+                  "identifier": "79c65cb0-e12c-4b8c-8f4e-1f4f9be034ea"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+]]>
+  </FormBuilderLayout>
+  <FormClassID>
+    <CodeName>bizform.DancingGoatCoreCoffeeSampleList</CodeName>
+    <GUID>ab253d0d-7417-4dd3-8a79-79280e5ef13d</GUID>
+    <ObjectType>cms.formclass</ObjectType>
+  </FormClassID>
+  <FormClearAfterSave>False</FormClearAfterSave>
+  <FormDisplayName>Coffee sample list</FormDisplayName>
+  <FormDisplayText>Thank you!</FormDisplayText>
+  <FormEmailAttachUploadedDocs>True</FormEmailAttachUploadedDocs>
+  <FormGUID>ed48bcbb-953a-4177-b1d2-c3512bbab4a5</FormGUID>
+  <FormItems>0</FormItems>
+  <FormLogActivity>True</FormLogActivity>
+  <FormName>DancingGoatCoreCoffeeSampleList</FormName>
+  <FormSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FormSiteID>
+  <FormSubmitButtonText>Taste the coffee</FormSubmitButtonText>
+</cms.form>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for /Manufacturers/Hario/Bleached-Paper-Filters-V60-01 -->
+<cms.node>
+  <NodeACLID>
+    <GUID>0072d163-58b7-495f-bbcd-1f15eaadf7e3</GUID>
+    <ObjectType>cms.acl</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeACLID>
+  <NodeAlias>Bleached-Paper-Filters-V60-01</NodeAlias>
+  <NodeClassID>
+    <CodeName>DancingGoatCore.FilterPack</CodeName>
+    <GUID>048e057d-8812-4eaa-aff3-b486c568e7be</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </NodeClassID>
+  <NodeGUID>ed1235ff-2e88-45da-9887-76f54f299101</NodeGUID>
+  <NodeIsACLOwner>False</NodeIsACLOwner>
+  <NodeLinkedNodeID>
+    <CodeName>/Store/Accessories/Bleached-Paper-Filters-V60-01</CodeName>
+    <GUID>1a3032f0-b9e3-4a0a-a155-cd2dddb4a07e</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeLinkedNodeID>
+  <NodeLinkedNodeSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NodeLinkedNodeSiteID>
+  <NodeName>Bleached Paper Filters V60-01</NodeName>
+  <NodeOrder>1</NodeOrder>
+  <NodeOwner>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </NodeOwner>
+  <NodeParentID>
+    <CodeName>/Manufacturers/Hario</CodeName>
+    <GUID>977f8c11-434b-4dec-ba56-d897f5480f0e</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeParentID>
+  <NodeSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NodeSiteID>
+  <NodeSKUID>
+    <GUID>35546ac0-4f55-454e-82db-73514e14338b</GUID>
+    <ObjectType>ecommerce.sku</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeSKUID>
+</cms.node>

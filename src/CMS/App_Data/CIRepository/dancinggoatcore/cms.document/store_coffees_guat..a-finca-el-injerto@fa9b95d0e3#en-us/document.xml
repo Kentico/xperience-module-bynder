@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Guatemala Finca El Injerto -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 08:58:33Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>552cbdc1-44e8-4310-98f2-331e8aefde4c</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 08:58:33Z</DocumentModifiedWhen>
+  <DocumentName>Guatemala Finca El Injerto</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Coffees/Guatemala-Finca-El-Injerto</CodeName>
+    <GUID>03bc31ea-a896-45b5-8a57-304336a47402</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>This Guatemalan gold tastes of classy alcoholic drinks &ndash; something between cognac and champagne &ndash; along with a classic grape and apricot flavor. Once you sip a cup of the Finca El Injerto, you will at once taste the flavor of Central America.</p>
+
+<p>These superb cherries come from a one-hundred-year family growing business in Guatemala City. The family&#39;s growing secret is to avoid insecticides and use water when milling. Also, an interesting fact about the growers is that they ferment their cherries for up to 72 hours in a wet and cold environment before drying the beans.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Guatemala Finca El Injerto</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Tasting of cognac and champagne, this coffee is very original. Try Finca El Injerto,&nbsp;a superb Central American coffee.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

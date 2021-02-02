@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassDisplayName>Cafe</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="CafeID" columnprecision="0" columntype="integer" guid="e593c0f8-c987-4fce-9286-df4c405a4a26" isPK="true">
+        <properties>
+          <fieldcaption>CafeID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="CafeName" columnsize="50" columntype="text" guid="9c26751f-aefd-4993-a78f-36c4c85f1502" visible="true">
+        <properties>
+          <fieldcaption>Name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="CafeIsCompanyCafe" columntype="boolean" guid="4c520270-5032-4325-8e65-c8103da06368" visible="true">
+        <properties>
+          <fieldcaption>Our cafe</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>CheckBoxControl</controlname>
+        </settings>
+      </field>
+      <field column="CafeStreet" columnsize="50" columntype="text" guid="16508a14-c21d-4518-9bc8-a64e8a2849af" visible="true">
+        <properties>
+          <fieldcaption>Street</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="CafeCity" columnsize="50" columntype="text" guid="c4e7ca78-924b-473e-b1c2-a82d79fd542b" visible="true">
+        <properties>
+          <fieldcaption>City</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="CafeCountry" columnsize="100" columntype="text" guid="48912e10-5adf-49a3-9adf-d9172ea3eaf2" visible="true">
+        <properties>
+          <defaultvalue>USA</defaultvalue>
+          <fieldcaption>Country</fieldcaption>
+        </properties>
+        <settings>
+          <AddAllItemsRecord>False</AddAllItemsRecord>
+          <AddNoneRecord>False</AddNoneRecord>
+          <AddSelectCountryRecord>True</AddSelectCountryRecord>
+          <controlname>countrySelector</controlname>
+          <EnableStateSelection>True</EnableStateSelection>
+        </settings>
+      </field>
+      <field column="CafeZipCode" columnsize="15" columntype="text" guid="c1831957-4560-4f28-bb31-79e4afe6f8c4" visible="true">
+        <properties>
+          <fieldcaption>Zip code</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="CafePhone" columnsize="30" columntype="text" guid="7984efb0-6ef9-479f-84ec-f3d62ab58684" visible="true">
+        <properties>
+          <fieldcaption>Phone</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="CafePhoto" columntype="file" guid="46dac432-1912-46b1-b344-561be9542e87" visible="true">
+        <properties>
+          <fieldcaption>Photo</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>DirectUploadControl</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <field allowempty="true" column="CafeAdditionalNotes" columnsize="200" columntype="text" guid="d7fb5d8e-d913-4ec0-beb2-c583d0e33ad5" visible="true">
+        <properties>
+          <fieldcaption>Additional notes</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>0ec6ed98-92b1-44dd-a93b-fa4be217a252</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>False</ClassHasURL>
+  <ClassIconClass>icon-cup</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassName>DancingGoatCore.Cafe</ClassName>
+  <ClassNodeNameSource>CafeName</ClassNodeNameSource>
+  <ClassSearchContentColumn />
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="0f853d75-8753-4e59-b049-8e3345cc2f5b" name="CafeZipCode" searchable="False" tokenized="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="1babe158-0fc2-4fc5-84d6-9d5ae41a2d19" name="CafeCountry" searchable="False" tokenized="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="31906ef8-d776-4d0d-b1ef-e28d567cc8af" name="CafeName" searchable="False" tokenized="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="448d400f-08c5-45b5-977f-de61d2405f11" name="CafePhone" searchable="False" tokenized="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="50e6f5ab-e38e-4729-a831-a4b1112899b9" name="CafePhoto" searchable="False" tokenized="False" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="6c36202b-1003-48e6-8f6e-ce706b0653bb" name="CafeCity" searchable="False" tokenized="True" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="9196d936-ad60-4dcc-9c27-7799a20049b5" name="CafeIsCompanyCafe" searchable="False" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="94a26adf-f0a7-4485-8cb5-2fe6f2c94346" name="CafeID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="d863a91d-9058-4f30-aa7c-73f0d2fbe7fe" name="CafeAdditionalNotes" searchable="False" tokenized="True" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="True" azuresortable="False" content="True" id="f7518937-e1a9-480b-a76c-a11e5b85b5dc" name="CafeStreet" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>DancingGoatCore_Cafe</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

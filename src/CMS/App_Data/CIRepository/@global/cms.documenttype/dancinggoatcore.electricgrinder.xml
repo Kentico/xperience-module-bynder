@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>DancingGoatMvc</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>Electric grinder</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ElectricGrinderID" columntype="integer" guid="3d86cb6d-5240-4250-a2ed-df2faf6aed92" isPK="true">
+        <properties>
+          <fieldcaption>ElectricGrinderID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="ElectricGrinderPower" columntype="integer" guid="895c0cea-8b47-46c6-9381-c3bb8425a617" visible="true">
+        <properties>
+          <explanationtext>Engine power in watts.</explanationtext>
+          <fieldcaption>Power</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+        <rules>
+          <rule>
+            <![CDATA[{%Rule("(Value >= 1)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinValue\" ><p n=\"minvalue\"><t>1</t><v>1</v><r>0</r><d></d><vt>double</vt><tv>0</tv></p></r></rules>")%}]]>
+          </rule>
+        </rules>
+      </field>
+      <category name="Promotion">
+        <properties>
+          <collapsible>True</collapsible>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="ElectricGrinderPromotionTitle" columnsize="200" columntype="text" guid="8629f37c-edee-4483-9126-1ce92c619246" visible="true">
+        <properties>
+          <fieldcaption>Promotion title</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ElectricGrinderPromotionDescription" columnsize="200" columntype="text" guid="8d2251dc-7c2c-414e-a531-67f9b8e727e6" visible="true">
+        <properties>
+          <fieldcaption>Promotion description</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ElectricGrinderBannerText" columnsize="200" columntype="text" guid="d84df03c-eea2-41e8-a368-d6649b2d5880" visible="true">
+        <properties>
+          <fieldcaption>Banner text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>5a97ed6d-8a5a-415c-a464-a257298e6724</ClassGUID>
+  <ClassHasMetadata>True</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-box</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassIsProduct>True</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>DancingGoatCore.ElectricGrinder</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>SKUImagePath</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="2fd05fe9-42ff-45a2-8ec2-5cc03ec0540e" name="ElectricGrinderBannerText" searchable="False" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="3e13ce7d-71a4-4e91-a66e-808c434e596d" name="ElectricGrinderPower" searchable="False" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="92d72251-edfa-40a6-b917-035674b532b7" name="ElectricGrinderPromotionTitle" searchable="False" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="c50f1918-b730-48a0-b3dd-8eeb5a91462b" name="ElectricGrinderPromotionDescription" searchable="False" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="c680b60d-520f-4720-b760-8120cc000fcd" name="ElectricGrinderID" searchable="True" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassSKUDefaultDepartmentName>Grinders</ClassSKUDefaultDepartmentName>
+  <ClassSKUDefaultProductType>PRODUCT</ClassSKUDefaultProductType>
+  <ClassTableName>DancingGoatCore_ElectricGrinder</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

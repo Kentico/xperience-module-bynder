@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.attachment>
+  <AttachmentDocumentID>
+    <CodeName>en-US</CodeName>
+    <GUID>4b0213cb-f6ec-476e-92eb-619c44d66373</GUID>
+    <ObjectType>cms.documentlocalization</ObjectType>
+    <Parent>
+      <CodeName>/Articles/On-Roasts</CodeName>
+      <GUID>1c198498-aff2-4068-a111-004afe866191</GUID>
+      <ObjectType>cms.node</ObjectType>
+      <Site>
+        <CodeName>DancingGoatCore</CodeName>
+        <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </Site>
+    </Parent>
+  </AttachmentDocumentID>
+  <AttachmentExtension>.jpg</AttachmentExtension>
+  <AttachmentGUID>2a9c740f-6830-4f48-bc8d-5088b05ee0a1</AttachmentGUID>
+  <AttachmentImageHeight>442</AttachmentImageHeight>
+  <AttachmentImageWidth>636</AttachmentImageWidth>
+  <AttachmentMimeType>image/jpeg</AttachmentMimeType>
+  <AttachmentName>article-4@2x.jpg</AttachmentName>
+  <AttachmentSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </AttachmentSiteID>
+  <AttachmentSize>589532</AttachmentSize>
+</cms.attachment>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ma.automationstep>
+  <StepActionParameters />
+  <StepAllowReject>True</StepAllowReject>
+  <StepDefinition>
+    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <TimeoutEnabled>true</TimeoutEnabled>
+      <TimeoutInterval>
+        <![CDATA[day;1/1/0001 12:00:00 AM;1;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday]]>
+      </TimeoutInterval>
+      <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
+      <SourcePoints>
+        <SourcePoint Guid="5490b925-4981-4236-b6fe-c65f11d37597">
+          <Label>Default</Label>
+          <Text />
+          <Tooltip />
+          <Condition />
+          <Type>0</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+      </SourcePoints>
+      <Position>
+        <X>2270</X>
+        <Y>220</Y>
+      </Position>
+    </Step>
+  </StepDefinition>
+  <StepDisplayName>Wait 1 day</StepDisplayName>
+  <StepGUID>d450b366-1284-40ae-84f9-1211f5439f73</StepGUID>
+  <StepName>Wait_1</StepName>
+  <StepRolesSecurity>0</StepRolesSecurity>
+  <StepSendEmails>False</StepSendEmails>
+  <StepType>10</StepType>
+  <StepUsersSecurity>0</StepUsersSecurity>
+  <StepWorkflowID>
+    <CodeName>DancingGoatCore.SendCoffeeLessons</CodeName>
+    <GUID>4abb2265-37c2-4a6c-9553-d52cda258fcb</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </StepWorkflowID>
+  <StepWorkflowType>3</StepWorkflowType>
+</ma.automationstep>

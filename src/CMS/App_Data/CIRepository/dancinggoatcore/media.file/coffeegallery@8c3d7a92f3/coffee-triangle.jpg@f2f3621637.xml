@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.file>
+  <FileCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileCreatedByUserID>
+  <FileCreatedWhen>2020-08-10 09:25:23Z</FileCreatedWhen>
+  <FileDescription />
+  <FileExtension>.jpg</FileExtension>
+  <FileGUID>9e391f6d-4637-4ab6-82a4-4c9317226449</FileGUID>
+  <FileImageHeight>800</FileImageHeight>
+  <FileImageWidth>1200</FileImageWidth>
+  <FileLibraryID>
+    <CodeName>CoffeeGallery</CodeName>
+    <GUID>80c4f14d-9abf-445d-a507-0f46fdc96493</GUID>
+    <ObjectType>media.library</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </FileLibraryID>
+  <FileMimeType>image/jpeg</FileMimeType>
+  <FileModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileModifiedByUserID>
+  <FileName>Coffee-Triangle</FileName>
+  <FilePath>Coffee-Triangle.jpg</FilePath>
+  <FileSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FileSiteID>
+  <FileSize>72976</FileSize>
+  <FileTitle>Coffee Triangle</FileTitle>
+</media.file>

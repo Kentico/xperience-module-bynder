@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.emailtemplate>
+  <TemplateCode>
+<![CDATA[
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <title>Subscription confirmation email</title>
+	</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 600px;" width="600">
+	<tbody>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 30px; font-weight: bold;">Thank you for subscribing!<br />
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 16px;">Every now and then, you&rsquo;ll receive an offer on our great coffees.<br />
+			Don&rsquo;t feel like waiting?<br />
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+			<table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td align="center" bgcolor="#B49669" height="45" style="padding: 5px 10px; border: 2px solid rgb(180,150,105); border-image: none; color: rgb(255, 255, 255); display: block;" width="180"><a href="~/" style="width: 180px; line-height: 45px; font-family: verdana,sans-serif; font-size: 16px; font-weight: normal; text-decoration: none; display: inline-block;"><span style="color: rgb(255, 255, 255);">VISIT OUR STORE</span></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 16px;"><br />
+			If you have any questions, contact us at&nbsp;<a href="mailto:dancinggoat@localhost.local">dancinggoat@localhost.local</a>.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;
+			<hr /></td>
+		</tr>
+		<tr>
+			<td align="center" style="font-family: Verdana, sans-serif; font-size: 14px;">Copyright &copy; 2020 Dancing Goat. All rights reserved.</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
+]]>
+  </TemplateCode>
+  <TemplateDisplayName>Subscription confirmation</TemplateDisplayName>
+  <TemplateGUID>bf0ee942-8fef-441b-994a-893cea264cd4</TemplateGUID>
+  <TemplateIconClass>icon-accordion</TemplateIconClass>
+  <TemplateInlineCSS>False</TemplateInlineCSS>
+  <TemplateName>SubscriptionConfirmation</TemplateName>
+  <TemplateSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </TemplateSiteID>
+  <TemplateSubject>Subscription confirmation</TemplateSubject>
+  <TemplateType>S</TemplateType>
+</newsletter.emailtemplate>

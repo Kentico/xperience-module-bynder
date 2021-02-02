@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>b938f3be-f16b-478a-a180-5b57b4197d2f</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Store/Grinders/Mazzer-Super-Jolly-DR</CodeName>
+    <GUID>581a70ee-d319-487d-87f7-330a1b51cbae</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Store/Grinders/Mazzer-Super-Jolly-DR</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[662D1B58E6F397B98A2ACC62386B147AD07DEB31D2764CAA244A370FECB8F6F3]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

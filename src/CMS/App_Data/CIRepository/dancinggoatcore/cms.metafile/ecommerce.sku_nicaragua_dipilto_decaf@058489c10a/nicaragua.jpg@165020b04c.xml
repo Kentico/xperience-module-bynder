@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.metafile>
+  <MetaFileExtension>.jpg</MetaFileExtension>
+  <MetaFileGroupName>Image</MetaFileGroupName>
+  <MetaFileGUID>1b28cc65-bd01-47c3-ab9f-111bf8231783</MetaFileGUID>
+  <MetaFileImageHeight>1080</MetaFileImageHeight>
+  <MetaFileImageWidth>1080</MetaFileImageWidth>
+  <MetaFileMimeType>image/jpeg</MetaFileMimeType>
+  <MetaFileName>nicaragua.jpg</MetaFileName>
+  <MetaFileObjectID>
+    <GUID>2323e586-0d2e-4554-aa6e-44ca350769b3</GUID>
+    <ObjectType>ecommerce.sku</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </MetaFileObjectID>
+  <MetaFileObjectType>ecommerce.sku</MetaFileObjectType>
+  <MetaFileSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </MetaFileSiteID>
+  <MetaFileSize>76149</MetaFileSize>
+</cms.metafile>

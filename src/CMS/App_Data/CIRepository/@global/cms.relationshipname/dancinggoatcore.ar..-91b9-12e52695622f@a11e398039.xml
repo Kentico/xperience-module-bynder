@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.relationshipname>
+  <RelationshipAllowedObjects>##DOCUMENTS##</RelationshipAllowedObjects>
+  <RelationshipDisplayName>Article (Related articles)</RelationshipDisplayName>
+  <RelationshipGUID>ddb6a97f-d8dc-4c95-8333-f8b680984866</RelationshipGUID>
+  <RelationshipName>
+    <![CDATA[DancingGoatCore.Article_1415dcbe-42f8-460b-91b9-12e52695622f]]>
+  </RelationshipName>
+  <RelationshipNameIsAdHoc>True</RelationshipNameIsAdHoc>
+</cms.relationshipname>

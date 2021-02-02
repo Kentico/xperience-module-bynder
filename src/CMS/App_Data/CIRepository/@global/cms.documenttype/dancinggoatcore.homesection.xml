@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>DancingGoatMvc</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>Home section</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="HomeSectionID" columnprecision="0" columntype="integer" guid="2189ff65-c2ed-414f-a72c-bf2216ca5146" isPK="true">
+        <properties>
+          <fieldcaption>HomeSectionID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="HomeSectionHeading" columnsize="200" columntype="text" guid="e99fe6ac-b39a-4b1e-bab3-7f4fb0fd4b94" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Heading</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="HomeSectionText" columntype="longtext" guid="84461398-5ebc-4650-8367-bb7e8d764dbf" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Text</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>HtmlAreaControl</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="HomeSectionLinkText" columnsize="200" columntype="text" guid="dd71d0c4-2859-4a6c-b903-9ece3b05e4d7" visible="true">
+        <properties>
+          <fieldcaption>Read more text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="HomeSectionLink" columntype="docrelationships" guid="13879a4d-831b-497f-be08-3ac7aec94878" visible="true">
+        <properties>
+          <fieldcaption>Read more page</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>Pages</controlname>
+          <StartingPath>/</StartingPath>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>87bac113-35ea-402c-b5e5-9de28ea0eae2</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>False</ClassHasURL>
+  <ClassIconClass>icon-home</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassName>DancingGoatCore.HomeSection</ClassName>
+  <ClassNodeNameSource>HomeSectionHeading</ClassNodeNameSource>
+  <ClassSearchContentColumn>HomeSectionText</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="6767fa80-06f3-43ae-ae91-6780ad55a7c0" name="HomeSectionLinkText" searchable="False" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="89d438b1-a311-4d92-9fce-061b2bb09299" name="HomeSectionHeading" searchable="True" tokenized="False" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="True" id="968b7e1a-3cbb-4a2f-9f17-b14d491e8c42" name="HomeSectionText" searchable="True" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="b7336efc-c944-4787-8992-66def7daafc3" name="HomeSectionLink" searchable="False" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="cb29fe9f-0f96-4623-b55f-12c145f7a253" name="HomeSectionID" searchable="True" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>HomeSectionHeading</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>DancingGoatCore_HomeSection</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

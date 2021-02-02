@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.emailtemplate>
+  <TemplateCode>
+<![CDATA[
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <title>Subscription confirmation email</title>
+	</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 600px;" width="600">
+	<tbody>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 30px; font-weight: bold;">Please confirm your subscription!<br />
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+			<table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td align="center" bgcolor="#B49669" height="45" style="padding: 5px 10px; border: 2px solid rgb(180,150,105); border-image: none; color: rgb(255, 255, 255); display: block;" width="180"><a href="{% EmailFeed.SubscriptionConfirmationUrl |(identity)GlobalAdministrator|(hash)b7c31dd324b90def32e1cd6f8e8f21cfb563f3fbcb4a2c40db1a01d118ecd925%}" style="width: 180px; line-height: 45px; font-family: Verdana, sans-serif; font-size: 16px; font-weight: normal; text-decoration: none; display: inline-block;"><span style="color: rgb(255, 255, 255);">SUBSCRIBE</span></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 16px;"><br />
+			If you received this email by mistake, delete it.<br />
+			We won&rsquo;t subscribe you to any newsletter until you click the confirmation link above.</td>
+		</tr>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 16px;"><br />
+			If you have any questions, contact us at&nbsp;<a href="mailto:dancinggoat@localhost.local">dancinggoat@localhost.local</a>.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;
+			<hr /></td>
+		</tr>
+		<tr>
+			<td align="center" style="font-family: Verdana, sans-serif; font-size: 14px;">Copyright &copy; 2020 Dancing Goat. All rights reserved.</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
+]]>
+  </TemplateCode>
+  <TemplateDisplayName>Double opt-in activation template</TemplateDisplayName>
+  <TemplateGUID>e2f1657a-edd4-43e8-a056-7415c72c7c4d</TemplateGUID>
+  <TemplateInlineCSS>False</TemplateInlineCSS>
+  <TemplateName>CoreDemoDoubleOpt-inActivationTemplate</TemplateName>
+  <TemplateSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </TemplateSiteID>
+  <TemplateSubject>Confirm your subscription</TemplateSubject>
+  <TemplateType>D</TemplateType>
+</newsletter.emailtemplate>

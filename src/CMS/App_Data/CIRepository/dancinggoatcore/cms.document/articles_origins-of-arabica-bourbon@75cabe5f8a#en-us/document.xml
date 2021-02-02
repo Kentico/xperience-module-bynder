@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Origins of Arabica Bourbon -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-06-11 15:12:03Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>5edec544-4009-4543-9a85-b590d44f7d49</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-09-16 14:16:20Z</DocumentModifiedWhen>
+  <DocumentName>Origins of Arabica Bourbon</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Articles/Origins-of-Arabica-Bourbon</CodeName>
+    <GUID>7e306966-45b2-4923-9cfe-cdf8a89345db</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPageTemplateConfiguration>
+    <![CDATA[{"identifier":"DancingGoat.ArticleWithSidebar","properties":null}]]>
+  </DocumentPageTemplateConfiguration>
+  <DocumentPublishFrom>2020-08-12 14:00:00Z</DocumentPublishFrom>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+</cms.documentlocalization>

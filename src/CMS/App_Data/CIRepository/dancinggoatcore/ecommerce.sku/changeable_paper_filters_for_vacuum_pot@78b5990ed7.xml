@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>15</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Accessories</CodeName>
+    <GUID>88ec5d97-4868-468f-bd2f-ed964bf0a591</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>Throw away the impractical cotton filter that you got&nbsp;with your Vacuum Pot Hario TCA-2 and replace it with these easy-to-use paper filters.</p>
+
+<p>No need for&nbsp;cleaning, just use&nbsp;one and throw it away. The quickest and cleanest way to make a cup of coffee. Paper filters allow the coffee to flow through the filter. Additionally, they trap the coffee grounds inside the filter.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>43944771-ea16-4d3c-9ee8-3a7eed10961e</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/96e1cd9f-e2c3-41fc-8cdf-d3a45f87bfa0/vacuum-pot-filters]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:37:54Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Hario</CodeName>
+    <GUID>3e2bc5f2-e9c0-4928-978e-9009f8ada609</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Changeable Paper Filters for Vacuum Pot</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>HAR-VP-F</SKUNumber>
+  <SKUPrice>5.19</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUReorderAt>10</SKUReorderAt>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Easy-to-use paper filters for Vacuum Pot Hario TCA-2 ,replacing the original impractical cotton filter.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>1</SKUWeight>
+</ecommerce.sku>

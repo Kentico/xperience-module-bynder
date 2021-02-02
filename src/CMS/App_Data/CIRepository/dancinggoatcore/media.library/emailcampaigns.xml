@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.library>
+  <LibraryAccess>4444444</LibraryAccess>
+  <LibraryDescription>Assets used in email campaigns</LibraryDescription>
+  <LibraryDisplayName>Email campaigns</LibraryDisplayName>
+  <LibraryFolder>EmailCampaigns</LibraryFolder>
+  <LibraryGUID>2b079dc1-c199-42af-9374-4a12572d6c59</LibraryGUID>
+  <LibraryName>EmailCampaigns</LibraryName>
+  <LibrarySiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </LibrarySiteID>
+</media.library>

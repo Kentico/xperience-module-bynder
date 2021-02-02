@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttypescopeclass>
+  <Parent>
+    <GUID>f5be8dd0-517b-4102-97de-55935129ca9a</GUID>
+    <ObjectType>cms.documenttypescope</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.documenttype_DancingGoatCore.ElectricGrinder">
+      <ClassID>
+        <CodeName>DancingGoatCore.ElectricGrinder</CodeName>
+        <GUID>5a97ed6d-8a5a-415c-a464-a257298e6724</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.ManualGrinder">
+      <ClassID>
+        <CodeName>DancingGoatCore.ManualGrinder</CodeName>
+        <GUID>3c47b7bb-e86c-40a9-8b61-6a78a840d6ad</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+  </Bindings>
+</cms.documenttypescopeclass>

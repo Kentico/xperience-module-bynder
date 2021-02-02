@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.metafile>
+  <MetaFileExtension>.jpg</MetaFileExtension>
+  <MetaFileGroupName>Image</MetaFileGroupName>
+  <MetaFileGUID>e3a14b62-2a86-4661-a21f-ae7bd1e2d74d</MetaFileGUID>
+  <MetaFileImageHeight>540</MetaFileImageHeight>
+  <MetaFileImageWidth>540</MetaFileImageWidth>
+  <MetaFileMimeType>image/jpeg</MetaFileMimeType>
+  <MetaFileName>hario-skerton.jpg</MetaFileName>
+  <MetaFileObjectID>
+    <GUID>bcf65066-8435-4f5a-ac91-26a5b3ba5da6</GUID>
+    <ObjectType>ecommerce.sku</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </MetaFileObjectID>
+  <MetaFileObjectType>ecommerce.sku</MetaFileObjectType>
+  <MetaFileSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </MetaFileSiteID>
+  <MetaFileSize>11391</MetaFileSize>
+</cms.metafile>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassDisplayName>Coffee</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="CoffeeID" columnprecision="0" columntype="integer" guid="9c5d8fb2-aad0-4ae9-b299-c15895658e5b" isPK="true">
+        <properties>
+          <fieldcaption>CoffeeID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="CoffeeFarm" columnsize="100" columntype="text" guid="8144f167-7a83-4a5e-863a-f82f11263546" visible="true">
+        <properties>
+          <fieldcaption>Farm</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="CoffeeCountry" columnsize="100" columntype="text" guid="b4351069-7e73-4201-a76e-d09220486618" visible="true">
+        <properties>
+          <defaultvalue>USA</defaultvalue>
+          <fieldcaption>Country</fieldcaption>
+        </properties>
+        <settings>
+          <AddAllItemsRecord>False</AddAllItemsRecord>
+          <AddNoneRecord>False</AddNoneRecord>
+          <AddSelectCountryRecord>True</AddSelectCountryRecord>
+          <controlname>countrySelector</controlname>
+          <EnableStateSelection>False</EnableStateSelection>
+        </settings>
+      </field>
+      <field column="CoffeeVariety" columnsize="40" columntype="text" guid="f9d649d1-fa0a-4349-955b-5e56b8a662f9" visible="true">
+        <properties>
+          <fieldcaption>Variety</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="CoffeeProcessing" columnsize="20" columntype="text" guid="73192575-6dbd-43dc-b4a9-ff91879fd21b" visible="true">
+        <properties>
+          <fieldcaption>Processing</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>DropDownListControl</controlname>
+          <DisplayActualValueAsItem>False</DisplayActualValueAsItem>
+          <EditText>False</EditText>
+          <Options>
+<![CDATA[
+washed; Washed
+semiwashed; Semi-washed
+natural; Natural
+]]>
+          </Options>
+          <SortItems>False</SortItems>
+        </settings>
+      </field>
+      <field allowempty="true" column="CoffeeAltitude" columntype="integer" guid="041ff73a-25ac-4076-8bda-7cd082bdda30" visible="true">
+        <properties>
+          <explanationtext>feet above sea level</explanationtext>
+          <fieldcaption>Altitude</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <FilterType>0</FilterType>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="CoffeeIsDecaf" columntype="boolean" guid="30267fe7-ad89-4308-9bce-5fc113c75fe8" visible="true">
+        <properties>
+          <defaultvalue>false</defaultvalue>
+          <fieldcaption>Decaf</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>CheckBoxControl</controlname>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>d397e339-60b1-4a44-8065-faa8915b75ed</ClassGUID>
+  <ClassHasMetadata>True</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-box</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassIsProduct>True</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>DancingGoatCore.Coffee</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>SKUImagePath</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item azureretrievable="True" content="False" id="821a53b0-0ea8-40ed-9c25-e3866932bc87" name="CoffeeID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="8b263025-0972-41ee-b003-5e39864200a9" name="CoffeeVariety" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="aa61719f-d1bc-4f08-8a3b-4ba3940be1cd" name="CoffeeCountry" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="bb926b9d-c167-4216-b6ad-01feee693fa4" name="CoffeeAltitude" searchable="True" tokenized="False" />
+      <item content="False" id="d2687222-5763-47f5-beab-4342f0abebf7" name="CoffeeIsDecaf" searchable="False" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="e1d4a273-9140-4922-b5cb-4d5ef4a58945" name="CoffeeFarm" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="ef1983b0-cd09-4c80-9a94-7f6e32a0ce0a" name="CoffeeProcessing" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassSKUDefaultDepartmentName>DancingGoatMvc.Coffees</ClassSKUDefaultDepartmentName>
+  <ClassSKUDefaultProductType>PRODUCT</ClassSKUDefaultProductType>
+  <ClassTableName>DancingGoatCore_Coffee</ClassTableName>
+  <ClassUsePublishFromTo>False</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

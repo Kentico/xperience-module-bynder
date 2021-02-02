@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.issue>
+  <IssueDisplayName>Happy Birthday with coupon</IssueDisplayName>
+  <IssueForAutomation>True</IssueForAutomation>
+  <IssueGUID>b86efe94-c975-4e77-8c44-569545587860</IssueGUID>
+  <IssueNewsletterID>
+    <CodeName>MarketingAutomationEngagement</CodeName>
+    <GUID>e07d93a2-7a5c-4dfc-b35d-e5c719aa7859</GUID>
+    <ObjectType>newsletter.newsletter</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueNewsletterID>
+  <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+  <IssueSenderName>Dancing Goat</IssueSenderName>
+  <IssueSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </IssueSiteID>
+  <IssueSubject>Happy Birthday</IssueSubject>
+  <IssueTemplateID>
+    <CodeName>CoreDemoGeneralEmail</CodeName>
+    <GUID>2491ef28-848d-469c-9df2-f65671b8ed4c</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueTemplateID>
+  <IssueText />
+  <IssueUseUTM>False</IssueUseUTM>
+  <IssueUTMCampaign>marketingautomationengagement</IssueUTMCampaign>
+  <IssueUTMSource>marketingautomationengagement_happy_birthday</IssueUTMSource>
+  <IssueWidgets>
+    <Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <Zones>
+        <Zone>
+          <Identifier>zone1</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>1054388c-7128-4fe6-88ad-da031516cc2c</Identifier>
+              <TypeIdentifier>858092f1-17a8-41fa-883c-19d27ac43936</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+                    <![CDATA[Happy birthday {% Recipient.FirstName |(identity)GlobalAdministrator|(hash)283759c25604f073c34f89be0380255ecd146bd3feb5c32da46a80fb6cafdd77%}!]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>3a9f06cc-4c4a-4cc0-a840-85ed537ae0ad</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+<![CDATA[
+<p>We hope you&#39;re having a wonderful time on this special day. To thank you for your interest in our website and coffee, we&#39;d like to offer you a gift.</p>
+
+<p>Use the following coupon code in our store and get a 5% birthday discount:<br />
+<br />
+<strong>BDAY_73UHV</strong></p>
+
+]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+        <Zone>
+          <Identifier>zone2</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>c174a561-0d66-4c6f-9f74-68f585110d0b</Identifier>
+              <TypeIdentifier>ab776b60-b2ba-452f-95f3-c2d055484b84</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>Take me to the store</Value>
+                </Property>
+                <Property>
+                  <Name>Link</Name>
+                  <Value>~/store/</Value>
+                </Property>
+                <Property>
+                  <Name>Color</Name>
+                  <Value>#B49669</Value>
+                </Property>
+                <Property>
+                  <Name>UTMContent</Name>
+                  <Value />
+                </Property>
+                <Property>
+                  <Name>Personas</Name>
+                  <Value />
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+      </Zones>
+    </Configuration>
+  </IssueWidgets>
+</newsletter.issue>

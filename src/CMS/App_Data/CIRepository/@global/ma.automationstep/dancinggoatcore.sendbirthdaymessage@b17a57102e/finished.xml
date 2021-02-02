@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ma.automationstep>
+  <StepActionParameters />
+  <StepDefinition>
+    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <TimeoutEnabled>false</TimeoutEnabled>
+      <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
+      <SourcePoints />
+      <DefinitionPoint Guid="0d42cd90-356b-4b53-b408-e186855a9f6f">
+        <Label>Default</Label>
+        <Type>0</Type>
+        <StepRolesSecurity>0</StepRolesSecurity>
+        <StepUsersSecurity>0</StepUsersSecurity>
+      </DefinitionPoint>
+      <Position>
+        <X>2440</X>
+        <Y>1100</Y>
+      </Position>
+    </Step>
+  </StepDefinition>
+  <StepDisplayName>Finished</StepDisplayName>
+  <StepGUID>4000e76d-cdcd-45ed-b9d3-6fb1fa5e1cab</StepGUID>
+  <StepName>finished</StepName>
+  <StepRolesSecurity>0</StepRolesSecurity>
+  <StepType>99</StepType>
+  <StepUsersSecurity>0</StepUsersSecurity>
+  <StepWorkflowID>
+    <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+    <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </StepWorkflowID>
+  <StepWorkflowType>3</StepWorkflowType>
+</ma.automationstep>

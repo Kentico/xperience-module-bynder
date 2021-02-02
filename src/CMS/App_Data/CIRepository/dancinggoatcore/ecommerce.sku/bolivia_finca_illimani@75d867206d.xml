@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUDepartmentID>
+    <CodeName>Coffees</CodeName>
+    <GUID>39323402-eac1-4fc0-a4a9-cceafab8cc67</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>This is the story of a man&nbsp;that&nbsp;had&nbsp;worked long hard years since his childhood on a coffee farm. His lifelong dream was to have his own coffee farm. Then, in his thirties, he was able to buy a farm located near Caranvi in the Bolivian Andes. However, even though his farm isn&#39;t far from La Paz, there are no roads, and he and his employees have to carry their crop to the nearest road. Too much work, you say? Well, just taste the coffee and you will change your opinion very quickly.</p>
+
+<p>The flavor of the Finca Illimani Anastacio Cadena Cascara is like marmalade, nothing more, just this, pure and simple, not fussy at all.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>f4fda7d2-5dc3-4872-a9e1-8b2c51a89d1d</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/8dbbcfb8-742f-4bdc-a107-d01fbb3fdc1b/bolivia]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 07:56:45Z</SKUInStoreFrom>
+  <SKUName>Bolivia Finca Illimani</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>CO-BOL-CASCARA</SKUNumber>
+  <SKUPrice>5</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Coming from the Bolivian Andes, Finca Illimani tastes of pure marmalade, just like you&#39;ve always&nbsp;dreamt of.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>Disabled</SKUTrackInventory>
+  <SKUWeight>0.5</SKUWeight>
+</ecommerce.sku>

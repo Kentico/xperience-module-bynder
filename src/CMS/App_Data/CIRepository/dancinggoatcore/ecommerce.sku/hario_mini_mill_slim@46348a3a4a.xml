@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>98</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Grinders</CodeName>
+    <GUID>42555651-4dd5-44fa-af76-9a0fee216f54</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+    <![CDATA[Are you a traveler? Then this is a grinder for you. It&#39;s so small, it fits backpacks and suitcases, light because of its plastic but elegant body, and also durable, so it can sustain even the longest journeys. Although it&#39;s compact, you can hold up to 24 grams. After use, just put it in a dishwasher or wash it by hand, it&#39;s so easy. Simply choose any brewing method you like.]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>08283f26-fe5f-45c0-a987-32302d5991e4</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/8cea1b8c-6561-47db-9d00-42ab2b234604/hario-mini-mill]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:53:14Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Hario</CodeName>
+    <GUID>3e2bc5f2-e9c0-4928-978e-9009f8ada609</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Hario Mini Mill Slim</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>HAR-GR-SLIM</SKUNumber>
+  <SKUPrice>23.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[The Hario Mini Mill Slim is super suitable for traveling, can be hold up to 24 grams of coffee, and has an elegant plastic body.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>1</SKUWeight>
+</ecommerce.sku>

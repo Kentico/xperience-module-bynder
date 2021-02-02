@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>3633dc05-47cd-435c-9d56-fb73300b88f1</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Store/Coffees/Bolivia-Finca-Illimani</CodeName>
+    <GUID>fb943496-10df-40f5-8645-a19797ba61d3</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Store/Coffees/Bolivia-Finca-Illimani</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[C33967E7E1243C66154F97F4415C454428EE08A0F2749169D62464499D53DFDA]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

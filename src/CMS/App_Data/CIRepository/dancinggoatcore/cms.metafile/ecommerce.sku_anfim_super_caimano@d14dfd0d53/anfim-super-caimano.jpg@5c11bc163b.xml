@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.metafile>
+  <MetaFileExtension>.jpg</MetaFileExtension>
+  <MetaFileGroupName>Image</MetaFileGroupName>
+  <MetaFileGUID>018e2d39-c435-4015-8f68-d5e4610ac068</MetaFileGUID>
+  <MetaFileImageHeight>600</MetaFileImageHeight>
+  <MetaFileImageWidth>600</MetaFileImageWidth>
+  <MetaFileMimeType>image/jpeg</MetaFileMimeType>
+  <MetaFileName>anfim-super-caimano.jpg</MetaFileName>
+  <MetaFileObjectID>
+    <GUID>1d7f9a74-939c-402c-8f92-c4d70c6d15c4</GUID>
+    <ObjectType>ecommerce.sku</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </MetaFileObjectID>
+  <MetaFileObjectType>ecommerce.sku</MetaFileObjectType>
+  <MetaFileSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </MetaFileSiteID>
+  <MetaFileSize>13046</MetaFileSize>
+</cms.metafile>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Bleached Paper Filters V60-01 -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:37:53Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>4e6bea3a-d34a-4adf-8948-e398004ad549</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:37:53Z</DocumentModifiedWhen>
+  <DocumentName>Bleached Paper Filters V60-01</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Accessories/Bleached-Paper-Filters-V60-01</CodeName>
+    <GUID>1a3032f0-b9e3-4a0a-a155-cd2dddb4a07e</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+    <![CDATA[Enjoy retro V60-01 porcelain filters, made by the Japanese company Hario, with bleached paper filters that sweeten your bitter coffee. These paper filters allow the coffee to flow through the filter while at the same time trapping the coffee grounds inside.]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Bleached Paper Filters V60-01</DocumentSKUName>
+  <DocumentSKUShortDescription>Bleached paper filters for Hario V60-01.</DocumentSKUShortDescription>
+</cms.documentlocalization>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.emailwidget>
+  <EmailWidgetCode>
+<![CDATA[
+{% /*
+The Product email widget displays a selected product with the possibility to override some of the default attributes. This is done by providing additional properties.
+*/ @%}
+{%
+  product = ProductGUID == null ? null : SiteObjects.SKUs[ProductGUID];
+
+  productLink = "~/"; 
+  imageUrl = "~/getmedia/d82041ac-2264-463f-81fb-5a7bbda33cd3/default-image-product.png?maxsidesize=500";
+  productName = "Product name";
+  productDescription = "The default product name and description as specified in the Products application will be displayed here. To set a custom product name and product description, change the <i>Product name</i> and <i>Product description</i> properties.";
+  ctaText = "Learn More";
+  productID = 0;
+
+  if (product != null) 
+  {
+     utmContentParameter = UTMContent == String.Empty ? String.Empty : "?utm_content=" + UTMContent;
+     productLink = SiteObjects.Documents.Where("NodeSKUID = "+ product.SKUID).FirstItem.RelativeURL + utmContentParameter;
+     imageUrl = AlternativeProductImage == String.Empty ? product.SKUImagePath : AlternativeProductImage;
+     productName = AlternativeProductName == String.Empty ? product.SKUName : AlternativeProductName;
+     productDescription = StripTags(AlternativeProductDescription) == String.Empty ? product.SKUShortDescription : AlternativeProductDescription; 
+     ctaText = ButtonText == String.Empty ? ctaText : ButtonText; 
+  }
+  return;
+|(identity)GlobalAdministrator|(hash)07e71d897677ca765e2d42660b252105c89f57c5987fac5a49f238ca77d1ff01%}
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="padding" align="center" style="padding-top: 10px;">
+          {%  %}
+            <a href="{%productLink %}" target="_blank">
+                <img src="{%imageUrl%}" width="500" border="0" alt="{%productName%}" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="img-max">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #B49669; padding-top: 30px;" class="padding">{%productName%}</td>
+                </tr>
+                <tr>
+                    <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding">{%productDescription%}</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="padding-bottom: 10px;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" style="padding-top: 25px;" class="padding">
+                        <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                            <tr>
+                                <td align="center" style="border-radius: 3px;" bgcolor="#B49669"><a href="{%productLink %}" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; border-radius: 3px; padding: 15px 25px; border: 1px solid #B49669; display: inline-block;" class="mobile-button">{%ctaText%} &rarr;</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+]]>
+  </EmailWidgetCode>
+  <EmailWidgetDescription>Displays a selected product in the email.</EmailWidgetDescription>
+  <EmailWidgetDisplayName>Product</EmailWidgetDisplayName>
+  <EmailWidgetGuid>e2605693-0586-4627-8ffb-88ba572928f5</EmailWidgetGuid>
+  <EmailWidgetIconCssClass>icon-box</EmailWidgetIconCssClass>
+  <EmailWidgetName>Product</EmailWidgetName>
+  <EmailWidgetProperties>
+    <form version="2">
+      <field column="ProductGUID" columntype="guid" guid="75fd7c3f-abf2-486f-a9a1-7cc8aa1e1ff1" visible="true">
+        <properties>
+          <fieldcaption>Product</fieldcaption>
+          <fielddescription>Select product that will be displayed in email.</fielddescription>
+        </properties>
+        <settings>
+          <AllowEmpty>False</AllowEmpty>
+          <AllowMultipleChoice>False</AllowMultipleChoice>
+          <controlname>SKUSelector</controlname>
+          <DisplayBundles>True</DisplayBundles>
+          <DisplayEproducts>True</DisplayEproducts>
+          <DisplayMemberships>True</DisplayMemberships>
+          <DisplayNoDataMessage>True</DisplayNoDataMessage>
+          <DisplayOnlyProductsWithoutOptions>False</DisplayOnlyProductsWithoutOptions>
+          <DisplayProductVariants>False</DisplayProductVariants>
+          <DisplayStandardProducts>True</DisplayStandardProducts>
+          <UseGUIDForSelection>True</UseGUIDForSelection>
+        </settings>
+      </field>
+      <field allowempty="true" column="ButtonText" columnsize="20" columntype="text" guid="287cb8e1-1dc5-40a2-90e9-f4b783611f12" visible="true">
+        <properties>
+          <defaultvalue>Learn more</defaultvalue>
+          <fieldcaption>Button text</fieldcaption>
+          <fielddescription>Text displayed on the button.</fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="UTMContent" columnsize="200" columntype="text" guid="58b2a9c9-4224-4cfa-932e-43431b6294c8" visible="true">
+        <properties>
+          <fieldcaption>UTM content</fieldcaption>
+          <fielddescription>
+            <![CDATA[Specifies a UTM parameter for the links in this widget.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <category name="AlternativeValues">
+        <properties>
+          <caption>Alternative values</caption>
+          <collapsedbydefault>True</collapsedbydefault>
+          <collapsible>True</collapsible>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="AlternativeProductImage" columnsize="450" columntype="text" guid="a3e46b24-0864-476a-8cad-e2e051c55d56" visible="true">
+        <properties>
+          <fieldcaption>Alternative product image</fieldcaption>
+          <fielddescription>
+            <![CDATA[Sets a custom product image replacing the default one.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>MediaSelectionControl</controlname>
+          <ShowPreview>False</ShowPreview>
+        </settings>
+      </field>
+      <field allowempty="true" column="AlternativeProductName" columnsize="100" columntype="text" guid="0d27ba03-0951-4905-ae9d-bead6efa049a" visible="true">
+        <properties>
+          <fieldcaption>Alternative product name</fieldcaption>
+          <fielddescription>
+            <![CDATA[Sets a custom product name replacing the default one.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="AlternativeProductDescription" columntype="longtext" guid="d38ab6c0-083f-4310-ba0f-d40b01577d88" visible="true">
+        <properties>
+          <fieldcaption>Alternative product description</fieldcaption>
+          <fielddescription>
+            <![CDATA[Sets a custom product description replacing the default one.]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <controlname>HtmlAreaControl</controlname>
+          <CSSStylesheet>0</CSSStylesheet>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <ToolbarSet>EmailWidgets</ToolbarSet>
+          <Width>100</Width>
+          <WidthUnitType>PERCENTAGE</WidthUnitType>
+        </settings>
+      </field>
+    </form>
+  </EmailWidgetProperties>
+  <EmailWidgetSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </EmailWidgetSiteID>
+</newsletter.emailwidget>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Clever Dripper -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:08:54Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>0993219a-7089-409b-bee8-a15a0149fbc0</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:08:55Z</DocumentModifiedWhen>
+  <DocumentName>Clever Dripper</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Brewers/Clever-Dripper</CodeName>
+    <GUID>c4f5871e-7559-4822-ba63-db62bcaefd10</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>The Clever Dripper combines the best of filter drip brewing and the time-proven French press. This, of course, is the newest version and brings some pretty flashy improvements to an already great design!</p>
+
+<p>The brewer is sturdier and much more durable thanks to Eastman Triton BPA free plastic. This means it&#39;s not only durable but also perfectly safe for your health! You&#39;ll also notice a special smoked exterior tint and an ergonomically improved handle that makes brewing your cup ever so easy.</p>
+
+<p>Cleaning similar devices is a chore that no one enjoys. In the new Clever Dripper, however, the shutoff valve has been completely redesigned and dramatically improved. You can remove the seal in a flash, and we guarantee you have never seen a dropping mechanism like this.</p>
+
+<p>With Clever Dripper, you can enjoy your cups of coffee with the filtration of pour over brewing and still enjoy those rich unforgettable flavours achieved through full immersion brewing. For the uninitiated, the technique consists of immersing the grounds for as long as you please. Once you feel that the coffee is perfect, just place the brewer on top of your favorite mug and watch as the perfect brew slowly emerges as the coffee passes through the paper filter. No sediment, just a clean, perfect cup.</p>
+&bull;&nbsp;&nbsp;&nbsp; Comes with a lid for heat retention<br />
+&bull;&nbsp;&nbsp;&nbsp; Comes with a coaster to help keep sides clean<br />
+&bull;&nbsp;&nbsp;&nbsp; New Eastman Triton BPA free plastic body<br />
+&bull;&nbsp;&nbsp;&nbsp; Completely redesigned ergonomic handle<br />
+&bull;&nbsp;&nbsp;&nbsp; Not dishwasher or microwave safe<br />
+&bull;&nbsp;&nbsp;&nbsp; Max capacity of 18 oz
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Clever Dripper</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[This redesigned French press is easy to clean, durable, safe, and you know what? It can also make great coffee!]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

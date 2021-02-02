@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflowtransition>
+  <Parent>
+    <CodeName>CallContact</CodeName>
+    <GUID>cfc7dd52-7026-4a63-86f8-2ecd2c542db7</GUID>
+    <ObjectType>ma.automationstep</ObjectType>
+    <Parent>
+      <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+      <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+      <ObjectType>ma.automationprocess</ObjectType>
+    </Parent>
+  </Parent>
+  <Bindings>
+    <Binding id="ma.automationstep_finished_ma.automationprocess_DancingGoatCore.EngageWithInactiveContacts">
+      <TransitionEndStepID>
+        <CodeName>finished</CodeName>
+        <GUID>6b09adf4-bbbc-49ed-8668-ee1849cf0176</GUID>
+        <ObjectType>ma.automationstep</ObjectType>
+        <Parent>
+          <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+          <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+          <ObjectType>ma.automationprocess</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>6b1c943a-9a04-4692-8ac4-6ab5775f8abf</TransitionSourcePointGUID>
+      <TransitionType>0</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+        <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+        <ObjectType>ma.automationprocess</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+  </Bindings>
+</cms.workflowtransition>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ma.automationprocess>
+  <WorkflowDisplayName>Engage with inactive contacts (Dancing Goat Core)</WorkflowDisplayName>
+  <WorkflowEnabled>False</WorkflowEnabled>
+  <WorkflowGUID>72aebaa3-848c-476c-a499-4b2f2502a5de</WorkflowGUID>
+  <WorkflowName>DancingGoatCore.EngageWithInactiveContacts</WorkflowName>
+  <WorkflowRecurrenceType>2</WorkflowRecurrenceType>
+  <WorkflowType>3</WorkflowType>
+</ma.automationprocess>

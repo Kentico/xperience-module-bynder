@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Which brewing fits you? -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-06-12 15:12:43Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>22bfb952-c0a0-4d4b-b4bd-e27b000c1803</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-09-16 14:16:37Z</DocumentModifiedWhen>
+  <DocumentName>Which brewing fits you?</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Articles/Which-brewing-fits-you</CodeName>
+    <GUID>1d82aecd-4c75-4442-bd89-3751b2c60319</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPageTemplateConfiguration>
+    <![CDATA[{"identifier":"DancingGoat.ArticleWithSidebar","properties":null}]]>
+  </DocumentPageTemplateConfiguration>
+  <DocumentPublishFrom>2020-07-30 14:00:00Z</DocumentPublishFrom>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+</cms.documentlocalization>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.issue>
+  <IssueDisplayName>Coffee 101 - Lesson 1</IssueDisplayName>
+  <IssueForAutomation>True</IssueForAutomation>
+  <IssueGUID>3437d71d-30a2-4e49-ace1-71c0661a4506</IssueGUID>
+  <IssueNewsletterID>
+    <CodeName>Coffee101</CodeName>
+    <GUID>ebfc1b86-9655-479e-9655-6ab9a631a38a</GUID>
+    <ObjectType>newsletter.newsletter</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueNewsletterID>
+  <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+  <IssueSenderName>Dancing Goat Core</IssueSenderName>
+  <IssueSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </IssueSiteID>
+  <IssueSubject>Coffee 101 - Lesson 1</IssueSubject>
+  <IssueTemplateID>
+    <CodeName>CoreDemoGeneralEmail</CodeName>
+    <GUID>2491ef28-848d-469c-9df2-f65671b8ed4c</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueTemplateID>
+  <IssueText />
+  <IssueUseUTM>False</IssueUseUTM>
+  <IssueUTMCampaign>coffee101</IssueUTMCampaign>
+  <IssueUTMSource>coffee101_coffee_101_-_lesson_1</IssueUTMSource>
+  <IssueWidgets>
+    <Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <Zones>
+        <Zone>
+          <Identifier>zone1</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>4de56ba9-634b-496b-8c73-c4f08881878d</Identifier>
+              <TypeIdentifier>858092f1-17a8-41fa-883c-19d27ac43936</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>Where coffee comes from and where it grows?</Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>91cf5faa-40da-449d-89c7-9fb8255aabbf</Identifier>
+              <TypeIdentifier>eca73089-2d52-4f1c-b99b-a0395b7772b3</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>ImageUrl</Name>
+                  <Value>
+                    <![CDATA[~/getmedia/2eab4a23-3a10-44f6-a1c7-9291b4d58a78/coffee-101-lesson-1.jpg?width=604&height=401&ext=.jpg]]>
+                  </Value>
+                </Property>
+                <Property>
+                  <Name>AlternateText</Name>
+                  <Value>Coffee beans</Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>fe052aac-c5de-4f7e-88ff-212c1937a361</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>Lesson 1</Value>
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+        <Zone>
+          <Identifier>zone2</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>cdd55286-edfb-4579-95bf-c0ceb5480947</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+<![CDATA[
+The history of coffee is patchy and full of myth and hearsay.<br />
+<br />
+One of the most popular story goes that Kaldi, an Ethiopian goat herder, saw his goats eating coffee &lsquo;berries&rsquo; and as a result becoming elated. So, Kaldi then tried them himself and thus the potential of coffee was discovered. And also a name of our roastery - Dancing Goats.<br />
+<br />
+But, It is far more likely that uses for coffee were developed over time and were discovered by people tasting various parts of the &lsquo;cherry&rsquo;, nevertheless, the old fables do add a bit of romance and are very cute.<br />
+<br />
+Coffee requires a warm climate and lots of moisture, so it isproduced within a belt extending around the world between the Tropic of Cancer and the Tropic of Capricorn.<br />
+<br />
+Coffee grows on trees that flower and produce fleshy red fruit (orange or yellow is also possible) called a drupe though it is popularly referred to as the &lsquo;berry&rsquo; or &lsquo;cherry&rsquo;. What we refer to as coffee beans are actually seeds, which are produced in the centre of the drupe, often in pairs. After harvesting, the flesh of the drupe is washed or dried and the &lsquo;beans&rsquo; extracted.<br />
+<br />
+Coffee beans vary in their shape, size, color as well as flavor depending on the region and conditions in which they were grown. The difference of aromas and flavors between various regional varietals is as vast as the regions they grow in. Just like the teas and wines of the world, and even more so. It is always worth trying new varietals that may stimulate your taste buds in a different way.<br />
+<br />
+The two major species of coffee are Coffea Arabica and Coffea Canephora (also called Robusta Coffee).<br />
+<br />
+Arabica is believed to be the first species of coffee to have been cultivated.<br />
+<br />
+It requires more care during cultivation and is considered to produce better coffee than Robusta. Arabica plants grow at high altitudes of around 1000 to 2000 metres, approximately 3200 to 6500 ft, above sea level in regions across South and Central America, as well as Africa. Arabica is costlier to grow, produces lower yields than Robusta despite higher labor intensiveness. Despite all that, it is considered superior to Robusta. The high demand and lower availabilitydrives the price high. Arabica is the species most associated with speciality (sometimes referred to as gourmet) coffees.<br />
+<br />
+The only place where Arabica coffee grows indigenously is Ethiopia. It is the birth place of coffee and also the only place in which it truly grows wild. All countries that produce Arabica coffees have transplanted plant stock directly from Ethiopia or from other countries that have previously done
+]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>420be545-aa29-4697-ad95-10cae90f3ac4</Identifier>
+              <TypeIdentifier>ab776b60-b2ba-452f-95f3-c2d055484b84</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>Try Ethiopian Coffee</Value>
+                </Property>
+                <Property>
+                  <Name>Link</Name>
+                  <Value>~/store/coffees/ethiopia-yirgacheffe-(decaf)/</Value>
+                </Property>
+                <Property>
+                  <Name>Color</Name>
+                  <Value>#B49669</Value>
+                </Property>
+                <Property>
+                  <Name>UTMContent</Name>
+                  <Value />
+                </Property>
+                <Property>
+                  <Name>Personas</Name>
+                  <Value />
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+      </Zones>
+    </Configuration>
+  </IssueWidgets>
+</newsletter.issue>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>b5bbdf60-812a-424b-94c7-058d6fdfc19b</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Articles/Which-brewing-fits-you</CodeName>
+    <GUID>1d82aecd-4c75-4442-bd89-3751b2c60319</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Articles/Which-brewing-fits-you</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[C8412E20A518C2D8FD2BA5F77862E841AC19E32C9306BD4E7FC15D33147C9D75]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

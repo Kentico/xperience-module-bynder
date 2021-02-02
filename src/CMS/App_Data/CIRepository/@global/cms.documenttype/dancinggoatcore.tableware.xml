@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassDisplayName>Tableware</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="TablewareID" columnprecision="0" columntype="integer" guid="d2fe98e1-7c7e-4c6d-903b-f14cadfee995" isPK="true">
+        <properties>
+          <fieldcaption>TablewareID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+      <category name="Promotion">
+        <properties>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="TablewarePromotionTitle" columnsize="200" columntype="text" guid="e953a0b2-5623-4d7a-aaba-3de1c1826e0b" visible="true">
+        <properties>
+          <fieldcaption>Promotion title</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="TablewarePromotionDescription" columnsize="200" columntype="text" guid="9db73909-17a5-4d8f-90c3-4912d1e468a9" visible="true">
+        <properties>
+          <fieldcaption>Promotion description</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="TablewareBannerText" columnsize="200" columntype="text" guid="9fd8c10c-993c-4446-9289-bbfb290cf243" visible="true">
+        <properties>
+          <fieldcaption>Banner text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>c8a8f2b9-96d0-40e1-86b1-035439dc80fd</ClassGUID>
+  <ClassHasMetadata>True</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-box</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassIsProduct>True</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>DancingGoatCore.Tableware</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchContentColumn>SKUShortDescription</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>SKUImagePath</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item content="False" id="63320757-c026-4cb4-a560-b53c3e018f33" name="TablewarePromotionDescription" searchable="False" tokenized="False" />
+      <item content="False" id="82e5d2aa-3865-4160-aebe-b26c3dd135c8" name="TablewareBannerText" searchable="False" tokenized="False" />
+      <item content="False" id="a64ec936-236d-4907-a09e-17bb40efd923" name="TablewareID" searchable="False" tokenized="False" />
+      <item content="False" id="bf0c0193-a4be-462a-a6df-00d6c9d61a25" name="TablewarePromotionTitle" searchable="False" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassSKUDefaultDepartmentName>Accessories</ClassSKUDefaultDepartmentName>
+  <ClassSKUDefaultProductType>PRODUCT</ClassSKUDefaultProductType>
+  <ClassTableName>DancingGoatCore_Tableware</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

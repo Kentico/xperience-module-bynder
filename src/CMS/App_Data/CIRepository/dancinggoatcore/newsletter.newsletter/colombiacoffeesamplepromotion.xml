@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.newsletter>
+  <NewsletterDisplayName>Colombia coffee sample promotion</NewsletterDisplayName>
+  <NewsletterEnableOptIn>False</NewsletterEnableOptIn>
+  <NewsletterGUID>9498483d-c5d5-4a1f-b31a-4ac55ef5f123</NewsletterGUID>
+  <NewsletterLogActivity>True</NewsletterLogActivity>
+  <NewsletterName>ColombiaCoffeeSamplePromotion</NewsletterName>
+  <NewsletterSenderEmail>dancinggoat@localhost.local</NewsletterSenderEmail>
+  <NewsletterSenderName>Dancing Goat Core</NewsletterSenderName>
+  <NewsletterSendOptInConfirmation>False</NewsletterSendOptInConfirmation>
+  <NewsletterSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NewsletterSiteID>
+  <NewsletterSource>T</NewsletterSource>
+  <NewsletterTrackClickedLinks>True</NewsletterTrackClickedLinks>
+  <NewsletterTrackOpenEmails>True</NewsletterTrackOpenEmails>
+  <NewsletterType>1</NewsletterType>
+  <NewsletterUnsubscriptionTemplateID>
+    <CodeName>UnsubscriptionConfirmation</CodeName>
+    <GUID>f52fa3b1-652c-4385-bceb-baeadd4b1694</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NewsletterUnsubscriptionTemplateID>
+</newsletter.newsletter>

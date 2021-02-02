@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.issue>
+  <IssueDisplayName>Get a free Colombia coffee sample today</IssueDisplayName>
+  <IssueForAutomation>False</IssueForAutomation>
+  <IssueGUID>2d53d74e-bf41-4747-a080-d3bdd1d83539</IssueGUID>
+  <IssueNewsletterID>
+    <CodeName>ColombiaCoffeePromotion</CodeName>
+    <GUID>6ac90b9e-af2d-4792-a384-af79b6133de8</GUID>
+    <ObjectType>newsletter.newsletter</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueNewsletterID>
+  <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+  <IssueSenderName>Dancing Goat Core</IssueSenderName>
+  <IssueSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </IssueSiteID>
+  <IssueSubject>Get a free Colombia coffee sample today</IssueSubject>
+  <IssueTemplateID>
+    <CodeName>CoreDemoGeneralEmail</CodeName>
+    <GUID>2491ef28-848d-469c-9df2-f65671b8ed4c</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueTemplateID>
+  <IssueText />
+  <IssueUseUTM>False</IssueUseUTM>
+  <IssueUTMCampaign>colombiacoffeepromotion</IssueUTMCampaign>
+  <IssueUTMSource>
+    <![CDATA[colombiacoffeepromotion_get_a_free_colombia_coffee_sample_today]]>
+  </IssueUTMSource>
+  <IssueWidgets>
+    <Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <Zones>
+        <Zone>
+          <Identifier>zone1</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>471ee054-0e3e-4cac-8e99-0319f2217ad0</Identifier>
+              <TypeIdentifier>858092f1-17a8-41fa-883c-19d27ac43936</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>Try Colombian coffee today</Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>188427bc-4cb3-4f1f-ac4e-31d8fdbce7e2</Identifier>
+              <TypeIdentifier>eca73089-2d52-4f1c-b99b-a0395b7772b3</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>ImageUrl</Name>
+                  <Value>
+                    <![CDATA[~/getmedia/25808ee1-16c5-4397-b5a5-f1af8ee21e18/colombia-coffee-promotion.jpg?width=500&height=266&ext=.jpg]]>
+                  </Value>
+                </Property>
+                <Property>
+                  <Name>AlternateText</Name>
+                  <Value>Colombian plantation</Value>
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+        <Zone>
+          <Identifier>zone2</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>56b23105-ebea-4c3b-a035-6a379eaecbdd</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+                    <![CDATA[Did you know that Colombia is one of the world&rsquo;s coffee producing power houses, satisfying some 10% of the global coffee demand? Do you want to learn more and even get a chance to try what this coffee is about?]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>0f774899-0513-4119-8e43-228a7a05d80c</Identifier>
+              <TypeIdentifier>ab776b60-b2ba-452f-95f3-c2d055484b84</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>Take me there</Value>
+                </Property>
+                <Property>
+                  <Name>Link</Name>
+                  <Value>~/coffee-samples/</Value>
+                </Property>
+                <Property>
+                  <Name>Color</Name>
+                  <Value>#B49669</Value>
+                </Property>
+                <Property>
+                  <Name>UTMContent</Name>
+                  <Value />
+                </Property>
+                <Property>
+                  <Name>Personas</Name>
+                  <Value />
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+      </Zones>
+    </Configuration>
+  </IssueWidgets>
+</newsletter.issue>

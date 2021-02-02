@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Espro Press -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:10:21Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>5c7082e3-1285-46eb-8232-685cb07993f2</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:11:46Z</DocumentModifiedWhen>
+  <DocumentName>Espro Press</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Brewers/Espro-Press</CodeName>
+    <GUID>74d5683e-4cd3-4042-9bd6-870d5e3fb9b0</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>A major rethink in the way coffee is made. Retains heat for several hours. The filters in this device are up to 12 times finer, and each coffee is filtered twice. This means no sediment, no silt, and a perfectly clear coffee.</p>
+
+<p>The Espro Press is durable, perfect for travelling as well as at home. It can survive practically anything.</p>
+
+<p>Oh, and one more thing. You can easily use this brewer for perfect loose-leaf tea, tonic water, or even vanilla extract.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Espro Press</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[The Espro Press retains heat for hours, has super-finer filters ensuring no sediment, and is perfect for all travel.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

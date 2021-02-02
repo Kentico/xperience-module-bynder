@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.currency>
+  <CurrencyCode>EUR</CurrencyCode>
+  <CurrencyDisplayName>Euro</CurrencyDisplayName>
+  <CurrencyEnabled>True</CurrencyEnabled>
+  <CurrencyFormatString>€ {0:0.00}</CurrencyFormatString>
+  <CurrencyGUID>64bf8e9d-e74a-4a37-b5b8-56a2634e832d</CurrencyGUID>
+  <CurrencyIsMain>False</CurrencyIsMain>
+  <CurrencyName>EUR</CurrencyName>
+  <CurrencyRoundTo>2</CurrencyRoundTo>
+</ecommerce.currency>

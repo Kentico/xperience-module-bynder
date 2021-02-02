@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.adhocrelationship>
+  <Parent>
+    <CodeName>/Articles/On-Roasts</CodeName>
+    <GUID>1c198498-aff2-4068-a111-004afe866191</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.node_/Articles/Coffee-processing-techniques_cms.site_DancingGoatCore-cms.relationshipname_DancingGoatCore.Article_1415dcbe-42f8-460b-91b9-12e52695622f">
+      <RelationshipIsAdHoc>True</RelationshipIsAdHoc>
+      <RelationshipNameID>
+        <CodeName>DancingGoatCore.Article_1415dcbe-42f8-460b-91b9-12e52695622f</CodeName>
+        <GUID>ddb6a97f-d8dc-4c95-8333-f8b680984866</GUID>
+        <ObjectType>cms.relationshipname</ObjectType>
+      </RelationshipNameID>
+      <RelationshipOrder>1</RelationshipOrder>
+      <RightNodeID>
+        <CodeName>/Articles/Coffee-processing-techniques</CodeName>
+        <GUID>d130f43c-6fbe-463a-b6fb-91d812660c90</GUID>
+        <ObjectType>cms.node</ObjectType>
+        <Site>
+          <CodeName>DancingGoatCore</CodeName>
+          <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+          <ObjectType>cms.site</ObjectType>
+        </Site>
+      </RightNodeID>
+    </Binding>
+    <Binding id="cms.node_/Articles/Origins-of-Arabica-Bourbon_cms.site_DancingGoatCore-cms.relationshipname_DancingGoatCore.Article_1415dcbe-42f8-460b-91b9-12e52695622f">
+      <RelationshipIsAdHoc>True</RelationshipIsAdHoc>
+      <RelationshipNameID>
+        <CodeName>DancingGoatCore.Article_1415dcbe-42f8-460b-91b9-12e52695622f</CodeName>
+        <GUID>ddb6a97f-d8dc-4c95-8333-f8b680984866</GUID>
+        <ObjectType>cms.relationshipname</ObjectType>
+      </RelationshipNameID>
+      <RelationshipOrder>2</RelationshipOrder>
+      <RightNodeID>
+        <CodeName>/Articles/Origins-of-Arabica-Bourbon</CodeName>
+        <GUID>7e306966-45b2-4923-9cfe-cdf8a89345db</GUID>
+        <ObjectType>cms.node</ObjectType>
+        <Site>
+          <CodeName>DancingGoatCore</CodeName>
+          <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+          <ObjectType>cms.site</ObjectType>
+        </Site>
+      </RightNodeID>
+    </Binding>
+  </Bindings>
+</cms.adhocrelationship>

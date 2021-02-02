@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>100</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Grinders</CodeName>
+    <GUID>42555651-4dd5-44fa-af76-9a0fee216f54</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+This grinder is rather small, but it&#39;s quick, easy-to-use, and precise. Choose your favorite brewing method and those strong conical ceramic burrs of high quality with thick and durable glass assure you that you won&#39;t regret it. But this grinder not only makes good grounds, it&#39;s also a pleasure to use! On the bottom, there&#39;s anti-slip rubber, and the handle feels awesome. After use, just put it in the dishwasher or wash it by hand, it&#39;s so easy.<br />
+<br />
+The Hario Skerton Hand Grinder is also usable if you are a traveler. With the included screw top cover, grounds stay fresh and inside the grinder, even on bumpy roads.
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>bcf65066-8435-4f5a-ac91-26a5b3ba5da6</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/e3a14b62-2a86-4661-a21f-ae7bd1e2d74d/hario-skerton]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:54:02Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Hario</CodeName>
+    <GUID>3e2bc5f2-e9c0-4928-978e-9009f8ada609</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Hario Skerton Hand Grinder</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>HAR-GR-SKERTON</SKUNumber>
+  <SKUPrice>37.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Small but quick, an easy-to-use and precise grinder with strong conical ceramic burrs.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>2</SKUWeight>
+</ecommerce.sku>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.adhocrelationship>
+  <Parent>
+    <CodeName>/Home/Our-Story</CodeName>
+    <GUID>8e549776-3d89-4b1c-9fd2-bfbe490182e0</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.node_/About-Us_cms.site_DancingGoatCore-cms.relationshipname_DancingGoatCore.HomeSection_13879a4d-831b-497f-be08-3ac7aec94878">
+      <RelationshipIsAdHoc>True</RelationshipIsAdHoc>
+      <RelationshipNameID>
+        <CodeName>DancingGoatCore.HomeSection_13879a4d-831b-497f-be08-3ac7aec94878</CodeName>
+        <GUID>21085a8e-c792-415a-8358-0c96ff7ebab7</GUID>
+        <ObjectType>cms.relationshipname</ObjectType>
+      </RelationshipNameID>
+      <RelationshipOrder>1</RelationshipOrder>
+      <RightNodeID>
+        <CodeName>/About-Us</CodeName>
+        <GUID>38ac32a4-57b3-47ea-b12c-85da4599b917</GUID>
+        <ObjectType>cms.node</ObjectType>
+        <Site>
+          <CodeName>DancingGoatCore</CodeName>
+          <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+          <ObjectType>cms.site</ObjectType>
+        </Site>
+      </RightNodeID>
+    </Binding>
+  </Bindings>
+</cms.adhocrelationship>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Nicaragua Dipilto (decaf) -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:02:19Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>6da6d7dd-3fbb-4369-a86a-f8b6bad1fa4c</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:02:19Z</DocumentModifiedWhen>
+  <DocumentName>Nicaragua Dipilto (decaf)</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Coffees/Nicaragua-Dipilto-(decaf)</CodeName>
+    <GUID>96b9b715-e8a4-4bb2-9d35-f1296b1d7296</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>Quite a peculiar coffee bean, grown at the El Progresso farm in Nueva Segovie, which is one of Nicaragua&#39;s smallest municipalities. This region is next to the mountainous border with Honduras. The north is known for its pines, natural hot springs, amazing cliff-side views, and, of course, the quality of the locally produced coffee. This is partially thanks to the evenly distributed rainfall throughout the year and mild temperatures. Nicaragua Dipilto is grown by a cooperation created to protect the rights of local farming families in the region. Despite being more of an aggregate of family businesses, it has a central cupping lab that provides unified and modern quality control.</p>
+
+<p>Dipilto is best prepared with a darker roast than most Central American varietals. It has a medium body with an aftertaste that might remind you of a rich, spicy tea. The coffee has excellent depth, strong and rich, but a balanced aroma. The beans themselves have a nut-butter like polish to them. The aroma will remind you of chocolate, caramel, and blooming spring flowers. The finish is uncommonly long.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Nicaragua Dipilto (decaf)</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[With a medium body and a pleasant aftertaste, try the deep, strong and rich aromas of Nicaragua Dipilto, which comes from a region full of hot springs.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

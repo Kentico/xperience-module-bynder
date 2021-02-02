@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.issue>
+  <IssueDisplayName>New Brazil coffee in stock</IssueDisplayName>
+  <IssueForAutomation>False</IssueForAutomation>
+  <IssueGUID>1b4be61e-9338-44a8-a855-021519eb03c4</IssueGUID>
+  <IssueNewsletterID>
+    <CodeName>Newsletter</CodeName>
+    <GUID>bdb7f7ac-cd44-440c-8814-99054c1f4026</GUID>
+    <ObjectType>newsletter.newsletter</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueNewsletterID>
+  <IssuePreheader>
+    <![CDATA[{% Recipient.FirstName == "" ? "Hello" : "Hi " + Recipient.FirstName |(identity)GlobalAdministrator|(hash)87adfcb444a92e9b099bd86dbc779c5380c0d55e44d0e58d5763e8200e267385%}! Come and taste our new coffee with a creamy mouth sensation, and a cherry and chocolaty flavor.]]>
+  </IssuePreheader>
+  <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+  <IssueSenderName>Zoey from Dancing Goat</IssueSenderName>
+  <IssueSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </IssueSiteID>
+  <IssueSubject>Try our new Brazilian coffee!</IssueSubject>
+  <IssueTemplateID>
+    <CodeName>CoreDemoEmailTemplate3zones</CodeName>
+    <GUID>9ef2d3da-bc62-4484-88e3-1a6a1809c018</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueTemplateID>
+  <IssueText />
+  <IssueUseUTM>True</IssueUseUTM>
+  <IssueUTMCampaign>newsletter</IssueUTMCampaign>
+  <IssueUTMSource>
+    <![CDATA[dancinggoatcorenewsletter_new_brazil_coffee_in_stock]]>
+  </IssueUTMSource>
+  <IssueWidgets>
+    <Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <Zones>
+        <Zone>
+          <Identifier>zone1</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>8f63fed4-c009-453d-a65f-41fb2efecda7</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+                    <![CDATA[Keeping you up to date with the latest and greatest from the wonderful world of coffee.]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>12bcde82-c005-4772-a757-16e5c1e1d6c1</Identifier>
+              <TypeIdentifier>e2605693-0586-4627-8ffb-88ba572928f5</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>ProductGUID</Name>
+                  <Value>a3c11d36-bba9-4c39-b370-4f42d40331b9</Value>
+                </Property>
+                <Property>
+                  <Name>ButtonText</Name>
+                  <Value>Learn More</Value>
+                </Property>
+                <Property>
+                  <Name>UTMContent</Name>
+                  <Value>coffeeproductlink</Value>
+                </Property>
+                <Property>
+                  <Name>AlternativeProductImage</Name>
+                  <Value />
+                </Property>
+                <Property>
+                  <Name>AlternativeProductName</Name>
+                  <Value />
+                </Property>
+                <Property>
+                  <Name>AlternativeProductDescription</Name>
+                  <Value />
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+        <Zone>
+          <Identifier>zone2</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>da44e5cb-1ff0-4ad2-8b7d-01b0e43b99c6</Identifier>
+              <TypeIdentifier>858092f1-17a8-41fa-883c-19d27ac43936</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>This week’s round up</Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>0c9e6f1f-908a-468c-8743-a7ca538e81a4</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+                    <![CDATA[Here are some interesting articles that might have passed you by.]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>f7f0b789-56ea-4759-840d-daf3e80586b2</Identifier>
+              <TypeIdentifier>71a6323b-2ca9-4acc-a6f9-4876e2763ceb</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>LinkText</Name>
+                  <Value />
+                </Property>
+                <Property>
+                  <Name>UTMContent</Name>
+                  <Value>latestarticleslink</Value>
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+        <Zone>
+          <Identifier>zone3</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>877582fb-11b6-4e3e-8545-5917875607ff</Identifier>
+              <TypeIdentifier>858092f1-17a8-41fa-883c-19d27ac43936</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+                    <![CDATA[Find Your Local Café]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>ec7216c2-b785-4201-aafe-42e6dab573b1</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+                    <![CDATA[Be sure to drop in and savor some excellent coffee.]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>8ec4cec6-ec01-4671-b10e-fefd7a56e9e9</Identifier>
+              <TypeIdentifier>ab776b60-b2ba-452f-95f3-c2d055484b84</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+                    <![CDATA[Become a partner and have your café featured]]>
+                  </Value>
+                </Property>
+                <Property>
+                  <Name>Link</Name>
+                  <Value>~/contacts/</Value>
+                </Property>
+                <Property>
+                  <Name>Color</Name>
+                  <Value>#B49669</Value>
+                </Property>
+                <Property>
+                  <Name>UTMContent</Name>
+                  <Value>cafepartnerlink</Value>
+                </Property>
+                <Property>
+                  <Name>Personas</Name>
+                  <Value />
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>42af7516-8389-4207-8c06-71fdc7166316</Identifier>
+              <TypeIdentifier>dbbd0e5c-1f89-463f-8c3c-c23677794cd2</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>CafePath</Name>
+                  <Value>/Cafes/Los-Angeles</Value>
+                </Property>
+                <Property>
+                  <Name>ButtonText</Name>
+                  <Value>Take me there!</Value>
+                </Property>
+                <Property>
+                  <Name>UTMContent</Name>
+                  <Value>cafelinklosangeles</Value>
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+      </Zones>
+    </Configuration>
+  </IssueWidgets>
+</newsletter.issue>

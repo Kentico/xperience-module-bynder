@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassDisplayName>Contact</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ContactID" columnprecision="0" columntype="integer" guid="6ad3b82c-e741-4d96-a5dd-5709e507e8ff" isPK="true">
+        <properties>
+          <fieldcaption>ContactID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="ContactName" columnsize="50" columntype="text" guid="2d9be81b-57f0-41b8-9cc3-30f0fce58d9c" visible="true">
+        <properties>
+          <fieldcaption>Company name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="ContactStreet" columnsize="50" columntype="text" guid="8373ac76-9ce6-4003-9567-85e6b8148338" visible="true">
+        <properties>
+          <fieldcaption>Street</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="ContactCity" columnsize="50" columntype="text" guid="4213e007-c409-481a-98ca-7aafa5bb8747" visible="true">
+        <properties>
+          <fieldcaption>City</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="ContactCountry" columnsize="100" columntype="text" guid="d88e06a4-ca5e-4c26-af98-ccecc17142eb" visible="true">
+        <properties>
+          <defaultvalue>USA</defaultvalue>
+          <fieldcaption>Country</fieldcaption>
+        </properties>
+        <settings>
+          <AddAllItemsRecord>False</AddAllItemsRecord>
+          <AddNoneRecord>False</AddNoneRecord>
+          <AddSelectCountryRecord>True</AddSelectCountryRecord>
+          <controlname>countrySelector</controlname>
+          <EnableStateSelection>True</EnableStateSelection>
+        </settings>
+      </field>
+      <field column="ContactZipCode" columnsize="15" columntype="text" guid="08cf6b6d-6b38-479a-b0e5-71a85a458c0b" visible="true">
+        <properties>
+          <fieldcaption>Zip code</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="ContactPhone" columnsize="30" columntype="text" guid="524c19f9-319f-4256-94b6-96be498ebc3c" visible="true">
+        <properties>
+          <fieldcaption>Phone</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="ContactEmail" columnsize="400" columntype="text" guid="8f0a8b2d-4618-452a-87a0-0ee47c6210f0" visible="true">
+        <properties>
+          <fieldcaption>Email</fieldcaption>
+        </properties>
+        <settings>
+          <AllowMultipleAddresses>False</AllowMultipleAddresses>
+          <controlname>emailinput</controlname>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>72e4d0af-d9d5-4d2e-902e-195cf766ea38</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>False</ClassHasURL>
+  <ClassIconClass>icon-id-card</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassName>DancingGoatCore.Contact</ClassName>
+  <ClassNodeNameSource>ContactName</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="49bde846-992d-47d1-9335-29735eb6688a" name="ContactCountry" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="7006ca38-020e-4cdb-bc88-05bd5cd8e935" name="ContactCity" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="7cdd4101-ee02-4d8f-94c5-a71a0387b055" name="ContactZipCode" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="8d4f7108-4a1e-45aa-9162-dd3324ad30ca" name="ContactID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="ab54f554-d3f0-4869-a697-374dff611f25" name="ContactStreet" searchable="False" tokenized="True" />
+      <item id="bd1400a8-6816-4ffe-b377-b2dfa4f671d1" name="ContactEmail" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="dec10d40-80c3-4e24-a2fd-704d6f749f70" name="ContactName" searchable="False" tokenized="True" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="eaf5323e-770c-4092-8a5e-93270b6d434d" name="ContactPhone" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>DancingGoatCore_Contact</ClassTableName>
+  <ClassUsePublishFromTo>False</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>48</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Accessories</CodeName>
+    <GUID>88ec5d97-4868-468f-bd2f-ed964bf0a591</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+    <![CDATA[Absolutely no grounds and easy-to-use filters? Yes, it is possible. These paper filters for Chemex coffee makers are different. Their thickness and shape may look strange, but the result will amaze you. Just wash them in hot water before starting and you&#39;re ready to go.]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>9be3f28b-d965-4252-9a7c-8fb4e6c4a121</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/c063e4d0-73d8-443e-a808-ef37181c3b59/chemex-filters]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:43:26Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Chemex</CodeName>
+    <GUID>56e0ed52-bba7-4246-92d1-a44ac1bee53c</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Paper Filters for Chemex</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>CM-F</SKUNumber>
+  <SKUPrice>4.5</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUReorderAt>10</SKUReorderAt>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[These weirdly shaped filters will astonish you&nbsp;by the&nbsp;quality of your coffee.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>1</SKUWeight>
+</ecommerce.sku>

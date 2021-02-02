@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>es-ES</PageUrlPathCulture>
+  <PageUrlPathGUID>4d79d4e1-2c27-420c-9ed0-17edad88d9c0</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Store/Brewers</CodeName>
+    <GUID>f8f60af4-d82e-4654-bbda-177367fc823d</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>es-ES/Store/Brewers</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[7CA746035AE63C824D158B3011103859A2BA82164D2E13025DA7F030ADB2EB84]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

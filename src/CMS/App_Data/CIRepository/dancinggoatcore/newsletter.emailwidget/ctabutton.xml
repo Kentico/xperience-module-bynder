@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.emailwidget>
+  <EmailWidgetCode>
+<![CDATA[
+{% /*
+The CTA button widget renders a button with a custom link (URL selector), with UTM content parameter and a selected color.
+
+Thanks to the Recipient.IsInPersona macro, the widget allows to be displayed for chosen personas only. The macro accepts multiple personas and returns TRUE if no persona is
+selected.
+
+If the link includes a URL parameter already, this email widget may produce an invalid URL.
+*/ @%}
+
+{% if(Recipient.IsInPersona(Personas)) { %}
+
+{%
+  utmContentParameter = UTMContent == String.Empty ? String.Empty : "?utm_content=" + UTMContent;
+  buttonLink = Link + utmContentParameter;
+  return;
+#%}
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td align="center" style="padding: 10px 0px 15px 0px;" class="padding">
+            <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                <tr>
+                    <td align="center" style="border-radius: 3px;" bgcolor="{% Color %}">
+                        <a href="{% buttonLink %}" target="_blank"
+                            style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; border-radius: 3px; padding: 15px 25px; border: 1px solid {% Color %}; display: inline-block;"
+                            class="mobile-button">{% Text == String.Empty ? "Your CTA here" : Text #%}</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+{% } |(identity)GlobalAdministrator|(hash)197fa1f24c7189fa9d533cd4fb5a3848f26ea54195b9857c0dc80cfa42ac48ba%}
+]]>
+  </EmailWidgetCode>
+  <EmailWidgetDescription>
+    <![CDATA[A call-to-action button with color selection and UTM content.]]>
+  </EmailWidgetDescription>
+  <EmailWidgetDisplayName>CTA button</EmailWidgetDisplayName>
+  <EmailWidgetGuid>ab776b60-b2ba-452f-95f3-c2d055484b84</EmailWidgetGuid>
+  <EmailWidgetIconCssClass>icon-chain</EmailWidgetIconCssClass>
+  <EmailWidgetName>CTAButton</EmailWidgetName>
+  <EmailWidgetProperties>
+    <form version="2">
+      <field column="Text" columnsize="200" columntype="text" guid="9bf0a9a2-54bc-4f57-8f86-f4a8ee629500" visible="true">
+        <properties>
+          <fieldcaption>Text</fieldcaption>
+          <fielddescription>Sets the text displayed on the CTA button.</fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="Link" columnsize="450" columntype="text" guid="4c3afd66-7d30-41cf-8c02-29fa495c8051" visible="true">
+        <properties>
+          <fieldcaption>URL</fieldcaption>
+          <fielddescription>Sets the link the CTA button points to.</fielddescription>
+        </properties>
+        <settings>
+          <Autoresize>
+<![CDATA[
+<AutoResize>
+  <autoresize>noresize</autoresize>
+  <autoresize_width />
+  <autoresize_height />
+  <autoresize_maxsidesize />
+</AutoResize>
+]]>
+          </Autoresize>
+          <Configuration>True</Configuration>
+          <controlname>URLSelector</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+        </settings>
+      </field>
+      <field allowempty="true" column="Color" columnsize="200" columntype="text" guid="5d306db1-075e-443e-b341-888c45074987" visible="true">
+        <properties>
+          <defaultvalue>#B49669</defaultvalue>
+          <fieldcaption>Color</fieldcaption>
+          <fielddescription>Sets the color of the CTA button.</fielddescription>
+        </properties>
+        <settings>
+          <controlname>RadioButtonsControl</controlname>
+          <Options>
+<![CDATA[
+#B49669;Brown
+#272219;Gold
+]]>
+          </Options>
+          <RepeatDirection>vertical</RepeatDirection>
+          <RepeatLayout>Flow</RepeatLayout>
+          <SortItems>False</SortItems>
+        </settings>
+      </field>
+      <field allowempty="true" column="UTMContent" columnsize="200" columntype="text" guid="cadd85c5-73b5-4ead-b28e-298ad3d7c0ae" visible="true">
+        <properties>
+          <fieldcaption>UTM content</fieldcaption>
+          <fielddescription>Specifies a UTM parameter for the CTA button link.</fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="Personas" columnsize="400" columntype="text" guid="795f7ccf-0c6b-4006-a028-0d314351cc56" visible="true">
+        <properties>
+          <fieldcaption>Personas</fieldcaption>
+          <fielddescription>
+<![CDATA[
+Specifies personas the CTA button is displayed to.
+If no persona is selected, widget is displayed to all recipients.
+]]>
+          </fielddescription>
+        </properties>
+        <settings>
+          <AddGlobalObjectNamePrefix>False</AddGlobalObjectNamePrefix>
+          <AddGlobalObjectSuffix>False</AddGlobalObjectSuffix>
+          <AllowAll>False</AllowAll>
+          <AllowDefault>False</AllowDefault>
+          <AllowEditTextBox>False</AllowEditTextBox>
+          <AllowEmpty>True</AllowEmpty>
+          <controlname>Uni_selector</controlname>
+          <DialogWindowName>SelectionDialog</DialogWindowName>
+          <EditDialogWindowHeight>700</EditDialogWindowHeight>
+          <EditDialogWindowWidth>1000</EditDialogWindowWidth>
+          <EditWindowName>EditWindow</EditWindowName>
+          <EncodeOutput>True</EncodeOutput>
+          <GlobalObjectSuffix ismacro="true">{$general.global$}</GlobalObjectSuffix>
+          <ItemsPerPage>25</ItemsPerPage>
+          <LocalizeItems>True</LocalizeItems>
+          <MaxDisplayedItems>25</MaxDisplayedItems>
+          <MaxDisplayedTotalItems>50</MaxDisplayedTotalItems>
+          <ObjectType>Personas.Persona</ObjectType>
+          <RemoveMultipleCommas>False</RemoveMultipleCommas>
+          <ReturnColumnName>PersonaGUID</ReturnColumnName>
+          <ReturnColumnType>id</ReturnColumnType>
+          <SelectionMode>2</SelectionMode>
+          <UseDefaultNameFilter>True</UseDefaultNameFilter>
+          <ValuesSeparator>;</ValuesSeparator>
+        </settings>
+      </field>
+    </form>
+  </EmailWidgetProperties>
+  <EmailWidgetSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </EmailWidgetSiteID>
+</newsletter.emailwidget>

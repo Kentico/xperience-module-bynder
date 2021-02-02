@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>100</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Grinders</CodeName>
+    <GUID>42555651-4dd5-44fa-af76-9a0fee216f54</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+Are you looking for a firm, extra-durable, but also a little static grinder? The Porlex Tall Ceramic Burr Grinder is all from stainless steel except for the burrs. Those strong conical burrs are ceramic, so they won&#39;t rust and are also sharper than steel burrs will ever be. The grinder is also able to be adjusted for many different variants of grind setting to cover all your needs.<br />
+<br />
+As to the size, the grinder is 7.3&quot; (18.5 cm) tall and 1.9&quot; (4.9 cm)&nbsp; in diameter, without the handle, so it perfectly fits your hands. You can put up to 1 oz (30 g) of beans inside. It&#39;s also very easy to wash.
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>3da93cda-2380-48b8-be82-680d3ef30a17</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/7b10ff9b-0a7c-4709-b983-e0edf698ac21/porlex-tall-ceramic-burr-grinder]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:57:54Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Porlex</CodeName>
+    <GUID>fa405a46-f07f-47b3-b0dc-47f4c574fe87</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Porlex Tall Ceramic Burr Grinder</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>POR-GR-TALL</SKUNumber>
+  <SKUPrice>32.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[An extra-durable grinder with strong conical ceramic burrs&nbsp;that fits perfectly in your hands.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>1</SKUWeight>
+</ecommerce.sku>

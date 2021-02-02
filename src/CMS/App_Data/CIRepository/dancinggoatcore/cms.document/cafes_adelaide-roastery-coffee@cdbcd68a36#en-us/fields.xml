@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.dancinggoatcore.cafe>
+  <CafeCity>New York</CafeCity>
+  <CafeCountry>USA;NewYork</CafeCountry>
+  <CafeIsCompanyCafe>False</CafeIsCompanyCafe>
+  <CafeName>
+    <![CDATA[Adelaide Roastery & Coffee]]>
+  </CafeName>
+  <CafePhone>917-524-6069</CafePhone>
+  <CafeStreet>11 E 21st St</CafeStreet>
+  <CafeZipCode>10010</CafeZipCode>
+</documentfields.dancinggoatcore.cafe>

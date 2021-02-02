@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttypescopeclass>
+  <Parent>
+    <GUID>5b24c039-6ba5-4b30-b171-f4f0403e4487</GUID>
+    <ObjectType>cms.documenttypescope</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.documenttype_CMS.Folder">
+      <ClassID>
+        <CodeName>CMS.Folder</CodeName>
+        <GUID>8fa3e50a-b5ef-48f1-b506-fad8f3f9e50a</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.AboutUs">
+      <ClassID>
+        <CodeName>DancingGoatCore.AboutUs</CodeName>
+        <GUID>6adbb30c-0b8d-423e-b3f2-54a3f72266f0</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.ArticleSection">
+      <ClassID>
+        <CodeName>DancingGoatCore.ArticleSection</CodeName>
+        <GUID>a47f519e-84f0-4fa5-aa6a-8cbc1c69eca5</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.CafeSection">
+      <ClassID>
+        <CodeName>DancingGoatCore.CafeSection</CodeName>
+        <GUID>18919c27-0517-4559-8d95-fc13612bca12</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.Contact">
+      <ClassID>
+        <CodeName>DancingGoatCore.Contact</CodeName>
+        <GUID>72e4d0af-d9d5-4d2e-902e-195cf766ea38</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.Contacts">
+      <ClassID>
+        <CodeName>DancingGoatCore.Contacts</CodeName>
+        <GUID>17cdefdd-c484-4a08-bce2-2ffe984eed19</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.Generator">
+      <ClassID>
+        <CodeName>DancingGoatCore.Generator</CodeName>
+        <GUID>babaa8e4-a420-496e-aa3b-51be3feed331</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.Home">
+      <ClassID>
+        <CodeName>DancingGoatCore.Home</CodeName>
+        <GUID>46078e4e-536a-402a-a582-db560c54c7f7</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.ManufacturerSection">
+      <ClassID>
+        <CodeName>DancingGoatCore.ManufacturerSection</CodeName>
+        <GUID>1aa09b02-feac-4d64-83a5-82e358b8b1fe</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.StoreSection">
+      <ClassID>
+        <CodeName>DancingGoatCore.StoreSection</CodeName>
+        <GUID>bcb63223-1117-45cc-a79e-c7e1a4821f85</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ClassID>
+    </Binding>
+  </Bindings>
+</cms.documenttypescopeclass>

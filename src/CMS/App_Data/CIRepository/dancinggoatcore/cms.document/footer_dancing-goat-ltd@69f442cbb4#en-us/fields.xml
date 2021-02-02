@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.dancinggoatcore.contact>
+  <ContactCity>Chicago</ContactCity>
+  <ContactCountry>USA;Illinois</ContactCountry>
+  <ContactEmail>dancinggoat@localhost.local</ContactEmail>
+  <ContactName>Dancing Goat Ltd</ContactName>
+  <ContactPhone>(+1) 773-740-4882</ContactPhone>
+  <ContactStreet>62 E Lake St</ContactStreet>
+  <ContactZipCode>60601</ContactZipCode>
+</documentfields.dancinggoatcore.contact>

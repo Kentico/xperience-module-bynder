@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>100</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Grinders</CodeName>
+    <GUID>42555651-4dd5-44fa-af76-9a0fee216f54</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>Who can make a cup of coffee if not an Italian? This Italian-made espresso electric grinder is one of the best solutions for home and professional use. The Macap M4D is a super easy to use and yet highly expert appliance &ndash; only one button, an LED display providing information to ensure a precise dose, and a stepless adjustment wheel for the best quality grinding. This beautiful grinder and its flat steel burrs are powered by a high-performance 250-Watt engine.</p>
+
+<ul>
+	<li>Stepless adjustment wheel for grinding</li>
+	<li>Three&nbsp;different settings of grinding dosage &ndash; 1-cup, 2-cup, and continuous</li>
+	<li>250-Watt engine</li>
+	<li>Made in Venice, Italy</li>
+</ul>
+
+<p>Specifications:</p>
+
+<ul>
+	<li>16.9&quot; H x 7.5&quot; W x 12.2&quot; D (43 cm H x 19 cm W x 31 cm D)</li>
+	<li>22 lb (10 kg)</li>
+	<li>Blade diameter: 2.3&quot; (5.8 cm)</li>
+</ul>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>0b94580c-2958-4ad1-ba19-4362f47c38fa</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/b2b5f42d-d719-4602-ba30-fa1cf387623a/macap-m4d]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:56:01Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Macap</CodeName>
+    <GUID>421a0ec2-23a7-4321-9dec-e2689da5966b</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Macap M4D</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>MAC-GR-M4D</SKUNumber>
+  <SKUPrice>594.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Macap M4D is an easy-to-use, highly expert electric grinder with a stepless adjustment wheel for various settings.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>24</SKUWeight>
+</ecommerce.sku>

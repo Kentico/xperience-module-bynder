@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.skuoption>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>9409c8f4-6db9-47b7-81c8-fa53b9487b85</SKUGUID>
+  <SKUInStoreFrom>2020-08-03 07:13:43Z</SKUInStoreFrom>
+  <SKUName>Plastic</SKUName>
+  <SKUNeedsShipping>False</SKUNeedsShipping>
+  <SKUOptionCategoryID>
+    <CodeName>BrewerMaterial</CodeName>
+    <GUID>eaf18001-065b-4db5-8e06-afc95cb1af4d</GUID>
+    <ObjectType>ecommerce.optioncategory</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUOptionCategoryID>
+  <SKUOrder>3</SKUOrder>
+  <SKUPrice>0</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+</ecommerce.skuoption>

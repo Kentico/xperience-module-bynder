@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>1</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Accessories</CodeName>
+    <GUID>88ec5d97-4868-468f-bd2f-ed964bf0a591</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+    <![CDATA[Enjoy retro V60-01 porcelain filters, made by the Japanese company Hario, with bleached paper filters that sweeten your bitter coffee. These paper filters allow the coffee to flow through the filter while at the same time trapping the coffee grounds inside.]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>35546ac0-4f55-454e-82db-73514e14338b</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/33f015a5-5808-4c34-aeec-bbf1bc9480ae/bleached-paper-filters]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:33:12Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Hario</CodeName>
+    <GUID>3e2bc5f2-e9c0-4928-978e-9009f8ada609</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Bleached Paper Filters V60-01</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>HAR-V60-01-F</SKUNumber>
+  <SKUPrice>3.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUReorderAt>10</SKUReorderAt>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>Bleached paper filters for Hario V60-01.</SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>1</SKUWeight>
+</ecommerce.sku>

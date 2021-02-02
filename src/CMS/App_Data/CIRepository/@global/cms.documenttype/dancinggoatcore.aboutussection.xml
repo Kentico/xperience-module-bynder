@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassDisplayName>About Us section</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="AboutUsSectionID" columnprecision="0" columntype="integer" guid="44622d75-22b4-489f-8cfc-0fab9fa921a3" isPK="true">
+        <properties>
+          <fieldcaption>AboutUsSectionID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="AboutUsSectionHeading" columnsize="200" columntype="text" guid="32b8c181-e9be-4105-9822-dba3e21c9718" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Heading</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="AboutUsSectionImage" columntype="file" guid="ea5264b2-d040-4d81-914d-da88d354f8ba" visible="true">
+        <properties>
+          <fieldcaption>Image</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>DirectUploadControl</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <field column="AboutUsSectionText" columntype="longtext" guid="b5f8778d-4105-47e4-96b9-4a9ebb994584" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Text</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>HtmlAreaControl</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>56c2a568-d984-4d80-85f3-f80c94567979</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>False</ClassHasURL>
+  <ClassIconClass>icon-question-circle</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassName>DancingGoatCore.AboutUsSection</ClassName>
+  <ClassNodeNameSource>AboutUsSectionHeading</ClassNodeNameSource>
+  <ClassSearchContentColumn>AboutUsSectionText</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchImageColumn />
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="False" azuresearchable="False" azuresortable="False" content="False" id="7ec60473-a43d-4b91-aeea-1eb9a41e8ba0" name="AboutUsSectionImage" searchable="False" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="bd1aa1ac-9aea-4feb-8b42-a693fc4bb56e" name="AboutUsSectionID" searchable="True" tokenized="False" />
+      <item azurecontent="False" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="False" id="c8138f2a-f981-4565-944c-35b557839453" name="AboutUsSectionHeading" searchable="True" tokenized="False" />
+      <item azurecontent="True" azurefacetable="False" azurefilterable="False" azureretrievable="True" azuresearchable="False" azuresortable="False" content="True" id="dcdf42a7-7cdd-4b7e-ad15-167f7555bbf0" name="AboutUsSectionText" searchable="True" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>AboutUsSectionHeading</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>DancingGoatCore_AboutUsSection</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

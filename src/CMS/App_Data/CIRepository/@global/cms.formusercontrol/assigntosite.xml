@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.formusercontrol>
+  <UserControlCodeName>AssignToSite</UserControlCodeName>
+  <UserControlDescription>
+    <![CDATA[Provides a check box for assigning the object to a site. The site is chosen according to a query string parameter 'siteid' or (if no siteid parameter is defined) to a current site.]]>
+  </UserControlDescription>
+  <UserControlDisplayName>Assign to site</UserControlDisplayName>
+  <UserControlFileName>inherited</UserControlFileName>
+  <UserControlForBinary>False</UserControlForBinary>
+  <UserControlForBoolean>True</UserControlForBoolean>
+  <UserControlForDateTime>False</UserControlForDateTime>
+  <UserControlForDecimal>False</UserControlForDecimal>
+  <UserControlForDocAttachments>False</UserControlForDocAttachments>
+  <UserControlForDocRelationships>False</UserControlForDocRelationships>
+  <UserControlForFile>False</UserControlForFile>
+  <UserControlForGuid>False</UserControlForGuid>
+  <UserControlForInteger>False</UserControlForInteger>
+  <UserControlForLongText>False</UserControlForLongText>
+  <UserControlForText>False</UserControlForText>
+  <UserControlGUID>18eb8416-a91f-4b7c-aaa1-e097e2ddeed1</UserControlGUID>
+  <UserControlIsSystem>False</UserControlIsSystem>
+  <UserControlParameters>
+    <form version="2">
+      <field column="Caption" guid="368a3b38-0634-4137-8d13-ae158a93911c" resolvedefaultvalue="False" displayinsimplemode="" visible="">
+        <settings>
+          <controlname />
+        </settings>
+        <properties>
+          <defaultvalue ismacro="true">
+<![CDATA[
+{% siteName=(QueryString.siteid!=null)?GetObject("CMS.Site",QueryString.siteid).DisplayName:CurrentSite.SiteDisplayName;
+String.FormatString(GetResourceString("general.assigntosite"),siteName) |(identity)GlobalAdministrator|(hash)fc4e2b5a4801b0427fc0b0f6efc13a81f855a3e11f10a9a686f6b420c84254a1%}
+]]>
+          </defaultvalue>
+          <fieldcaption />
+          <fielddescription />
+        </properties>
+      </field>
+      <field column="ObjectType" guid="87c7cff0-b339-4e69-bdc3-911c120d3b70" displayinsimplemode="" visible="">
+        <settings>
+          <controlname />
+          <Macro />
+          <SortItems />
+        </settings>
+        <properties>
+          <defaultvalue>
+            <![CDATA[{% UIContext.EditedObject.TypeInfo.SiteBinding |(identity)GlobalAdministrator|(hash)ee6a0a26ae59f679ba7b2d0017cf8a7109bd38ab9ebff1bafeee4c56f8570576%}]]>
+          </defaultvalue>
+          <fieldcaption />
+          <fielddescription />
+        </properties>
+      </field>
+      <field column="TargetObjectID" guid="7cf54d93-2c28-4389-b3cf-7138dc8b9a66" displayinsimplemode="" visible="">
+        <settings>
+          <AutoCompleteEnableCaching />
+          <AutoCompleteFirstRowSelected />
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem />
+          <controlname />
+          <FilterMode />
+          <Trim />
+        </settings>
+        <properties>
+          <defaultvalue>
+            <![CDATA[{? if (siteid != null) {siteid} else {CurrentSite.SiteID}|(identity)GlobalAdministrator|(hash)182d621dfcf20019676a54fcf878c3be29f835f014a03df41a0e3632a8969c0b?}]]>
+          </defaultvalue>
+          <fieldcaption />
+        </properties>
+      </field>
+    </form>
+  </UserControlParameters>
+  <UserControlParentID>
+    <CodeName>ObjectBindingControl</CodeName>
+    <GUID>53d2a64f-afd8-4538-8072-06203984b32a</GUID>
+    <ObjectType>cms.formusercontrol</ObjectType>
+  </UserControlParentID>
+  <UserControlPriority>0</UserControlPriority>
+  <UserControlShowInCustomTables>False</UserControlShowInCustomTables>
+  <UserControlShowInDocumentTypes>False</UserControlShowInDocumentTypes>
+  <UserControlShowInReports>False</UserControlShowInReports>
+  <UserControlShowInSystemTables>False</UserControlShowInSystemTables>
+  <UserControlShowInWebParts>False</UserControlShowInWebParts>
+</cms.formusercontrol>

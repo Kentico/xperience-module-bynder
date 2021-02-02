@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ma.automationstep>
+  <StepActionParameters />
+  <StepAllowReject>True</StepAllowReject>
+  <StepDefinition>
+    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <TimeoutEnabled>false</TimeoutEnabled>
+      <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
+      <SourcePoints>
+        <SourcePoint xsi:type="ConditionSourcePoint" Guid="20360750-1b61-4620-a188-91f285f0c870">
+          <Label>
+            <![CDATA[Contact has made a purchase within 10 days after receiving the birthday coupon]]>
+          </Label>
+          <Text />
+          <Tooltip />
+          <Condition>
+            <![CDATA[{%Rule("(Contact.DidActivities(\"purchase\", ToInt(10), false))", "<rules><r pos=\"0\" par=\"\" op=\"or\" n=\"CMSContactHasDoneFollowingActivitiesInTheLastXDays\" ><p n=\"activities\"><t>Purchase</t><v>purchase</v><r>1</r><d>select activities</d><vt>text</vt><tv>0</tv></p><p n=\"days\"><t>10</t><v>10</v><r>0</r><d>enter days</d><vt>integer</vt><tv>1</tv></p><p n=\"_any\"><t>any</t><v>false</v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"_perfectum\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)939645a8391d6cb4f04ad5260e5a46e610aa1068052d4147cca8783e5a59bbb5%}]]>
+          </Condition>
+          <Type>1</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+        <SourcePoint xsi:type="ElseSourcePoint" Guid="4e90c7c9-011a-4359-84fe-d02910e96184">
+          <Label>Else</Label>
+          <Type>2</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+      </SourcePoints>
+      <Position>
+        <X>2730</X>
+        <Y>720</Y>
+      </Position>
+    </Step>
+  </StepDefinition>
+  <StepDisplayName>Condition</StepDisplayName>
+  <StepGUID>3a9ce7b2-0655-4064-bd11-154b95e36299</StepGUID>
+  <StepName>Condition</StepName>
+  <StepRolesSecurity>0</StepRolesSecurity>
+  <StepType>8</StepType>
+  <StepUsersSecurity>0</StepUsersSecurity>
+  <StepWorkflowID>
+    <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+    <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </StepWorkflowID>
+  <StepWorkflowType>3</StepWorkflowType>
+</ma.automationstep>

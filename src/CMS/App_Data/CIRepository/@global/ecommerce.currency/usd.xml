@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.currency>
+  <CurrencyCode>USD</CurrencyCode>
+  <CurrencyDisplayName>U.S. Dollar</CurrencyDisplayName>
+  <CurrencyEnabled>True</CurrencyEnabled>
+  <CurrencyFormatString>${0:0.00}</CurrencyFormatString>
+  <CurrencyGUID>0715559b-8eb3-44e8-86c3-1cf0ca5d93fa</CurrencyGUID>
+  <CurrencyIsMain>True</CurrencyIsMain>
+  <CurrencyName>USD</CurrencyName>
+  <CurrencyRoundTo>2</CurrencyRoundTo>
+</ecommerce.currency>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>es-ES</PageUrlPathCulture>
+  <PageUrlPathGUID>41e00449-0b62-4064-89a4-58c08053302e</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Articles/Articles-under-workflow/Donate-with-us</CodeName>
+    <GUID>aeea45aa-13e6-4282-a392-81e96d0c4ec3</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>es-ES/Articles/Donate-with-us</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[46BE1B257E243B8D58EF410E024F22DB0295B9712B5AF99CCABFC4C65DD1D3F0]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

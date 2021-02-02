@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateDisplayName>E-commerce - Order notification to administrator</EmailTemplateDisplayName>
+  <EmailTemplateGUID>5d34d19e-672f-4b54-a24f-480dc7b8683e</EmailTemplateGUID>
+  <EmailTemplateName>Ecommerce.OrderNotificationToAdmin</EmailTemplateName>
+  <EmailTemplateSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </EmailTemplateSiteID>
+  <EmailTemplateText>
+<![CDATA[
+<html><head></head><body> 
+  <h1>New order in your shop</h1>
+  <p>
+    A new order was created in your shop.
+  </p>
+  <p>
+    Check the <i>E-commerce - Order notification to customer</i> email template to 
+    see a more complex template example.
+  </p>
+  </body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>ecommerce</EmailTemplateType>
+</cms.emailtemplate>

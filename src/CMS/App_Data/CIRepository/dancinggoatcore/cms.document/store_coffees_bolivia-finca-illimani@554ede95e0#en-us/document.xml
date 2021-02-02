@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Bolivia Finca Illimani -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 07:58:48Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>e532b165-739b-412c-83b4-19f3452c2983</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 07:58:48Z</DocumentModifiedWhen>
+  <DocumentName>Bolivia Finca Illimani</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Coffees/Bolivia-Finca-Illimani</CodeName>
+    <GUID>fb943496-10df-40f5-8645-a19797ba61d3</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>This is the story of a man&nbsp;that&nbsp;had&nbsp;worked long hard years since his childhood on a coffee farm. His lifelong dream was to have his own coffee farm. Then, in his thirties, he was able to buy a farm located near Caranvi in the Bolivian Andes. However, even though his farm isn&#39;t far from La Paz, there are no roads, and he and his employees have to carry their crop to the nearest road. Too much work, you say? Well, just taste the coffee and you will change your opinion very quickly.</p>
+
+<p>The flavor of the Finca Illimani Anastacio Cadena Cascara is like marmalade, nothing more, just this, pure and simple, not fussy at all.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Bolivia Finca Illimani</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Coming from the Bolivian Andes, Finca Illimani tastes of pure marmalade, just like you&#39;ve always&nbsp;dreamt of.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassDisplayName>Social link</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="SocialLinkID" columnprecision="0" columntype="integer" guid="20a1ab6f-1f42-41b8-a750-9a2d36d20da7" isPK="true">
+        <properties>
+          <fieldcaption>SocialLinkID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="SocialLinkName" columnsize="30" columntype="text" guid="02a211e8-c869-4fc4-8d45-e0e13038b629" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="SocialLinkTitle" columnsize="50" columntype="text" guid="2773d92b-b2be-497f-ba44-33ea2b131f7d" translatefield="true" visible="true">
+        <properties>
+          <defaultvalue>Follow us</defaultvalue>
+          <fieldcaption>Title</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="SocialLinkUrl" columnsize="200" columntype="text" guid="2cdb3eba-1dba-47fc-af7e-3dd2042b0885" visible="true">
+        <properties>
+          <fieldcaption>Link</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="SocialLinkIcon" columntype="file" guid="24b95c0b-bf56-44de-96f7-79275cd88620" visible="true">
+        <properties>
+          <fieldcaption>Icon</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize>custom</Autoresize>
+          <Autoresize_Height>45</Autoresize_Height>
+          <Autoresize_MaxSideSize>0</Autoresize_MaxSideSize>
+          <Autoresize_Width>45</Autoresize_Width>
+          <controlname>DirectUploadControl</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>7eec7a71-92d7-4d2f-8f85-3def3540bf24</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>False</ClassHasURL>
+  <ClassIconClass>icon-external-link</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassName>DancingGoatCore.SocialLink</ClassName>
+  <ClassNodeNameSource>SocialLinkName</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>False</ClassSearchEnabled>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="09d671fd-bb43-44f8-af27-a169a1169962" name="SocialLinkUrl" searchable="False" tokenized="True" />
+      <item content="False" id="590ca803-6ea3-4bf5-a75a-70e3eff5078b" name="SocialLinkIcon" searchable="False" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="931ac95d-bef2-409f-9ba5-0dd61f8bdffa" name="SocialLinkTitle" searchable="False" tokenized="True" />
+      <item azureretrievable="True" content="False" id="999309d7-4281-49cf-be70-29432ac50bae" name="SocialLinkID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="e8a674c4-8a4f-4f7a-b499-7bb3605aca10" name="SocialLinkName" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>DancingGoatCore_SocialLink</ClassTableName>
+  <ClassUsePublishFromTo>False</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Kenya Gakuyuni AA -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:00:28Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>400242ae-480e-438b-96f6-e386f0811bb9</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:00:28Z</DocumentModifiedWhen>
+  <DocumentName>Kenya Gakuyuni AA</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Coffees/Kenya-Gakuyuni-AA</CodeName>
+    <GUID>70d2b993-1ab7-4e9e-a24c-0bc5ed2f426d</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>What are the best beans for filtered coffees, you may ask? Well, what about a coffee with the sweet flavor of acidity, where you can also taste plums, rhubarb, or tangerines? Yes, this amazing coffee comes from Mt. Kenya in the Ngariama region of Kenya and will fulfill all your needs.</p>
+Gakuyuni AA is made by a small business where they grow a hybrid variety of the Arabica coffee plant, so you can be assured that you are drinking a rare and unique coffee.
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Kenya Gakuyuni AA</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Plums, rhubarb, tangerines? Yes, that&#39;s the taste of Kenya Gakuyuni AA, made from the Arabica coffee plant.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

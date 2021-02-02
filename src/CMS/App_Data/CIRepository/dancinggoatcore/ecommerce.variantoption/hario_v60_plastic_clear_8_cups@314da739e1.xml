@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.variantoption>
+  <Parent>
+    <GUID>145acda7-a0f9-46b4-aac5-5f3e39844734</GUID>
+    <ObjectType>ecommerce.skuvariant</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="ecommerce.skuoption_9409c8f4-6db9-47b7-81c8-fa53b9487b85_ecommerce.optioncategory_BrewerMaterial_cms.site_DancingGoatCore_cms.site_DancingGoatCore">
+      <OptionSKUID>
+        <GUID>9409c8f4-6db9-47b7-81c8-fa53b9487b85</GUID>
+        <ObjectType>ecommerce.skuoption</ObjectType>
+        <Site>
+          <CodeName>DancingGoatCore</CodeName>
+          <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+          <ObjectType>cms.site</ObjectType>
+        </Site>
+        <Parent>
+          <CodeName>BrewerMaterial</CodeName>
+          <GUID>eaf18001-065b-4db5-8e06-afc95cb1af4d</GUID>
+          <ObjectType>ecommerce.optioncategory</ObjectType>
+          <Site>
+            <CodeName>DancingGoatCore</CodeName>
+            <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+            <ObjectType>cms.site</ObjectType>
+          </Site>
+        </Parent>
+      </OptionSKUID>
+    </Binding>
+    <Binding id="ecommerce.skuoption_c9447e4a-cbe0-40cf-8706-3b0a6db53b02_ecommerce.optioncategory_VolumeInCups_cms.site_DancingGoatCore_cms.site_DancingGoatCore">
+      <OptionSKUID>
+        <GUID>c9447e4a-cbe0-40cf-8706-3b0a6db53b02</GUID>
+        <ObjectType>ecommerce.skuoption</ObjectType>
+        <Site>
+          <CodeName>DancingGoatCore</CodeName>
+          <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+          <ObjectType>cms.site</ObjectType>
+        </Site>
+        <Parent>
+          <CodeName>VolumeInCups</CodeName>
+          <GUID>66fd2742-e6a8-4d91-921a-7930aa48e877</GUID>
+          <ObjectType>ecommerce.optioncategory</ObjectType>
+          <Site>
+            <CodeName>DancingGoatCore</CodeName>
+            <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+            <ObjectType>cms.site</ObjectType>
+          </Site>
+        </Parent>
+      </OptionSKUID>
+    </Binding>
+    <Binding id="ecommerce.skuoption_f9590310-4331-44e5-ab11-f0d0502ea548_ecommerce.optioncategory_Color_cms.site_DancingGoatCore_cms.site_DancingGoatCore">
+      <OptionSKUID>
+        <GUID>f9590310-4331-44e5-ab11-f0d0502ea548</GUID>
+        <ObjectType>ecommerce.skuoption</ObjectType>
+        <Site>
+          <CodeName>DancingGoatCore</CodeName>
+          <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+          <ObjectType>cms.site</ObjectType>
+        </Site>
+        <Parent>
+          <CodeName>Color</CodeName>
+          <GUID>e4e32b36-0785-4db7-826b-88ea921a3095</GUID>
+          <ObjectType>ecommerce.optioncategory</ObjectType>
+          <Site>
+            <CodeName>DancingGoatCore</CodeName>
+            <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+            <ObjectType>cms.site</ObjectType>
+          </Site>
+        </Parent>
+      </OptionSKUID>
+    </Binding>
+  </Bindings>
+</ecommerce.variantoption>

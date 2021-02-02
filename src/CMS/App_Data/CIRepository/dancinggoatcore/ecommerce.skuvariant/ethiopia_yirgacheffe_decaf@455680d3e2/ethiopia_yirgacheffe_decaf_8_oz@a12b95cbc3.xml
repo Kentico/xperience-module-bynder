@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.skuvariant>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>a2354397-20b6-4d5d-9683-d559ccd9545f</SKUGUID>
+  <SKUName>Ethiopia Yirgacheffe (decaf) (8 oz)</SKUName>
+  <SKUNumber>CO-ETH-YIRGACHEFFE-8-oz</SKUNumber>
+  <SKUParentSKUID>
+    <GUID>06e0f8b5-e2ae-4d47-a36a-98388d02fffe</GUID>
+    <ObjectType>ecommerce.sku</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUParentSKUID>
+  <SKUPrice>6.5</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUWeight>0.5</SKUWeight>
+</ecommerce.skuvariant>

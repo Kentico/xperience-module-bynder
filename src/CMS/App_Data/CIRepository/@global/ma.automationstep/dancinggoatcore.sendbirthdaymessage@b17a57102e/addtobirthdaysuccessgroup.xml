@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ma.automationstep>
+  <StepActionID>
+    <CodeName>Change_group</CodeName>
+    <GUID>003c8e4c-14ad-4451-b8e0-5a8e97f5539e</GUID>
+    <ObjectType>ma.automationaction</ObjectType>
+  </StepActionID>
+  <StepActionParameters>
+    <Parameters>
+      <ContactAction>0</ContactAction>
+      <ContactGroupName>DancingGoatCore.BirthdaySuccessGroup</ContactGroupName>
+    </Parameters>
+  </StepActionParameters>
+  <StepDefinition>
+    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <TimeoutEnabled>false</TimeoutEnabled>
+      <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
+      <SourcePoints>
+        <SourcePoint Guid="92ddb5f3-cb01-45b5-af85-6c351be65fa1">
+          <Label>Default</Label>
+          <Type>0</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+      </SourcePoints>
+      <Position>
+        <X>2910</X>
+        <Y>940</Y>
+      </Position>
+    </Step>
+  </StepDefinition>
+  <StepDisplayName>Add to birthday success group</StepDisplayName>
+  <StepGUID>070e6d8e-6d3b-4236-a10c-b9b43019a533</StepGUID>
+  <StepName>AddToBirthdaySuccessGroup</StepName>
+  <StepRolesSecurity>0</StepRolesSecurity>
+  <StepType>11</StepType>
+  <StepUsersSecurity>0</StepUsersSecurity>
+  <StepWorkflowID>
+    <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+    <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </StepWorkflowID>
+  <StepWorkflowType>3</StepWorkflowType>
+</ma.automationstep>

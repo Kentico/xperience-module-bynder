@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.allowedchildclass>
+  <Parent>
+    <CodeName>DancingGoatCore.FilterPack</CodeName>
+    <GUID>048e057d-8812-4eaa-aff3-b486c568e7be</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.documenttype_CMS.Folder">
+      <ParentClassID>
+        <CodeName>CMS.Folder</CodeName>
+        <GUID>8fa3e50a-b5ef-48f1-b506-fad8f3f9e50a</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.Manufacturer">
+      <ParentClassID>
+        <CodeName>DancingGoatCore.Manufacturer</CodeName>
+        <GUID>dd15d4df-6625-47d0-8638-c4dee8981843</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.ProductSection">
+      <ParentClassID>
+        <CodeName>DancingGoatCore.ProductSection</CodeName>
+        <GUID>20448964-3e1b-4036-b818-1fc4e34dda3a</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+  </Bindings>
+</cms.allowedchildclass>

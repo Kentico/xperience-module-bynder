@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.form>
+  <FormBuilderLayout>
+<![CDATA[
+{
+  "editableAreas": [
+    {
+      "identifier": "DefaultFormBuilderArea",
+      "sections": [
+        {
+          "identifier": "00000000-0000-0000-0000-000000000000",
+          "type": "Kentico.DefaultSection",
+          "zones": [
+            {
+              "identifier": "fb325db1-8942-4c6a-9af2-362adf401a5b",
+              "formComponents": [
+                {
+                  "identifier": "8b5772d7-0e92-4a14-831a-0e11f6657847"
+                },
+                {
+                  "identifier": "b2878eb5-79c1-479f-828f-fc858bfedf3f"
+                },
+                {
+                  "identifier": "187a859f-be94-4a63-968c-74461782acf9"
+                },
+                {
+                  "identifier": "c4282da9-6526-4d1e-98ab-b8359c19c66a"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+]]>
+  </FormBuilderLayout>
+  <FormClassID>
+    <CodeName>bizform.DancingGoatCoreContactUsNew</CodeName>
+    <GUID>7fa7c62a-9223-41b8-be21-ecc41b61fd1e</GUID>
+    <ObjectType>cms.formclass</ObjectType>
+  </FormClassID>
+  <FormClearAfterSave>False</FormClearAfterSave>
+  <FormDisplayName>Contact Us</FormDisplayName>
+  <FormDisplayText>
+    <![CDATA[Thanks! We'll get back to you soon.]]>
+  </FormDisplayText>
+  <FormEmailAttachUploadedDocs>True</FormEmailAttachUploadedDocs>
+  <FormGUID>129d9ced-d72f-407e-a604-7ffde2b638ea</FormGUID>
+  <FormItems>0</FormItems>
+  <FormLogActivity>True</FormLogActivity>
+  <FormName>DancingGoatCoreContactUsNew</FormName>
+  <FormSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FormSiteID>
+  <FormSubmitButtonText />
+</cms.form>

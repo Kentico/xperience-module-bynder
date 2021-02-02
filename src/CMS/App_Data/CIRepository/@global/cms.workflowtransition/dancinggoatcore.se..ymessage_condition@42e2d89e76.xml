@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflowtransition>
+  <Parent>
+    <CodeName>Condition</CodeName>
+    <GUID>3a9ce7b2-0655-4064-bd11-154b95e36299</GUID>
+    <ObjectType>ma.automationstep</ObjectType>
+    <Parent>
+      <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+      <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+      <ObjectType>ma.automationprocess</ObjectType>
+    </Parent>
+  </Parent>
+  <Bindings>
+    <Binding id="ma.automationstep_AddToBirthdaySuccessGroup_ma.automationprocess_DancingGoatCore.SendBirthdayMessage">
+      <TransitionEndStepID>
+        <CodeName>AddToBirthdaySuccessGroup</CodeName>
+        <GUID>070e6d8e-6d3b-4236-a10c-b9b43019a533</GUID>
+        <ObjectType>ma.automationstep</ObjectType>
+        <Parent>
+          <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+          <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+          <ObjectType>ma.automationprocess</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>20360750-1b61-4620-a188-91f285f0c870</TransitionSourcePointGUID>
+      <TransitionType>1</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+        <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+        <ObjectType>ma.automationprocess</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+    <Binding id="ma.automationstep_finished_ma.automationprocess_DancingGoatCore.SendBirthdayMessage">
+      <TransitionEndStepID>
+        <CodeName>finished</CodeName>
+        <GUID>4000e76d-cdcd-45ed-b9d3-6fb1fa5e1cab</GUID>
+        <ObjectType>ma.automationstep</ObjectType>
+        <Parent>
+          <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+          <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+          <ObjectType>ma.automationprocess</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>4e90c7c9-011a-4359-84fe-d02910e96184</TransitionSourcePointGUID>
+      <TransitionType>1</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+        <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+        <ObjectType>ma.automationprocess</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+  </Bindings>
+</cms.workflowtransition>

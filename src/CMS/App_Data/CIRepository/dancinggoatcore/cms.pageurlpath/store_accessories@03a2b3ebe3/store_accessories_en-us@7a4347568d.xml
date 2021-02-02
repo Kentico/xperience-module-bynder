@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>37a5e8eb-0259-489c-85c4-a4952f6f01c2</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Store/Accessories</CodeName>
+    <GUID>53b715f1-e769-4ae2-8c61-49aca4ef3029</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Store/Accessories</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[37BFEAFFFA676A5767BB8B6AA924F3BEE703DC693F42EAB9522BE1C37619683F]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

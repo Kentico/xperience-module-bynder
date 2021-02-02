@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflowtransition>
+  <Parent>
+    <CodeName>start</CodeName>
+    <GUID>44e995fb-c6eb-4fb9-b028-1f81b3573e46</GUID>
+    <ObjectType>ma.automationstep</ObjectType>
+    <Parent>
+      <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+      <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+      <ObjectType>ma.automationprocess</ObjectType>
+    </Parent>
+  </Parent>
+  <Bindings>
+    <Binding id="ma.automationstep_FirstWin_ma.automationprocess_DancingGoatCore.EngageWithInactiveContacts">
+      <TransitionEndStepID>
+        <CodeName>FirstWin</CodeName>
+        <GUID>99648990-5a0c-45a3-9e3f-339a4aa18290</GUID>
+        <ObjectType>ma.automationstep</ObjectType>
+        <Parent>
+          <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+          <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+          <ObjectType>ma.automationprocess</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>34385903-4bd9-4103-b54b-8b29fe140049</TransitionSourcePointGUID>
+      <TransitionType>1</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+        <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+        <ObjectType>ma.automationprocess</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+  </Bindings>
+</cms.workflowtransition>

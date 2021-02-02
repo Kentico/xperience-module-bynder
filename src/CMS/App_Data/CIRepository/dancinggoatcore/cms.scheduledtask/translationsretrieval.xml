@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.scheduledtask>
+  <TaskAllowExternalService>True</TaskAllowExternalService>
+  <TaskAssemblyName>CMS.TranslationServices</TaskAssemblyName>
+  <TaskAvailability>0</TaskAvailability>
+  <TaskClass>CMS.TranslationServices.TranslationsScheduledTask</TaskClass>
+  <TaskCondition />
+  <TaskData />
+  <TaskDeleteAfterLastRun>False</TaskDeleteAfterLastRun>
+  <TaskDisplayName>Translation retrieval</TaskDisplayName>
+  <TaskEnabled>False</TaskEnabled>
+  <TaskGUID>d67f4def-5e9a-44cf-9065-a9d0035fff49</TaskGUID>
+  <TaskInterval>
+    <![CDATA[day;10/14/2015 9:25:18 AM;1;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday]]>
+  </TaskInterval>
+  <TaskName>TranslationsRetrieval</TaskName>
+  <TaskRunIndividually>False</TaskRunIndividually>
+  <TaskRunInSeparateThread>True</TaskRunInSeparateThread>
+  <TaskServerName />
+  <TaskSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </TaskSiteID>
+  <TaskUseExternalService>False</TaskUseExternalService>
+</cms.scheduledtask>

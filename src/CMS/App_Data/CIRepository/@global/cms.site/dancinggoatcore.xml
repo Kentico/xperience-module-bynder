@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.site>
+  <SiteDisplayName>DancingGoatCore</SiteDisplayName>
+  <SiteDomainName>localhost</SiteDomainName>
+  <SiteGUID>1068a102-3f26-4a5f-833d-93efd0b18939</SiteGUID>
+  <SiteName>DancingGoatCore</SiteName>
+  <SitePresentationURL>http://localhost:53305</SitePresentationURL>
+</cms.site>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.couponcode>
+  <CouponCodeCode>BDAY_CWPZ9</CouponCodeCode>
+  <CouponCodeDiscountID>
+    <CodeName>5_BirthdayDiscount</CodeName>
+    <GUID>ce117bf0-2d98-42af-aa9b-6d3c72b478bc</GUID>
+    <ObjectType>ecommerce.discount</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </CouponCodeDiscountID>
+  <CouponCodeGUID>bd0229cd-d4b0-4e8a-887a-f05a495c5c86</CouponCodeGUID>
+</ecommerce.couponcode>

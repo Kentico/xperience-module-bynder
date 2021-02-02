@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Hario Buono Kettle -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:43:18Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>da444400-f3f1-4d4e-8f78-304344abb296</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:43:18Z</DocumentModifiedWhen>
+  <DocumentName>Hario Buono Kettle</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Accessories/Hario-Buono-Kettle</CodeName>
+    <GUID>c444e11e-d98a-4725-b5e5-2813eee551f8</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+The smallest variant in the Hario Buono Kettle family. Look at its long, thin nozzle. It&#39;s not just a pretty design; it was developed to provide you with the ability to pour water with the greatest precision.<br />
+<br />
+Keep in mind that the shape was designed especially for the V60 porcelain filter. But hey, don&#39;t limit your imagination. You can use the Hario Buono Kettle to pour not only whatever coffee you like, but you can also use it for watering your plants if that&#39;s what you want.<br />
+<br />
+The kettle is big enough for four cups (1 liter).
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Hario Buono Kettle</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[The Hario Buono Kettle is a coffee kettle with a characteristically long and thin nozzle designed for pouring water with the greatest precision.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

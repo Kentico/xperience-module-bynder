@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>93bdfaa9-3e2c-4dde-9b91-ed18eb966d63</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Store/Coffees/Kenya-Gakuyuni-AA</CodeName>
+    <GUID>70d2b993-1ab7-4e9e-a24c-0bc5ed2f426d</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Store/Coffees/Kenya-Gakuyuni-AA</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[D77AB146CF615A1D008052991C70FC6860054D2F4A061D4D1A3AADD77912C369]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

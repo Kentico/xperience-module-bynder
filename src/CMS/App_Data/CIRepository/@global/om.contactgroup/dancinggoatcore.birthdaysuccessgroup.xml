@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<om.contactgroup>
+  <ContactGroupDescription>
+    <![CDATA[Used by the 'Send birthday message' marketing automation process example. Contacts are assigned to this group if they make a purchase after receiving the birthday message.]]>
+  </ContactGroupDescription>
+  <ContactGroupDisplayName>Birthday success group (Dancing Goat Core)</ContactGroupDisplayName>
+  <ContactGroupEnabled>True</ContactGroupEnabled>
+  <ContactGroupGUID>98492bb9-26a6-40b4-a20d-5cb42308f680</ContactGroupGUID>
+  <ContactGroupName>DancingGoatCore.BirthdaySuccessGroup</ContactGroupName>
+</om.contactgroup>

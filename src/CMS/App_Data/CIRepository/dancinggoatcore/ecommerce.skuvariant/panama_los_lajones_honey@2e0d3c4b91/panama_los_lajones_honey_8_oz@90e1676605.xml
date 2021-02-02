@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.skuvariant>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>8dda1f11-12b7-4086-acb3-ff4d0e9c4cc6</SKUGUID>
+  <SKUName>Panama Los Lajones Honey (8 oz)</SKUName>
+  <SKUNumber>CO-PAN-LAJONES-8-oz</SKUNumber>
+  <SKUParentSKUID>
+    <GUID>19a266d4-0927-4c3e-81bc-596a0b2e8ef8</GUID>
+    <ObjectType>ecommerce.sku</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUParentSKUID>
+  <SKUPrice>11</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUWeight>0.5</SKUWeight>
+</ecommerce.skuvariant>

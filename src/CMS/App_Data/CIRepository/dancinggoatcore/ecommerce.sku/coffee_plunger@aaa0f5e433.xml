@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUDepartmentID>
+    <CodeName>Brewers</CodeName>
+    <GUID>b06d8273-92ec-473e-ba84-e7d2be2ebe62</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+    <![CDATA[Eight cups of coffee in a single plunger. Super easy to use and perfect for everyone to serve for themselves.]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>027fef1e-4e02-49a1-96dc-8b9a3061b471</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/310ab9b1-2ddb-47c9-b49c-7e53d65f9a87/coffee-plunger]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:08:55Z</SKUInStoreFrom>
+  <SKUName>Coffee Plunger</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>COF-PLNG</SKUNumber>
+  <SKUPrice>29.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Eight cups of coffee in a single plunger. Super easy to use and perfect for everyone to serve for themselves.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>Disabled</SKUTrackInventory>
+  <SKUWeight>3</SKUWeight>
+</ecommerce.sku>

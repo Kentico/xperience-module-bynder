@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflowtransition>
+  <Parent>
+    <CodeName>FirstWin</CodeName>
+    <GUID>99648990-5a0c-45a3-9e3f-339a4aa18290</GUID>
+    <ObjectType>ma.automationstep</ObjectType>
+    <Parent>
+      <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+      <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+      <ObjectType>ma.automationprocess</ObjectType>
+    </Parent>
+  </Parent>
+  <Bindings>
+    <Binding id="ma.automationstep_DeleteContact_ma.automationprocess_DancingGoatCore.EngageWithInactiveContacts">
+      <TransitionEndStepID>
+        <CodeName>DeleteContact</CodeName>
+        <GUID>1b5f5935-4e3b-43f0-9b95-fb569405e847</GUID>
+        <ObjectType>ma.automationstep</ObjectType>
+        <Parent>
+          <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+          <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+          <ObjectType>ma.automationprocess</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>8e2f2ce0-5a15-4331-a88c-99bb2b6f7be3</TransitionSourcePointGUID>
+      <TransitionType>1</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+        <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+        <ObjectType>ma.automationprocess</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+    <Binding id="ma.automationstep_SendNotificationToContactOwner_ma.automationprocess_DancingGoatCore.EngageWithInactiveContacts">
+      <TransitionEndStepID>
+        <CodeName>SendNotificationToContactOwner</CodeName>
+        <GUID>66ea29bf-b332-4a63-8651-b5971f0f2292</GUID>
+        <ObjectType>ma.automationstep</ObjectType>
+        <Parent>
+          <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+          <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+          <ObjectType>ma.automationprocess</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>b448d78b-1961-4556-8470-352971399150</TransitionSourcePointGUID>
+      <TransitionType>1</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+        <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+        <ObjectType>ma.automationprocess</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+    <Binding id="ma.automationstep_SendRe-engagementEmail_ma.automationprocess_DancingGoatCore.EngageWithInactiveContacts">
+      <TransitionEndStepID>
+        <CodeName>SendRe-engagementEmail</CodeName>
+        <GUID>aa3ebb25-d88a-4001-a664-4a7b2a1cbf6d</GUID>
+        <ObjectType>ma.automationstep</ObjectType>
+        <Parent>
+          <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+          <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+          <ObjectType>ma.automationprocess</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>3447379e-7832-4c18-8b09-f90009048bed</TransitionSourcePointGUID>
+      <TransitionType>1</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+        <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+        <ObjectType>ma.automationprocess</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+  </Bindings>
+</cms.workflowtransition>

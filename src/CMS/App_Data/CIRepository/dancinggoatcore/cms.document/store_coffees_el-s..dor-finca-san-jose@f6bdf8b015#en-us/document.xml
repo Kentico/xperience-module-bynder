@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for El Salvador Finca San Jose -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 08:54:44Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>8cf42311-008e-49ef-acb6-ee6a34c5f7bc</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 08:54:48Z</DocumentModifiedWhen>
+  <DocumentName>El Salvador Finca San Jose</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Coffees/El-Salvador-Finca-San-Jose</CodeName>
+    <GUID>c8e4abee-5faf-4ceb-a9a0-3ed601b71887</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>This coffee comes from a family business in El Salvador and you can really feel that this coffee is made with a passion and tradition that that has lasted three centuries. The smooth, creamy mouth sensation is something you just must try. It doesn&#39;t matter if you prefer espresso or a sundae, El Salvador Finca San Jose is one of the El Salvador&#39;s finest.</p>
+
+<p>Taste Finca and you will never forget its clean, sweet chocolate taste of cherries and oranges.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>El Salvador Finca San Jose</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[A passionate traditional Salvadorian coffee with the creamy sensation of a sweet chocolate taste, suitable for all types of preparation.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

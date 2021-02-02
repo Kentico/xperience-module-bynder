@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.objectworkflowtrigger>
+  <TriggerDisplayName>Contact has birthday</TriggerDisplayName>
+  <TriggerGUID>26df1c5a-2b4c-4ff3-b190-030347ec5523</TriggerGUID>
+  <TriggerMacroCondition>
+    <![CDATA[{%Rule("(selectedDay = DateTime.Now.AddDays(ToInt(0));\r\nContact.ContactBirthday != null && (Contact.ContactBirthday.Month == selectedDay.Month && Contact.ContactBirthday.Day == selectedDay.Day);)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CMSContactHasBirthday\" ><p n=\"days\"><t>today</t><v>0</v><r>1</r><d>select day</d><vt>integer</vt><tv>0</tv></p><p n=\"_is\"><t>is</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)db90941d22ee0ff7cfe5c813a007e2d7b87cf12abad943c660e9a815de2e9f98%}]]>
+  </TriggerMacroCondition>
+  <TriggerObjectType>cms.objectscheduledtask</TriggerObjectType>
+  <TriggerParameters>
+    <Parameters>
+      <TriggerInterval>
+        <![CDATA[day;1/1/2020 12:00:00 AM;1;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday]]>
+      </TriggerInterval>
+    </Parameters>
+  </TriggerParameters>
+  <TriggerType>2</TriggerType>
+  <TriggerWorkflowID>
+    <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+    <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </TriggerWorkflowID>
+</cms.objectworkflowtrigger>

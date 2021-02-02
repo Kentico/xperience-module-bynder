@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflow>
+  <WorkflowAutoPublishChanges>False</WorkflowAutoPublishChanges>
+  <WorkflowDisplayName>Basic Articles workflow (Dancing Goat Core)</WorkflowDisplayName>
+  <WorkflowEnabled>True</WorkflowEnabled>
+  <WorkflowGUID>92d53367-5c25-4d6a-b791-11cf4d8e10f1</WorkflowGUID>
+  <WorkflowName>DancingGoatCore.ArticlesWorkflow</WorkflowName>
+  <WorkflowSendApproveEmails>True</WorkflowSendApproveEmails>
+  <WorkflowSendArchiveEmails>True</WorkflowSendArchiveEmails>
+  <WorkflowSendPublishEmails>True</WorkflowSendPublishEmails>
+  <WorkflowSendReadyForApprovalEmails>True</WorkflowSendReadyForApprovalEmails>
+  <WorkflowSendRejectEmails>True</WorkflowSendRejectEmails>
+  <WorkflowType>0</WorkflowType>
+</cms.workflow>

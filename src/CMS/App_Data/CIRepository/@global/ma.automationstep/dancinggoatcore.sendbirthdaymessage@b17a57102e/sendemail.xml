@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ma.automationstep>
+  <StepActionID>
+    <CodeName>Send_newsletter_issue</CodeName>
+    <GUID>b33d5c68-235d-406e-89d7-4f1714078940</GUID>
+    <ObjectType>ma.automationaction</ObjectType>
+  </StepActionID>
+  <StepActionParameters>
+    <Parameters>
+      <Newsletter>e07d93a2-7a5c-4dfc-b35d-e5c719aa7859</Newsletter>
+      <NewsletterIssue>b86efe94-c975-4e77-8c44-569545587860</NewsletterIssue>
+      <Site>DancingGoatCore</Site>
+    </Parameters>
+  </StepActionParameters>
+  <StepDefinition>
+    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <TimeoutEnabled>false</TimeoutEnabled>
+      <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
+      <SourcePoints>
+        <SourcePoint Guid="e0a3668d-a46c-4697-a37c-bbd9d34e52b1">
+          <Label>Default</Label>
+          <Type>0</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+      </SourcePoints>
+      <Position>
+        <X>2710</X>
+        <Y>390</Y>
+      </Position>
+    </Step>
+  </StepDefinition>
+  <StepDisplayName>Send email</StepDisplayName>
+  <StepGUID>7cb0bc10-36f0-4d79-8ea4-470a694605cf</StepGUID>
+  <StepName>SendEmail</StepName>
+  <StepRolesSecurity>0</StepRolesSecurity>
+  <StepType>11</StepType>
+  <StepUsersSecurity>0</StepUsersSecurity>
+  <StepWorkflowID>
+    <CodeName>DancingGoatCore.SendBirthdayMessage</CodeName>
+    <GUID>51d83643-d27f-4bb3-8ef9-fc4e2ffe098c</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </StepWorkflowID>
+  <StepWorkflowType>3</StepWorkflowType>
+</ma.automationstep>

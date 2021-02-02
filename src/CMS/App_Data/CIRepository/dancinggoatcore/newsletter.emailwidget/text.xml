@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.emailwidget>
+  <EmailWidgetCode>
+<![CDATA[
+{% /*
+The Text email widget allows to enter text with basic formatting options.
+
+The Text property uses a Rich text editor with EmailWidgets toolbar set. You can use another toolbar set in order to provide different formatting capabilities.
+
+If no text is provided in the email widget properties, the code automatically returns a default text with an advise.
+This is sometimes a better option than using a default value in the property itself as that could remain unnoticed before sending
+(as default value meets the "required" criteria and is therefore not highlighted in the email builder).
+*/ @%}
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" style="padding: 10px 0 15px 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding">
+      {% Text == String.Empty ? "Enter your text and add some basic formatting." : Text |(identity)GlobalAdministrator|(hash)fe700fb79c3a398add2809d2811afc247590bd09cbaf5c098cac40faf4775a7e%}
+    </td>
+  </tr>
+</table>
+]]>
+  </EmailWidgetCode>
+  <EmailWidgetDescription>Text area supporting basic formatting.</EmailWidgetDescription>
+  <EmailWidgetDisplayName>Text</EmailWidgetDisplayName>
+  <EmailWidgetGuid>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</EmailWidgetGuid>
+  <EmailWidgetIconCssClass>icon-l-text</EmailWidgetIconCssClass>
+  <EmailWidgetName>Text</EmailWidgetName>
+  <EmailWidgetProperties>
+    <form version="2">
+      <field column="Text" columntype="longtext" guid="c6009a8e-149d-40e5-a314-32e8da31b6ac" visible="true">
+        <properties>
+          <fieldcaption>Content</fieldcaption>
+          <fielddescription>Text displayed in the text area.</fielddescription>
+        </properties>
+        <settings>
+          <controlname>HtmlAreaControl</controlname>
+          <CSSStylesheet>0</CSSStylesheet>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <Dialogs_Content_Site>##all##</Dialogs_Content_Site>
+          <Dialogs_Libraries_Site>##all##</Dialogs_Libraries_Site>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <ToolbarSet>EmailWidgets</ToolbarSet>
+          <Width>100</Width>
+          <WidthUnitType>PERCENTAGE</WidthUnitType>
+        </settings>
+      </field>
+    </form>
+  </EmailWidgetProperties>
+  <EmailWidgetSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </EmailWidgetSiteID>
+</newsletter.emailwidget>

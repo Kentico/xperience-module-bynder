@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.dancinggoatcore.cafe>
+  <CafeCity>Dallas</CafeCity>
+  <CafeCountry>USA;Texas</CafeCountry>
+  <CafeIsCompanyCafe>False</CafeIsCompanyCafe>
+  <CafeName>
+    <![CDATA[Saint Jackson's]]>
+  </CafeName>
+  <CafePhone>214-324-3401</CafePhone>
+  <CafeStreet>1700 Pacific Ave</CafeStreet>
+  <CafeZipCode>75202</CafeZipCode>
+</documentfields.dancinggoatcore.cafe>

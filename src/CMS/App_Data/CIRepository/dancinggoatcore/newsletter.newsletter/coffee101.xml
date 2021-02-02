@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.newsletter>
+  <NewsletterBaseUrl />
+  <NewsletterDisplayName>Coffee 101</NewsletterDisplayName>
+  <NewsletterDraftEmails />
+  <NewsletterEnableOptIn>True</NewsletterEnableOptIn>
+  <NewsletterGUID>ebfc1b86-9655-479e-9655-6ab9a631a38a</NewsletterGUID>
+  <NewsletterLogActivity>True</NewsletterLogActivity>
+  <NewsletterName>Coffee101</NewsletterName>
+  <NewsletterOptInApprovalURL />
+  <NewsletterOptInTemplateID>
+    <CodeName>CoreDemoDoubleOpt-inActivationTemplate</CodeName>
+    <GUID>e2f1657a-edd4-43e8-a056-7415c72c7c4d</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NewsletterOptInTemplateID>
+  <NewsletterSenderEmail>dancinggoat@localhost.local</NewsletterSenderEmail>
+  <NewsletterSenderName>Dancing Goat Core</NewsletterSenderName>
+  <NewsletterSendOptInConfirmation>False</NewsletterSendOptInConfirmation>
+  <NewsletterSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NewsletterSiteID>
+  <NewsletterSource>T</NewsletterSource>
+  <NewsletterSubscriptionTemplateID>
+    <CodeName>SubscriptionConfirmation</CodeName>
+    <GUID>bf0ee942-8fef-441b-994a-893cea264cd4</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NewsletterSubscriptionTemplateID>
+  <NewsletterTrackClickedLinks>True</NewsletterTrackClickedLinks>
+  <NewsletterTrackOpenEmails>True</NewsletterTrackOpenEmails>
+  <NewsletterType>0</NewsletterType>
+  <NewsletterUnsubscribeUrl />
+  <NewsletterUnsubscriptionTemplateID>
+    <CodeName>UnsubscriptionConfirmation</CodeName>
+    <GUID>f52fa3b1-652c-4385-bceb-baeadd4b1694</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NewsletterUnsubscriptionTemplateID>
+</newsletter.newsletter>

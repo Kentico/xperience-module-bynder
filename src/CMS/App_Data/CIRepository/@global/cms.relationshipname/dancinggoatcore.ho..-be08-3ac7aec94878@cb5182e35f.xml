@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.relationshipname>
+  <RelationshipAllowedObjects>##DOCUMENTS##</RelationshipAllowedObjects>
+  <RelationshipDisplayName>Home section (Read more page)</RelationshipDisplayName>
+  <RelationshipGUID>21085a8e-c792-415a-8358-0c96ff7ebab7</RelationshipGUID>
+  <RelationshipName>
+    <![CDATA[DancingGoatCore.HomeSection_13879a4d-831b-497f-be08-3ac7aec94878]]>
+  </RelationshipName>
+  <RelationshipNameIsAdHoc>True</RelationshipNameIsAdHoc>
+</cms.relationshipname>

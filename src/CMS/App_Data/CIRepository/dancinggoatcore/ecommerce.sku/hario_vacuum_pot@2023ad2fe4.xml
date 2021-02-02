@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUDepartmentID>
+    <CodeName>Brewers</CodeName>
+    <GUID>b06d8273-92ec-473e-ba84-e7d2be2ebe62</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+    <![CDATA[Another Hario product in our store. This is a classic, but it takes a little while to master. The results, however, are more than worth it. Perfect when you want a specialty device that allows you to experiment with different techniques, tastes, and strengths in a novel way. Your friends will think you&#39;re a born alchemist.]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>97e2d6f4-5bf7-49a7-b2d2-ece73c236f1f</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/30815444-9d11-48e6-9ee3-35d0ac1d61da/hario-vacuum-pot]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:12:27Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Hario</CodeName>
+    <GUID>3e2bc5f2-e9c0-4928-978e-9009f8ada609</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Hario Vacuum Pot</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>HAR-VP</SKUNumber>
+  <SKUPrice>74.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[A&nbsp;brewing classic with proven results. Experiment with different techniques with the Hario Vacuum Pot.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>Disabled</SKUTrackInventory>
+  <SKUWeight>4</SKUWeight>
+</ecommerce.sku>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUDepartmentID>
+    <CodeName>Coffees</CodeName>
+    <GUID>39323402-eac1-4fc0-a4a9-cceafab8cc67</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>Smell its flowery aroma and taste the spicy sweet flavor in which you can relish all kinds of fruits - for example, peaches, apricots, or watermelon. You can also taste chocolate and nuts. Does this seem crazy? Oh, come on, it&#39;s Africa and its wildlife. Experience this Ethiopian/Congolese coffee, which is also suitable for any kind of brewing method.</p>
+
+<p>The Ethiopia Yirgacheffe is prepared using the wash method. Coffee beans are peeled with a pulper, submerged in fermentation tanks, and finally rested on jute-covered beds.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>06e0f8b5-e2ae-4d47-a36a-98388d02fffe</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/3419ea63-6531-486f-9277-99218d6f1001/ethiopia]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 08:55:45Z</SKUInStoreFrom>
+  <SKUName>Ethiopia Yirgacheffe (decaf)</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>CO-ETH-YIRGACHEFFE</SKUNumber>
+  <SKUPrice>3.5</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Taste the African wildlife. Taste this Ethiopian sweet, spicy, and flowery coffee in which you can savor pretty much every fruit along with chocolate and nuts.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>Disabled</SKUTrackInventory>
+  <SKUWeight>0.5</SKUWeight>
+</ecommerce.sku>

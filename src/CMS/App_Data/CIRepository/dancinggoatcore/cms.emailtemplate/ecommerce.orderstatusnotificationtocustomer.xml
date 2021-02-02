@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateDisplayName>E-commerce - Order status notification to customer</EmailTemplateDisplayName>
+  <EmailTemplateGUID>80a7a190-05b0-4fc7-b41a-248b86b7d316</EmailTemplateGUID>
+  <EmailTemplateName>Ecommerce.OrderStatusNotificationToCustomer</EmailTemplateName>
+  <EmailTemplateSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </EmailTemplateSiteID>
+  <EmailTemplateText>
+<![CDATA[
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Status of your order has changed.</h1>
+    <p>The status of your order has changed to '{% Order.OrderStatus.DisplayName|(encode)true |(identity)GlobalAdministrator|(hash)6045cb1eab1b1e2e0d9e02303d506c53d8c5c7ddb8076b9175d3f9265fa8dee9%}'.</p>
+    <p>
+      Check the <i>E-commerce - Order notification to customer</i> email template to 
+      see a more complex template example.
+    </p>
+  </body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>ecommerce</EmailTemplateType>
+</cms.emailtemplate>

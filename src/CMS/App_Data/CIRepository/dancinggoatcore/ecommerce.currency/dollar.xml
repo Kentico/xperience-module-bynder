@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.currency>
+  <CurrencyCode>USD</CurrencyCode>
+  <CurrencyDisplayName>Dollar</CurrencyDisplayName>
+  <CurrencyEnabled>True</CurrencyEnabled>
+  <CurrencyFormatString>${0:F2}</CurrencyFormatString>
+  <CurrencyGUID>f071d48c-9e7e-4ca3-9014-3d266962957f</CurrencyGUID>
+  <CurrencyIsMain>True</CurrencyIsMain>
+  <CurrencyName>Dollar</CurrencyName>
+  <CurrencyRoundTo>2</CurrencyRoundTo>
+  <CurrencySiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </CurrencySiteID>
+</ecommerce.currency>

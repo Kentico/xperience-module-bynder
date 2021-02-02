@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.emailtemplate>
+  <TemplateCode>
+<![CDATA[
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <title>Unsubscription confirmation email</title>
+	</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 600px;" width="600">
+	<tbody>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 30px; font-weight: bold;">We removed your email from our list<br />
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 16px; ">Was this by mistake?<br />
+			If you forwarded one of our emails to a friend, they could have clicked the unsubscribe link on your behalf. If you didn&rsquo;t intend to unsubscribe, subscribe again on our&nbsp;<a href="~/">home page</a>.<br />
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="font-family: Verdana, sans-serif; font-size: 16px;"><br />
+			If you have any questions, contact us at&nbsp;<a href="mailto:dancinggoat@localhost.local">dancinggoat@localhost.local</a>.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;
+			<hr /></td>
+		</tr>
+		<tr>
+			<td align="center" style="font-family: Verdana, sans-serif; font-size: 14px;">Copyright &copy; 2020 Dancing Goat. All rights reserved.</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
+]]>
+  </TemplateCode>
+  <TemplateDisplayName>Unsubscription confirmation</TemplateDisplayName>
+  <TemplateGUID>f52fa3b1-652c-4385-bceb-baeadd4b1694</TemplateGUID>
+  <TemplateIconClass>icon-accordion</TemplateIconClass>
+  <TemplateInlineCSS>False</TemplateInlineCSS>
+  <TemplateName>UnsubscriptionConfirmation</TemplateName>
+  <TemplateSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </TemplateSiteID>
+  <TemplateSubject>Unsubscription confirmation</TemplateSubject>
+  <TemplateType>U</TemplateType>
+</newsletter.emailtemplate>

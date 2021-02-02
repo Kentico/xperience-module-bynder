@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateDisplayName>
+    <![CDATA[E-commerce - Order status notification to administrator]]>
+  </EmailTemplateDisplayName>
+  <EmailTemplateGUID>6d659a02-424c-4d90-857b-8880ac707051</EmailTemplateGUID>
+  <EmailTemplateName>Ecommerce.OrderStatusNotificationToAdmin</EmailTemplateName>
+  <EmailTemplateSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </EmailTemplateSiteID>
+  <EmailTemplateText>
+<![CDATA[
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Order status changed</h1>
+    <p>The status of an order has changed.</p>
+    <p>
+      Check the <i>E-commerce - Order notification to customer</i> email template to 
+      see a more complex template example.
+    </p>
+  </body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>ecommerce</EmailTemplateType>
+</cms.emailtemplate>

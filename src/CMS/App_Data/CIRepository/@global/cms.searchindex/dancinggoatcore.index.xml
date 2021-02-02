@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.searchindex>
+  <IndexAnalyzerType>subset</IndexAnalyzerType>
+  <IndexBatchSize>10000</IndexBatchSize>
+  <IndexCustomAnalyzerClassName />
+  <IndexDisplayName>
+    <![CDATA[Dancing Goat Core - Home, Articles, About us, Cafes, Store]]>
+  </IndexDisplayName>
+  <IndexGUID>f3563e11-0390-4707-b53d-041f8ff511ee</IndexGUID>
+  <IndexName>DancingGoatCore.Index</IndexName>
+  <IndexProvider>Lucene</IndexProvider>
+  <IndexSettings>
+    <index>
+      <item classnames="" id="192217ab-ade7-4e5b-a4bf-2d96e1263040" inclatt="False" inclcats="False" path="/Store/Coffees/%" type="allowed" />
+      <item classnames="DancingGoatCore.AboutUs" id="26ffb65b-7475-41a4-a9fd-e06e8f0936e6" inclatt="False" inclcats="False" path="/About-Us" type="allowed" />
+      <item classnames="" id="691bdbe1-25ff-41dc-bf18-7ed8033b8517" inclatt="False" inclcats="False" path="/Store/Brewers/%" type="allowed" />
+      <item classnames="DancingGoatCore.Article" id="9f3ad0a6-2d9f-4410-81ba-331ca2d38fe8" inclatt="False" inclcats="False" path="/Articles/%" type="allowed" />
+      <item classnames="DancingGoatCore.CafeSection" id="9fc5c8ea-e424-484f-a177-34025620692f" inclatt="False" inclcats="False" path="/Cafes" type="allowed" />
+      <item classnames="DancingGoatCore.Home" id="aa4188ed-4eab-46d8-a692-a95f4900c45b" inclatt="False" inclcats="False" path="/Home" type="allowed" />
+      <item classnames="" id="c3cb7a56-0231-4609-a044-b4008fa37b88" inclatt="False" inclcats="False" path="/Store/Accessories/%" type="allowed" />
+      <item classnames="" id="db1ab53a-dfbd-4c28-9a74-b6d8a6684dd7" inclatt="False" inclcats="False" path="/Store/Grinders/%" type="allowed" />
+    </index>
+  </IndexSettings>
+  <IndexType>DOCUMENTS_CRAWLER_INDEX</IndexType>
+</cms.searchindex>

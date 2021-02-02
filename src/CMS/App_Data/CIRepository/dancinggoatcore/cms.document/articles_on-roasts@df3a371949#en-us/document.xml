@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for On Roasts -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-06-07 15:11:23Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>4b0213cb-f6ec-476e-92eb-619c44d66373</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-09-16 14:16:00Z</DocumentModifiedWhen>
+  <DocumentName>On Roasts</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Articles/On-Roasts</CodeName>
+    <GUID>1c198498-aff2-4068-a111-004afe866191</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPageTemplateConfiguration>
+    <![CDATA[{"identifier":"DancingGoat.ArticleWithSidebar","properties":null}]]>
+  </DocumentPageTemplateConfiguration>
+  <DocumentPublishFrom>2020-08-20 14:15:00Z</DocumentPublishFrom>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+</cms.documentlocalization>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUDepartmentID>
+    <CodeName>Coffees</CodeName>
+    <GUID>39323402-eac1-4fc0-a4a9-cceafab8cc67</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>As a part of our farmer-direct Colombia program, we bring you a special (above 88!) farm-specific number. We had some very special cupping samples sent to us straight from Colombia. And although they were all fantastic, this one really stood out from the others. Previously, we offered the &quot;First Place SCAA Coffee of the Year&quot; Carlos Imbachi. Just so you know what we&#39;re on about here, the famous Panama Esmeralda Especial Gesha ended up in 2nd place to Carlos Imbachi. Take this as another testament to the greatness and potential of Colombian coffee.</p>
+
+<p>One cupping of this specialty was enough to recognize the unprecedented quality and character of this coffee. Mr. Imbachi&#39;s farm is located in the San Augustin region of Hulia, where he grows this coffee at an altitude of 5,700 feet.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>fc60e7a4-2ada-4c1a-8f95-ec9707b19c38</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/5bf6a8f6-7263-4382-9adf-6485568496e6/colombia]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 08:38:51Z</SKUInStoreFrom>
+  <SKUName>Colombia Carlos Imbachi</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>CO-COL-IMBACHI</SKUNumber>
+  <SKUPrice>6</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[The Colombian gold in the form of top quality coffee, recognizable&nbsp;for its character.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>Disabled</SKUTrackInventory>
+  <SKUWeight>0.5</SKUWeight>
+</ecommerce.sku>

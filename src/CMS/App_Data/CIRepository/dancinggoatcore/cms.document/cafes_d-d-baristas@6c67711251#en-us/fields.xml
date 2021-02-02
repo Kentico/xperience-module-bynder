@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.dancinggoatcore.cafe>
+  <CafeCity>San Francisco</CafeCity>
+  <CafeCountry>USA;California</CafeCountry>
+  <CafeIsCompanyCafe>False</CafeIsCompanyCafe>
+  <CafeName>
+    <![CDATA[D&D Baristas]]>
+  </CafeName>
+  <CafePhone>415-287-2086</CafePhone>
+  <CafeStreet>2408 Lincoln Way</CafeStreet>
+  <CafeZipCode>94122</CafeZipCode>
+</documentfields.dancinggoatcore.cafe>

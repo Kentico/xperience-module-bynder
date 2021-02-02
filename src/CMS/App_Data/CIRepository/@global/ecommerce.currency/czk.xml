@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.currency>
+  <CurrencyCode>CZK</CurrencyCode>
+  <CurrencyDisplayName>Czech Crown</CurrencyDisplayName>
+  <CurrencyEnabled>True</CurrencyEnabled>
+  <CurrencyFormatString>{0:0.00} Kč</CurrencyFormatString>
+  <CurrencyGUID>0597ef10-770d-46ad-a474-731958f3b497</CurrencyGUID>
+  <CurrencyIsMain>False</CurrencyIsMain>
+  <CurrencyName>CZK</CurrencyName>
+  <CurrencyRoundTo>2</CurrencyRoundTo>
+</ecommerce.currency>

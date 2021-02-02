@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUAvailableItems>100</SKUAvailableItems>
+  <SKUDepartmentID>
+    <CodeName>Grinders</CodeName>
+    <GUID>42555651-4dd5-44fa-af76-9a0fee216f54</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>Who can make a cup of coffee if not an Italian? This Italian-made espresso electric grinder is one of the best solutions for home and small office use. The Macap M2D is doserless, so you have fresh grounds all the time even if you don&#39;t drink coffee one after another. This grinder is also powered by a 150-Watt engine. It is so powerful that every need of yours will definitely be fulfilled.<br />
+<br />
+Apart from the already mentioned greatest features, the Macap M2D aims even higher. Do you need to make coffee quietly? That&#39;s no problem for the Macap. It has an adjustment wheel with which you can set the grinder to various settings. Try it, and you won&#39;t want a predefined grinder ever again.</p>
+
+<p>And what is the difference between Macap M2 and M2D? On the M2D, there&#39;s a knob that helps you set the time when to grind the beans after the grinder starts working. With this feature, you achieve a consistent dosage of the grinds in the portafilter. Ladies and gentlemen, quality has arrived.</p>
+
+<ul>
+	<li>Adjustment wheel for stepped grinding</li>
+	<li>Programmable height-adjustable filter</li>
+	<li>150-Watt engine</li>
+	<li>Made in Venice, Italy</li>
+</ul>
+
+<p>Specifications:</p>
+
+<ul>
+	<li>15.1&quot; H x 6&quot; W x 9.9&quot; D (38.2 cm H x 15.2 cm W x 25 cm D)</li>
+	<li>10.4 lb (4.7 kg)</li>
+	<li>Blade diameter: 2&quot; (5 cm)</li>
+	<li>Hopper capacity: 0.55 lb (250 g)</li>
+</ul>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>a07b458a-641c-421b-aec7-7be39b4094c7</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/d49c05c7-a9d1-4c3c-be15-d52f28f7d9ef/macap-m2d]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:55:09Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Macap</CodeName>
+    <GUID>421a0ec2-23a7-4321-9dec-e2689da5966b</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Macap M2D</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>MAC-GR-M2D</SKUNumber>
+  <SKUPrice>484.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[Macap M2D is a quiet, Italian-made electric grinder with an adjustment wheel for various settings.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+  <SKUWeight>12</SKUWeight>
+</ecommerce.sku>

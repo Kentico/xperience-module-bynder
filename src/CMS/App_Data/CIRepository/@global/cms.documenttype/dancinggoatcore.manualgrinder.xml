@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCreateSKU>False</ClassCreateSKU>
+  <ClassDisplayName>Manual grinder</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ManualGrinderID" columntype="integer" guid="07a4fe32-8224-4fd7-97d0-16ef10fa589a" isPK="true" isunique="true">
+        <properties>
+          <fieldcaption>GrinderID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <category name="Promotion">
+        <properties>
+          <visible>True</visible>
+        </properties>
+      </category>
+      <field allowempty="true" column="ManualGrinderPromotionTitle" columnsize="200" columntype="text" guid="8e6c956f-fd45-42b3-a675-a7d39069a57b" visible="true">
+        <properties>
+          <fieldcaption>Promotion title</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ManualGrinderPromotionDescription" columnsize="200" columntype="text" guid="8ac6414e-0aa5-40d8-830e-2b090f0c4723" visible="true">
+        <properties>
+          <fieldcaption>Promotion description</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ManualGrinderBannerText" columnsize="200" columntype="text" guid="1804b982-59ab-459d-806e-ac55863116fe" visible="true">
+        <properties>
+          <fieldcaption>Banner Text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>3c47b7bb-e86c-40a9-8b61-6a78a840d6ad</ClassGUID>
+  <ClassHasMetadata>True</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-box</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassIsProduct>True</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>DancingGoatCore.ManualGrinder</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource />
+  <ClassSearchContentColumn>SKUShortDescription</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>SKUCreated</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>SKUImagePath</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item azureretrievable="True" content="False" id="4b2682dd-3d37-4dd9-98e8-6c850d29c1f5" name="ManualGrinderID" searchable="True" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassSKUDefaultDepartmentName>Grinders</ClassSKUDefaultDepartmentName>
+  <ClassSKUDefaultProductType>PRODUCT</ClassSKUDefaultProductType>
+  <ClassTableName>DancingGoatCore_ManualGrinder</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

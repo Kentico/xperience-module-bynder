@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.objectworkflowtrigger>
+  <TriggerDisplayName>
+    <![CDATA[Contact has not done any activity in the last 300 days]]>
+  </TriggerDisplayName>
+  <TriggerGUID>36394895-4768-407f-81a0-272da207ae13</TriggerGUID>
+  <TriggerMacroCondition>
+    <![CDATA[{%Rule("(Contact.IsInactive(300))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CMSContactInactiveInTheLastXDays\" ><p n=\"days\"><t>300</t><v>300</v><r>1</r><d>enter days</d><vt>integer</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)c25ee768170b13b18c615a83dc47514324401dde5d4ae175c8b2eb844836925c%}]]>
+  </TriggerMacroCondition>
+  <TriggerObjectType>cms.objectscheduledtask</TriggerObjectType>
+  <TriggerParameters>
+    <Parameters>
+      <TriggerInterval>week;1/1/2020 2:00:00 AM;1</TriggerInterval>
+    </Parameters>
+  </TriggerParameters>
+  <TriggerType>2</TriggerType>
+  <TriggerWorkflowID>
+    <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+    <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </TriggerWorkflowID>
+</cms.objectworkflowtrigger>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Hario V60 -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:11:10Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>cd91ade9-d6fd-49b5-a248-d7170b3a4ce3</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:12:09Z</DocumentModifiedWhen>
+  <DocumentName>Hario V60</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Brewers/Hario-V60</CodeName>
+    <GUID>1e28dc76-9379-4ac4-8de3-d4b5806a5943</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>This has to be one of the, if not &#39;the&#39; most popular manual coffee brewers available. With an almost unlimited number of varieties, Hario V60 has conquered the hearts of coffee aficionados the world over. You can see this device being used on a daily basis at home by complete beginners and experts alike. Baristas stick to Hario V60 for its ease of use and the proven taste of the resulting drink.</p>
+
+<p>It will brew you quite the cup, that&#39;s guaranteed. Hario&#39;s unique design lets the coffee slowly pour through both sides of the cone. Spiral ribs on the inside of the cone help the water catch the taste perfectly. As the water spirals through the brewer, the V60 creates an amazingly even brew, making sure no coffee is left out.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Hario V60</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Easy-to-use, the taste of top quality, designed with coffee in mind &ndash; these are only a few of all the features this Hario has.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

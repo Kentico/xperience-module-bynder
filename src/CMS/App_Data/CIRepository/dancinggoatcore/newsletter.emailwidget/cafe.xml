@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.emailwidget>
+  <EmailWidgetCode>
+<![CDATA[
+{%
+  cafe = Documents[CafePath];
+  street = cafe.CafeStreet == String.Empty ? "Street" : cafe.CafeStreet;
+  zipCode = cafe.CafeZipCode == String.Empty  ? "ZipCode" : cafe.CafeZipCode;
+  city = cafe.CafeCity == String.Empty ? "City" : cafe.CafeCity;
+  url = UTMContent == String.Empty ? cafe.RelativeURL : cafe.RelativeURL + "?utm_content=" + UTMContent;
+  photoUrl = cafe.CafePhoto == String.Empty ? "~/getmedia/d82041ac-2264-463f-81fb-5a7bbda33cd3/cafe-default-image.png" : "~/getattachment/" + cafe.CafePhoto + "/dancing-goat-cafe";
+  title = "Dancing Goat " + (cafe.CafeCity == String.Empty ? "Cafe" : cafe.CafeCity);
+  address = street + ", " + zipCode + ", " + city;
+  ctaText = ButtonText == String.Empty ? "Learn More" : ButtonText;
+  return; 
+|(identity)GlobalAdministrator|(hash)2ce7af677f66c44d3b94349814dd92df2ccdabae5e040b5e0e06e0a413be0226%}
+<!--[if (gte mso 9)|(IE)]>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+<tr>
+<td align="center" valign="top" width="500">
+<![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:500;">
+    <tr>
+        <td align="center" valign="top" style="font-size:0; padding: 10px 0 15px 0;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+            <tr>
+            <td align="left" valign="top" width="115">
+            <![endif]-->
+            <div style="display:inline-block; margin: 0 -2px; max-width:115px; vertical-align:top; width:100%;"> 
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="115">
+                    <tr>
+                        <td valign="top" style="padding: 40px 0 0 0;"><img src="{% photoUrl %}" alt="{% title %}" width="105" height="105" border="0" style="display: block; font-family: Arial; color: #666666; font-size: 14px; width: 105px; height: 105px;"></td>
+                    </tr>
+                </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            <td align="left" valign="top" width="385">
+            <![endif]-->
+            <div style="display:inline-block; margin: 0 -2px; max-width:385px; vertical-align:top; width:100%;">
+
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+
+                        <td style="padding: 40px 0 0 0;" class="no-padding">
+                            <!-- ARTICLE -->
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                <tr>
+                                    <td align="left" style="padding: 0 0 5px 25px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;" class="padding">{% title %}</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="padding: 10px 0 15px 25px; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding">{% address %}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding:0 0 20px 25px;" align="left" class="padding">
+                                        <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                            <tr>
+                                                <td align="center">
+                                                    <!-- BULLETPROOF BUTTON -->
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td align="left">
+                                                                <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                    <tr>
+                                                                        <td align="center" style="border-radius: 3px;" bgcolor="#B49669"><a href="{% url %}" target="_blank" style="font-size: 15px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; border-radius: 3px; padding: 10px 20px; border: 1px solid #B49669; display: inline-block;" class="mobile-button">{% ctaText %} &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+]]>
+  </EmailWidgetCode>
+  <EmailWidgetDescription>
+    <![CDATA[The Cafe widget allows the selection of a Cafe (the Cafe page type item) using an uni-selector. The email widget is then rendered based on obtained attributes.]]>
+  </EmailWidgetDescription>
+  <EmailWidgetDisplayName>Cafe</EmailWidgetDisplayName>
+  <EmailWidgetGuid>dbbd0e5c-1f89-463f-8c3c-c23677794cd2</EmailWidgetGuid>
+  <EmailWidgetIconCssClass>icon-cup</EmailWidgetIconCssClass>
+  <EmailWidgetName>Cafe</EmailWidgetName>
+  <EmailWidgetProperties>
+    <form version="2">
+      <field column="CafePath" columnsize="450" columntype="text" guid="05f995d3-ef52-40a6-81e9-44d41e3194ed" visible="true">
+        <properties>
+          <fieldcaption>Cafe</fieldcaption>
+          <fielddescription>Select the cafe to display.</fielddescription>
+        </properties>
+        <settings>
+          <AddGlobalObjectNamePrefix>False</AddGlobalObjectNamePrefix>
+          <AddGlobalObjectSuffix>False</AddGlobalObjectSuffix>
+          <AllowAll>False</AllowAll>
+          <AllowDefault>False</AllowDefault>
+          <AllowEditTextBox>False</AllowEditTextBox>
+          <AllowEmpty>False</AllowEmpty>
+          <controlname>Uni_selector</controlname>
+          <DialogWindowName>SelectionDialog</DialogWindowName>
+          <EditDialogWindowHeight>700</EditDialogWindowHeight>
+          <EditDialogWindowOpenInFullscreen>False</EditDialogWindowOpenInFullscreen>
+          <EditDialogWindowWidth>1000</EditDialogWindowWidth>
+          <EditWindowName>EditWindow</EditWindowName>
+          <EncodeOutput>True</EncodeOutput>
+          <GlobalObjectSuffix ismacro="true">{$general.global$}</GlobalObjectSuffix>
+          <ItemsPerPage>25</ItemsPerPage>
+          <LocalizeItems>True</LocalizeItems>
+          <MaxDisplayedItems>25</MaxDisplayedItems>
+          <MaxDisplayedTotalItems>50</MaxDisplayedTotalItems>
+          <ObjectType>cms.document.DancingGoatCore.Cafe</ObjectType>
+          <RemoveMultipleCommas>False</RemoveMultipleCommas>
+          <ReturnColumnName>NodeAliasPath</ReturnColumnName>
+          <ReturnColumnType>id</ReturnColumnType>
+          <SelectionMode>0</SelectionMode>
+          <UseDefaultNameFilter>True</UseDefaultNameFilter>
+          <ValuesSeparator>;</ValuesSeparator>
+          <WhereCondition>
+            <![CDATA[DocumentCulture = 'en-US']]>
+          </WhereCondition>
+        </settings>
+      </field>
+      <field allowempty="true" column="ButtonText" columnsize="200" columntype="text" guid="1ed512e2-c5db-4e77-8d1e-59629bbeccb2" visible="true">
+        <properties>
+          <defaultvalue>Learn More</defaultvalue>
+          <fieldcaption>Button text</fieldcaption>
+          <fielddescription>Sets the text displayed on the button.</fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="UTMContent" columnsize="200" columntype="text" guid="f31b702e-520f-496b-892d-8d736761f8bf" visible="true">
+        <properties>
+          <fieldcaption>UTM content</fieldcaption>
+          <fielddescription>Specifies a UTM parameter for the button link.</fielddescription>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </EmailWidgetProperties>
+  <EmailWidgetSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </EmailWidgetSiteID>
+</newsletter.emailwidget>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Ethiopia Yirgacheffe (decaf) -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 08:56:45Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>57e8d0f2-3063-488c-b7e4-db9a66934570</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 08:56:45Z</DocumentModifiedWhen>
+  <DocumentName>Ethiopia Yirgacheffe (decaf)</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Coffees/Ethiopia-Yirgacheffe-(decaf)</CodeName>
+    <GUID>2d993f55-9649-43e7-9bc4-9d49768e6962</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+<p>Smell its flowery aroma and taste the spicy sweet flavor in which you can relish all kinds of fruits - for example, peaches, apricots, or watermelon. You can also taste chocolate and nuts. Does this seem crazy? Oh, come on, it&#39;s Africa and its wildlife. Experience this Ethiopian/Congolese coffee, which is also suitable for any kind of brewing method.</p>
+
+<p>The Ethiopia Yirgacheffe is prepared using the wash method. Coffee beans are peeled with a pulper, submerged in fermentation tanks, and finally rested on jute-covered beds.</p>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Ethiopia Yirgacheffe (decaf)</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Taste the African wildlife. Taste this Ethiopian sweet, spicy, and flowery coffee in which you can savor pretty much every fruit along with chocolate and nuts.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.newsletter>
+  <NewsletterDisplayName>Marketing automation engagement</NewsletterDisplayName>
+  <NewsletterEnableOptIn>False</NewsletterEnableOptIn>
+  <NewsletterGUID>e07d93a2-7a5c-4dfc-b35d-e5c719aa7859</NewsletterGUID>
+  <NewsletterLogActivity>True</NewsletterLogActivity>
+  <NewsletterName>MarketingAutomationEngagement</NewsletterName>
+  <NewsletterSenderEmail>dancinggoat@localhost.local</NewsletterSenderEmail>
+  <NewsletterSenderName>Dancing Goat</NewsletterSenderName>
+  <NewsletterSendOptInConfirmation>False</NewsletterSendOptInConfirmation>
+  <NewsletterSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NewsletterSiteID>
+  <NewsletterSource>T</NewsletterSource>
+  <NewsletterTrackClickedLinks>True</NewsletterTrackClickedLinks>
+  <NewsletterTrackOpenEmails>True</NewsletterTrackOpenEmails>
+  <NewsletterType>1</NewsletterType>
+  <NewsletterUnsubscriptionTemplateID>
+    <CodeName>UnsubscriptionConfirmation</CodeName>
+    <GUID>f52fa3b1-652c-4385-bceb-baeadd4b1694</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NewsletterUnsubscriptionTemplateID>
+</newsletter.newsletter>

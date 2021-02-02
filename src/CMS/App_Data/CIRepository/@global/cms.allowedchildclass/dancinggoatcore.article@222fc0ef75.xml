@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.allowedchildclass>
+  <Parent>
+    <CodeName>DancingGoatCore.Article</CodeName>
+    <GUID>f10195ae-16f3-46a2-bcda-1b0e86ed9df7</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.documenttype_CMS.Folder">
+      <ParentClassID>
+        <CodeName>CMS.Folder</CodeName>
+        <GUID>8fa3e50a-b5ef-48f1-b506-fad8f3f9e50a</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+    <Binding id="cms.documenttype_DancingGoatCore.ArticleSection">
+      <ParentClassID>
+        <CodeName>DancingGoatCore.ArticleSection</CodeName>
+        <GUID>a47f519e-84f0-4fa5-aa6a-8cbc1c69eca5</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+  </Bindings>
+</cms.allowedchildclass>

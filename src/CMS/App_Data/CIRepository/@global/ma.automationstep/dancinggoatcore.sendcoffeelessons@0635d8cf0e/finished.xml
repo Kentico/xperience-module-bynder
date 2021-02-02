@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ma.automationstep>
+  <StepActionParameters />
+  <StepAllowReject>False</StepAllowReject>
+  <StepDefinition>
+    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <TimeoutEnabled>false</TimeoutEnabled>
+      <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
+      <SourcePoints />
+      <DefinitionPoint Guid="10e954d7-1a77-4a11-a5a2-b57db8ce91c5">
+        <Label>Default</Label>
+        <Type>0</Type>
+        <StepRolesSecurity>0</StepRolesSecurity>
+        <StepUsersSecurity>0</StepUsersSecurity>
+      </DefinitionPoint>
+      <Position>
+        <X>2270</X>
+        <Y>930</Y>
+      </Position>
+    </Step>
+  </StepDefinition>
+  <StepDisplayName>Finished</StepDisplayName>
+  <StepGUID>fc9edd8b-2cfd-4052-9d09-f3461d3cacc4</StepGUID>
+  <StepName>finished</StepName>
+  <StepRolesSecurity>0</StepRolesSecurity>
+  <StepType>99</StepType>
+  <StepUsersSecurity>0</StepUsersSecurity>
+  <StepWorkflowID>
+    <CodeName>DancingGoatCore.SendCoffeeLessons</CodeName>
+    <GUID>4abb2265-37c2-4a6c-9553-d52cda258fcb</GUID>
+    <ObjectType>ma.automationprocess</ObjectType>
+  </StepWorkflowID>
+  <StepWorkflowType>3</StepWorkflowType>
+</ma.automationstep>

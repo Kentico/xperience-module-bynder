@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.formclass>
+  <ClassContactMapping>
+    <form>
+      <field column="ContactAddress1" mappedtofield="Address" />
+      <field column="ContactCity" mappedtofield="City" />
+      <field column="ContactCountryID" mappedtofield="Country" />
+      <field column="ContactEmail" mappedtofield="Email" />
+      <field column="ContactFirstName" mappedtofield="FirstName" />
+      <field column="ContactLastName" mappedtofield="LastName" />
+      <field column="ContactStateID" mappedtofield="State" />
+      <field column="ContactZIP" mappedtofield="ZIPCode" />
+    </form>
+  </ClassContactMapping>
+  <ClassContactOverwriteEnabled>False</ClassContactOverwriteEnabled>
+  <ClassDisplayName>Coffee sample list</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="DancingGoatCoreCoffeeSampleListID" columntype="integer" guid="fa26372d-9fbc-4934-b327-b7e8f26d7857" isPK="true">
+        <properties>
+          <fieldcaption>DancingGoatCoreCoffeeSampleListID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="FormInserted" columnprecision="7" columntype="datetime" guid="d11e7374-c6bd-4712-a167-aca1d21438f0" system="true">
+        <properties>
+          <fieldcaption>Form inserted</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+        </settings>
+      </field>
+      <field column="FormUpdated" columnprecision="7" columntype="datetime" guid="b22bc094-1c2a-4723-9332-0e25a6641762" system="true">
+        <properties>
+          <fieldcaption>Form updated</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>calendarcontrol</controlname>
+        </settings>
+      </field>
+      <field column="FirstName" columnsize="500" columntype="text" guid="b1ac740c-8b11-4e44-a250-edb873303dff" visible="true">
+        <properties>
+          <fieldcaption>First name</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+      <field column="LastName" columnsize="500" columntype="text" guid="24869232-567e-4b70-9c3f-e2c6df9f9e13" visible="true">
+        <properties>
+          <fieldcaption>Last name</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+      <field column="Email" columnsize="500" columntype="text" guid="f503bf1c-2a71-45df-8fa5-c9d421e8f199" visible="true">
+        <properties>
+          <fieldcaption>Email</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.EmailInput</componentidentifier>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+      <field column="Address" columnsize="500" columntype="text" guid="5da9e206-58d0-444e-a8ad-bad97a268394" visible="true">
+        <properties>
+          <fieldcaption>Address</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+      <field column="City" columnsize="500" columntype="text" guid="294e9efb-dc46-4404-9b9a-a6d9520b254d" visible="true">
+        <properties>
+          <fieldcaption>City</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+      <field column="ZIPCode" columnsize="500" columntype="text" guid="cf5668b1-e002-4a8c-a53f-0682a39e2d25" visible="true">
+        <properties>
+          <fieldcaption>ZIP code</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="State" columnsize="500" columntype="text" guid="5ae2921e-9b50-4be3-8c24-667b18ddf970" visible="true">
+        <properties>
+          <fieldcaption>State</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+      <field column="Country" columnsize="500" columntype="text" guid="79c65cb0-e12c-4b8c-8f4e-1f4f9be034ea" visible="true">
+        <properties>
+          <fieldcaption>Country</fieldcaption>
+          <smart>False</smart>
+        </properties>
+        <settings>
+          <componentidentifier>Kentico.TextInput</componentidentifier>
+          <controlname>unknown</controlname>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>ab253d0d-7417-4dd3-8a79-79280e5ef13d</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>False</ClassHasURL>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>False</ClassIsDocumentType>
+  <ClassIsForm>True</ClassIsForm>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassName>bizform.DancingGoatCoreCoffeeSampleList</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchCreationDateColumn>FormInserted</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="7cfb5025-0f08-45ff-aae2-c48de760bcfc" name="FormUpdated" searchable="True" tokenized="False" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="b3c6c9fe-9167-48ea-838d-d9a34c526045" name="FormInserted" searchable="True" tokenized="False" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="c371f8bb-aa77-4241-b831-03d347b58e44" name="DancingGoatCoreCoffeeSampleListID" searchable="True" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>Form_DancingGoatCore_CoffeeSampleList</ClassTableName>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+  <ClassXmlSchema>
+<![CDATA[
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Form_DancingGoatCore_CoffeeSampleList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DancingGoatCoreCoffeeSampleListID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="FormInserted" type="xs:dateTime" />
+              <xs:element name="FormUpdated" type="xs:dateTime" />
+              <xs:element name="FirstName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LastName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZIPCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Country">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Form_DancingGoatCore_CoffeeSampleList" />
+      <xs:field xpath="DancingGoatCoreCoffeeSampleListID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
+]]>
+  </ClassXmlSchema>
+</cms.formclass>

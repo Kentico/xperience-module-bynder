@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.skuoption>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>0ebee57f-d680-49f8-bfac-3eaa640d4f83</SKUGUID>
+  <SKUInStoreFrom>2020-08-03 07:15:11Z</SKUInStoreFrom>
+  <SKUName>5 lb</SKUName>
+  <SKUNeedsShipping>False</SKUNeedsShipping>
+  <SKUOptionCategoryID>
+    <CodeName>CoffeePackageSize</CodeName>
+    <GUID>9deb874b-9340-4e8c-aeb8-df6b1c40eaac</GUID>
+    <ObjectType>ecommerce.optioncategory</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUOptionCategoryID>
+  <SKUOrder>5</SKUOrder>
+  <SKUPrice>0</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTrackInventory>ByProduct</SKUTrackInventory>
+</ecommerce.skuoption>

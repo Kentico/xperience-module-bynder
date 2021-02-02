@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<om.abtest>
+  <ABTestConversions>
+    <![CDATA[<conversions><conversion name="PageVisit|/store/coffees/colombia-carlos-imbachi" value="1" item="/store/coffees/colombia-carlos-imbachi" itemname="/store/coffees/colombia-carlos-imbachi" /><conversion name="Purchase" value="0" /></conversions>]]>
+  </ABTestConversions>
+  <ABTestCulture>en-US</ABTestCulture>
+  <ABTestDisplayName>Home (en-US)</ABTestDisplayName>
+  <ABTestGUID>6534bf25-1e27-4147-a99d-2598589d858f</ABTestGUID>
+  <ABTestIncludedTraffic>100</ABTestIncludedTraffic>
+  <ABTestName>Home_en-US</ABTestName>
+  <ABTestOriginalPage>/Home</ABTestOriginalPage>
+  <ABTestSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </ABTestSiteID>
+</om.abtest>

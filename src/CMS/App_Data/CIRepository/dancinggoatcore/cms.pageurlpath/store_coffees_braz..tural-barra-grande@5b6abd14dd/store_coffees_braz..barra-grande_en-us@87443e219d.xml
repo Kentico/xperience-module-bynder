@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>dd83650d-4a25-4e20-92fd-6545f0727737</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Store/Coffees/Brazil-Natural-Barra-Grande</CodeName>
+    <GUID>51d50f43-45e1-4194-b63d-0f8992437081</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Store/Coffees/Brazil-Natural-Barra-Grande</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[A726CA3269C94DF8F83841F643AF4F683702FB2F2E108850DEA9E5720AAF50FF]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

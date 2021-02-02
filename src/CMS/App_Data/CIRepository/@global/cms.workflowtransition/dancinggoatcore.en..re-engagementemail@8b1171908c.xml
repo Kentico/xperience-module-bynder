@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflowtransition>
+  <Parent>
+    <CodeName>SendRe-engagementEmail</CodeName>
+    <GUID>aa3ebb25-d88a-4001-a664-4a7b2a1cbf6d</GUID>
+    <ObjectType>ma.automationstep</ObjectType>
+    <Parent>
+      <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+      <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+      <ObjectType>ma.automationprocess</ObjectType>
+    </Parent>
+  </Parent>
+  <Bindings>
+    <Binding id="ma.automationstep_finished_ma.automationprocess_DancingGoatCore.EngageWithInactiveContacts">
+      <TransitionEndStepID>
+        <CodeName>finished</CodeName>
+        <GUID>6b09adf4-bbbc-49ed-8668-ee1849cf0176</GUID>
+        <ObjectType>ma.automationstep</ObjectType>
+        <Parent>
+          <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+          <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+          <ObjectType>ma.automationprocess</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>37d56b2d-8372-4557-ad30-6e32de27a83d</TransitionSourcePointGUID>
+      <TransitionType>1</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>DancingGoatCore.EngageWithInactiveContacts</CodeName>
+        <GUID>72aebaa3-848c-476c-a499-4b2f2502a5de</GUID>
+        <ObjectType>ma.automationprocess</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+  </Bindings>
+</cms.workflowtransition>

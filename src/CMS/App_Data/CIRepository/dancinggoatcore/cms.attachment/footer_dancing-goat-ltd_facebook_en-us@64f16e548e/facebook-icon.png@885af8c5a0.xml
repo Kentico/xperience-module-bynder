@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.attachment>
+  <AttachmentDocumentID>
+    <CodeName>en-US</CodeName>
+    <GUID>52cfc666-7b9f-4eba-a67f-1ff596cb1c3d</GUID>
+    <ObjectType>cms.documentlocalization</ObjectType>
+    <Parent>
+      <CodeName>/Footer/Dancing-Goat-Ltd/Facebook</CodeName>
+      <GUID>98d0159e-5e12-4a3b-a9c0-44d78c8164b0</GUID>
+      <ObjectType>cms.node</ObjectType>
+      <Site>
+        <CodeName>DancingGoatCore</CodeName>
+        <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </Site>
+    </Parent>
+  </AttachmentDocumentID>
+  <AttachmentExtension>.png</AttachmentExtension>
+  <AttachmentGUID>0059c398-c84b-414a-86c9-e86b84697c3d</AttachmentGUID>
+  <AttachmentImageHeight>45</AttachmentImageHeight>
+  <AttachmentImageWidth>45</AttachmentImageWidth>
+  <AttachmentMimeType>image/png</AttachmentMimeType>
+  <AttachmentName>facebook-icon.png</AttachmentName>
+  <AttachmentOrder>1</AttachmentOrder>
+  <AttachmentSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </AttachmentSiteID>
+  <AttachmentSize>1643</AttachmentSize>
+</cms.attachment>

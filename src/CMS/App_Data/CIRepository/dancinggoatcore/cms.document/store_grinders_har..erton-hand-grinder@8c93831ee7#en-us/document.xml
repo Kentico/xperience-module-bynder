@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Hario Skerton Hand Grinder -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:54:59Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>dbe58805-71f4-48e9-8d71-fa9869c7d0fc</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:55:00Z</DocumentModifiedWhen>
+  <DocumentName>Hario Skerton Hand Grinder</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Grinders/Hario-Skerton-Hand-Grinder</CodeName>
+    <GUID>015dd1c4-2c83-4a5e-bfe8-7e1ceb6d47e8</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+This grinder is rather small, but it&#39;s quick, easy-to-use, and precise. Choose your favorite brewing method and those strong conical ceramic burrs of high quality with thick and durable glass assure you that you won&#39;t regret it. But this grinder not only makes good grounds, it&#39;s also a pleasure to use! On the bottom, there&#39;s anti-slip rubber, and the handle feels awesome. After use, just put it in the dishwasher or wash it by hand, it&#39;s so easy.<br />
+<br />
+The Hario Skerton Hand Grinder is also usable if you are a traveler. With the included screw top cover, grounds stay fresh and inside the grinder, even on bumpy roads.
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Hario Skerton Hand Grinder</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Small but quick, an easy-to-use and precise grinder with strong conical ceramic burrs.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

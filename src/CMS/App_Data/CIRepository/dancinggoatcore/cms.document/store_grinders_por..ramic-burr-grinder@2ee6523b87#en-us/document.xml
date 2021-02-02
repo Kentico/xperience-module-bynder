@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Porlex Tall Ceramic Burr Grinder -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:58:34Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>86f9e608-3e30-49a9-b562-9052e2bffbc2</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:58:34Z</DocumentModifiedWhen>
+  <DocumentName>Porlex Tall Ceramic Burr Grinder</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Grinders/Porlex-Tall-Ceramic-Burr-Grinder</CodeName>
+    <GUID>c4bb108d-8fa3-4023-8027-848188fb6e24</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+Are you looking for a firm, extra-durable, but also a little static grinder? The Porlex Tall Ceramic Burr Grinder is all from stainless steel except for the burrs. Those strong conical burrs are ceramic, so they won&#39;t rust and are also sharper than steel burrs will ever be. The grinder is also able to be adjusted for many different variants of grind setting to cover all your needs.<br />
+<br />
+As to the size, the grinder is 7.3&quot; (18.5 cm) tall and 1.9&quot; (4.9 cm)&nbsp; in diameter, without the handle, so it perfectly fits your hands. You can put up to 1 oz (30 g) of beans inside. It&#39;s also very easy to wash.
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Porlex Tall Ceramic Burr Grinder</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[An extra-durable grinder with strong conical ceramic burrs&nbsp;that fits perfectly in your hands.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

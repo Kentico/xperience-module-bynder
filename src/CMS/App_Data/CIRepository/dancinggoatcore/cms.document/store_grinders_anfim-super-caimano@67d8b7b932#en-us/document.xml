@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Anfim Super Caimano -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:53:07Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>3ae6db96-8d08-49ad-8c1b-afe74886890b</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:53:07Z</DocumentModifiedWhen>
+  <DocumentName>Anfim Super Caimano</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Grinders/Anfim-Super-Caimano</CodeName>
+    <GUID>66b7ff48-b644-46a6-9be6-f93f9da2f13d</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+The Anfim Super Caimano is a Grinder with a capital &#39;G&#39;. Anfim only produces top level grinders. Their grinders are simple to maintain, have the highest-quality materials, and make a hell of a good coffee. What is the highest quality? Well, take the burrs, for example. They&#39;re neither steel nor ceramic. They&#39;re titanium. And do you know what? They can do six thousand pounds of coffee in their entire life. So, if you are looking for a grinder for commercial use or if coffee is simply your life, the Anfim Super Caimano is definitely your number one.<br />
+<br />
+This grinder offers three dosers and a low-speed 450-Watt engine that prevents the grounds from overheating.
+<ul>
+	<li>Hardened titanium burrs</li>
+	<li>A lifetime capacity for making 5,500&ndash;6,600 lb (2,500&ndash;3,000 kg) of coffee</li>
+	<li>High-quality materials</li>
+	<li>Soft and smooth grind</li>
+	<li>Easy to use and maintain</li>
+	<li>Three seconds per espresso</li>
+	<li>Electronic digital timer</li>
+</ul>
+Specifications:
+
+<ul>
+	<li>3&quot; (77 mm) burrs</li>
+	<li>Hopper capacity: 4.4 lb (2 kg)</li>
+	<li>22.5&quot; H x 7.75&quot; W x 14.5&quot; D (57.2 cm H x 19.7 cm W x 36.8 cm)</li>
+	<li>42 lb (19 kg)</li>
+</ul>
+
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Anfim Super Caimano</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[Simple to maintain, titanium burrs, smooth grind,&nbsp;three secs per espresso. This is the Anfim Super Caimano.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

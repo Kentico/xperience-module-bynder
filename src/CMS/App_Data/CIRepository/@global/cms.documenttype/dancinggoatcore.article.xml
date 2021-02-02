@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassDisplayName>Article</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ArticleID" columnprecision="0" columntype="integer" guid="61a0aa87-d18b-4949-b1d0-d7671fd6f526" isPK="true">
+        <properties>
+          <fieldcaption>ArticleID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="ArticleTitle" columnsize="450" columntype="text" guid="df654142-a892-4806-868f-b78c22f1c2b8" visible="true">
+        <properties>
+          <defaultvalue ismacro="true">{% ArticleTitle %}</defaultvalue>
+          <fieldcaption>Title</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="ArticleTeaser" columntype="file" guid="decc0681-142f-488f-9e8a-0e55b09e3ba8" translatefield="true" visible="true">
+        <properties>
+          <fieldcaption>Teaser</fieldcaption>
+        </properties>
+        <settings>
+          <Autoresize>custom</Autoresize>
+          <Autoresize_Height>0</Autoresize_Height>
+          <Autoresize_MaxSideSize>1000</Autoresize_MaxSideSize>
+          <Autoresize_Width>0</Autoresize_Width>
+          <controlname>DirectUploadControl</controlname>
+          <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <field column="ArticleSummary" columnsize="190" columntype="text" guid="86ca0bd7-d483-45fd-a902-fe3a261d4a45" visible="true">
+        <properties>
+          <fieldcaption>Summary</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextAreaControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Rows>5</Rows>
+          <Wrap>True</Wrap>
+        </settings>
+        <rules>
+          <rule errormsg="{$basicform.errortexttoolong$}">
+            <![CDATA[{%Rule("(Value.Length <= 190)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>190</t><v>190</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)087e8a132782cad4b8f4e1e945bf338de78f3bc87a3fb722b1584881d07353fe%}]]>
+          </rule>
+        </rules>
+      </field>
+      <field column="ArticleText" columntype="longtext" guid="85787b75-3609-48e6-8584-1d88b4a85499" visible="true">
+        <properties>
+          <fieldcaption>Text</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>HtmlAreaControl</controlname>
+          <Dialogs_Content_Hide>False</Dialogs_Content_Hide>
+          <HeightUnitType>PX</HeightUnitType>
+          <MediaDialogConfiguration>True</MediaDialogConfiguration>
+          <ShowAddStampButton>False</ShowAddStampButton>
+          <ToolbarSet>Standard</ToolbarSet>
+          <WidthUnitType>PX</WidthUnitType>
+        </settings>
+      </field>
+      <field allowempty="true" column="ArticleRelatedArticles" columntype="docrelationships" guid="1415dcbe-42f8-460b-91b9-12e52695622f" visible="true">
+        <properties>
+          <fieldcaption>Related articles</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>Pages</controlname>
+          <StartingPath>/Articles</StartingPath>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>f10195ae-16f3-46a2-bcda-1b0e86ed9df7</ClassGUID>
+  <ClassHasMetadata>False</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-rectangle-paragraph</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassName>DancingGoatCore.Article</ClassName>
+  <ClassNodeNameSource>ArticleTitle</ClassNodeNameSource>
+  <ClassSearchContentColumn>ArticleSummary</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>ArticleTeaser</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azuresearchable="True" content="True" id="0d1df76a-5df8-4dbd-ae01-c2d5de8fcb46" name="ArticleTitle" searchable="False" tokenized="True" />
+      <item content="False" id="5d6ecb79-8e52-4567-b323-20b16067b7a8" name="ArticleTeaser" searchable="False" tokenized="False" />
+      <item azureretrievable="True" content="False" id="74e6cda2-cbe6-4290-9216-7ca026221745" name="ArticleID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="89693433-6641-4a56-bca2-73ec6548f0a1" name="ArticleText" searchable="False" tokenized="True" />
+      <item content="False" id="dbe02ef8-cf0b-482f-86c9-9761e37cbfec" name="ArticleRelatedArticles" searchable="False" tokenized="False" />
+      <item azurecontent="True" azuresearchable="True" content="True" id="eb0f7698-32fa-4ea2-9497-9add39fe01e0" name="ArticleSummary" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassShowTemplateSelection>False</ClassShowTemplateSelection>
+  <ClassTableName>DancingGoatCore_Article</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>True</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

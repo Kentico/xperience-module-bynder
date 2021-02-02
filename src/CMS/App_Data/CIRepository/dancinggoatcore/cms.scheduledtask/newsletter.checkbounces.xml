@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.scheduledtask>
+  <TaskAllowExternalService>True</TaskAllowExternalService>
+  <TaskAssemblyName>CMS.Newsletters</TaskAssemblyName>
+  <TaskAvailability>0</TaskAvailability>
+  <TaskClass>CMS.Newsletters.BounceChecker</TaskClass>
+  <TaskCondition />
+  <TaskData />
+  <TaskDeleteAfterLastRun>False</TaskDeleteAfterLastRun>
+  <TaskDisplayName>Check bounced emails</TaskDisplayName>
+  <TaskEnabled>True</TaskEnabled>
+  <TaskGUID>f6c6e782-bbaf-4808-81d5-db049d3f96aa</TaskGUID>
+  <TaskInterval>
+    <![CDATA[hour;10/14/2015 9:21:45 AM;1;00:00:00;23:59:00;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday]]>
+  </TaskInterval>
+  <TaskName>Newsletter.CheckBounces</TaskName>
+  <TaskResourceID>
+    <CodeName>CMS.Newsletter</CodeName>
+    <GUID>82445572-642a-4f53-a411-063e5f4b63c0</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </TaskResourceID>
+  <TaskRunIndividually>False</TaskRunIndividually>
+  <TaskRunInSeparateThread>False</TaskRunInSeparateThread>
+  <TaskServerName />
+  <TaskSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </TaskSiteID>
+  <TaskUseExternalService>False</TaskUseExternalService>
+</cms.scheduledtask>

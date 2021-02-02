@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.variantoption>
+  <Parent>
+    <GUID>7ac11768-3cea-4db2-8dd2-639bd38cfa92</GUID>
+    <ObjectType>ecommerce.skuvariant</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </Parent>
+  <Bindings>
+    <Binding id="ecommerce.skuoption_f1f797d9-b3d5-4bd4-98e3-49ea6d5109fa_ecommerce.optioncategory_CoffeePackageSize_cms.site_DancingGoatCore_cms.site_DancingGoatCore">
+      <OptionSKUID>
+        <GUID>f1f797d9-b3d5-4bd4-98e3-49ea6d5109fa</GUID>
+        <ObjectType>ecommerce.skuoption</ObjectType>
+        <Site>
+          <CodeName>DancingGoatCore</CodeName>
+          <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+          <ObjectType>cms.site</ObjectType>
+        </Site>
+        <Parent>
+          <CodeName>CoffeePackageSize</CodeName>
+          <GUID>9deb874b-9340-4e8c-aeb8-df6b1c40eaac</GUID>
+          <ObjectType>ecommerce.optioncategory</ObjectType>
+          <Site>
+            <CodeName>DancingGoatCore</CodeName>
+            <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+            <ObjectType>cms.site</ObjectType>
+          </Site>
+        </Parent>
+      </OptionSKUID>
+    </Binding>
+  </Bindings>
+</ecommerce.variantoption>

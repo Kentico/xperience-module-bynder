@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsletter.issue>
+  <IssueDisplayName>Coffee 101 - Lesson 2</IssueDisplayName>
+  <IssueForAutomation>True</IssueForAutomation>
+  <IssueGUID>0e7022ff-bcc2-44fe-b5dd-58ef07e42ac6</IssueGUID>
+  <IssueNewsletterID>
+    <CodeName>Coffee101</CodeName>
+    <GUID>ebfc1b86-9655-479e-9655-6ab9a631a38a</GUID>
+    <ObjectType>newsletter.newsletter</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueNewsletterID>
+  <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+  <IssueSenderName>Dancing Goat Core</IssueSenderName>
+  <IssueSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </IssueSiteID>
+  <IssueSubject>Coffee 101 - Lesson 2</IssueSubject>
+  <IssueTemplateID>
+    <CodeName>CoreDemoGeneralEmail</CodeName>
+    <GUID>2491ef28-848d-469c-9df2-f65671b8ed4c</GUID>
+    <ObjectType>newsletter.emailtemplate</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </IssueTemplateID>
+  <IssueText />
+  <IssueUseUTM>False</IssueUseUTM>
+  <IssueUTMCampaign>coffee101</IssueUTMCampaign>
+  <IssueUTMSource>coffee101_coffee_101_-_lesson_2</IssueUTMSource>
+  <IssueWidgets>
+    <Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <Zones>
+        <Zone>
+          <Identifier>zone1</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>a55702a9-3198-4ed6-bc96-bc57d618a097</Identifier>
+              <TypeIdentifier>858092f1-17a8-41fa-883c-19d27ac43936</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>How does coffee processing affect the taste?</Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>9849fd3b-00fe-4e52-864d-da00641ed650</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>Lesson 2</Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>107467b1-0590-43c4-9c3b-04e5f45bce55</Identifier>
+              <TypeIdentifier>eca73089-2d52-4f1c-b99b-a0395b7772b3</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>ImageUrl</Name>
+                  <Value>
+                    <![CDATA[~/getmedia/2aeaedab-8745-433b-9fd9-82ecdf5c58f1/coffee-101-lesson-2.jpg?width=500&height=332&ext=.jpg]]>
+                  </Value>
+                </Property>
+                <Property>
+                  <Name>AlternateText</Name>
+                  <Value>Coffee beans</Value>
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+        <Zone>
+          <Identifier>zone2</Identifier>
+          <Widgets>
+            <Widget>
+              <Identifier>aeaa8552-1b5e-42a2-b5bc-f79200e5eb72</Identifier>
+              <TypeIdentifier>296f7aa0-2b96-40b2-a2d4-4458fa87beaf</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>
+<![CDATA[
+Before a ripe coffee plant transforms into a delicious cup lying on your table, it undergoes quite a journey. A journey full of possible pitfalls, which can, usually negatively, influence the coffee&rsquo;s final taste. What goes wrong at the very beginning cannot be made up for at the very end.<br />
+<br />
+The character and taste of a coffee are largely influenced by its origin, climate, the quality and type of soil and the botanical varieties of the coffee plant.<br />
+<br />
+The last two links of the chain&mdash;the roastery and the barista&mdash;cannot, in any way, improve the taste of the coffee. They are left with the difficult task of making the most its potential.<br />
+<br />
+The farmers themselves, however, have at their disposal tools for enhancing the &lsquo;ingrown&rsquo; taste of the coffee. These are mainly the methods of removing the multilayered skin of the coffee beans.<br />
+<br />
+Two, sometimes three basic methods are usually referred to. Wet- Processed (Fully-Washed), Dry-Processed (Natural) and Pulped-Natural (Semi-Washed).<br />
+<br />
+Wet processing rids the cherry of its layers and pulp by water fermentation. The exocarp is removed from the cherries directly after the harvest using circular and drum mechanical peelers. Afterwards, they spend 6&ndash;72 hours in water-filled fermentation tanks.<br />
+<br />
+In the tank, microorganisms take care of the pulp (mesocarp). The length of the process is determined by the stickiness of the beans. Leaving beans in the fermentation tank for too long produces the so-called &lsquo;naughty&rsquo; beans. These are often beans that have stuck in the tank and their rancid and putrid state endangers the whole batch.<br />
+<br />
+The constantly rising levels of acetic acid are also able to impact the taste of the coffee with fermented and even vinegarish tones once it&rsquo;s been roasted. The main negative aspect of wet processing is the amount of water that has to be used. This is up to 40m3 (40000 liters) of water, that have to be continuously dumped and new, clean water has to be put pumped into the tank. The dumping of contaminated water often depreciates the water supplies laying underneath the coffee farm.<br />
+<br />
+The dry method, considered the most traditional and the least costly, makes use of sun-drying. Cherries are often sundried on concrete courtyards, Ethiopian hilltops, and sometimes even on the very shrubs.<br />
+<br />
+Cherries need to be sundried directly after the harvest to avoid unwanted fermentation. The laid out beans need to be layered evenly and not 6 inches (15cm) in height. Farmers turn the seeds over both manually or with the use of tractors.<br />
+<br />
+During the dry fermentation, the sugars travel, via osmosis, from the pulp into the beans. This makes for more full-bodied coffee and adds sweeter tones to the taste, as compared to wet processed coffee. This often comes at the cost of a more polluted cup.<br />
+<br />
+Once the coffee beans reach some 11 % humidity, the peel layers and pulp can be removed using mechanical peelers. Reaching the desired humidity takes anywhere between 10 and 30 days. This is an important factor, especially in unstable climates, where automatic driers often replace the traditional sun drying process.<br />
+<br />
+Now&rsquo;s the time for &lsquo;reposo&rsquo;, a resting time, in which the beans lay in a parchment for 30&ndash;60 days.<br />
+<br />
+The third method, popular primarily in Brazil, is the so-called Pulped- Natural or Semi-Washed way of processing beans. Only the top layer of the cherry peel is removed in a water bath. The rest of the process, including the sugar fermentation and the separation of the pulp from the bean, are taken care of by sun drying. This method, just like the dry method, is highly dependent on the weather, which has to be consistent for the farmers to be able to dry the beans thoroughly.<br />
+<br />
+This process yields full-bodied beans with low-acidity. Less aliphatic acids are produced, which has a negative impact on the aroma of the coffee.
+]]>
+                  </Value>
+                </Property>
+              </Properties>
+            </Widget>
+            <Widget>
+              <Identifier>5c445335-9755-4706-a682-070e2e674dba</Identifier>
+              <TypeIdentifier>ab776b60-b2ba-452f-95f3-c2d055484b84</TypeIdentifier>
+              <Properties>
+                <Property>
+                  <Name>Text</Name>
+                  <Value>Try washed Nicaragua</Value>
+                </Property>
+                <Property>
+                  <Name>Link</Name>
+                  <Value>~/store/coffees/nicaragua-dipilto-(decaf)/</Value>
+                </Property>
+                <Property>
+                  <Name>Color</Name>
+                  <Value>#B49669</Value>
+                </Property>
+                <Property>
+                  <Name>UTMContent</Name>
+                  <Value />
+                </Property>
+                <Property>
+                  <Name>Personas</Name>
+                  <Value />
+                </Property>
+              </Properties>
+            </Widget>
+          </Widgets>
+        </Zone>
+      </Zones>
+    </Configuration>
+  </IssueWidgets>
+</newsletter.issue>

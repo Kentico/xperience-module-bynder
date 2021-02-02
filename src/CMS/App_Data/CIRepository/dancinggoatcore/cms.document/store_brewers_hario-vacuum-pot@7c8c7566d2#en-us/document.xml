@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Hario Vacuum Pot -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:13:22Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>8cae3c0c-9b90-42fe-b081-ae8c400b6e44</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:13:22Z</DocumentModifiedWhen>
+  <DocumentName>Hario Vacuum Pot</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Brewers/Hario-Vacuum-Pot</CodeName>
+    <GUID>a905a18a-6a4f-4b4a-a79e-9ffa65527124</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+    <![CDATA[Another Hario product in our store. This is a classic, but it takes a little while to master. The results, however, are more than worth it. Perfect when you want a specialty device that allows you to experiment with different techniques, tastes, and strengths in a novel way. Your friends will think you&#39;re a born alchemist.]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Hario Vacuum Pot</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[A&nbsp;brewing classic with proven results. Experiment with different techniques with the Hario Vacuum Pot.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Personalized cup with saucer -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:45:07Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>d394009c-58f7-429d-a411-5dfc795a566f</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:45:07Z</DocumentModifiedWhen>
+  <DocumentName>Personalized cup with saucer</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Accessories/Personalized-cup-with-saucer</CodeName>
+    <GUID>ae2ae1a2-788b-4f3f-8169-ac8f888a881d</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+<![CDATA[
+Make your kitchen special and purchase this personalized white ceramic cup with saucer. Why is this cup so extraordinary? It&#39;s because you can put your own text on it and display a modicum of pride to the world.<br />
+<br />
+Look at the cup and try and say it&#39;s not beautiful... Yes, that&#39;s right, it&#39;s not possible. Besides, the cup is made of a special kind of ceramic that helps keep your coffee hot.<br />
+<br />
+So, don&#39;t forget to add your own inscription before you make an order and then seize the day with this lovely cup. Carpe diem.
+]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Personalized cup with saucer</DocumentSKUName>
+  <DocumentSKUShortDescription>cupcup</DocumentSKUShortDescription>
+</cms.documentlocalization>

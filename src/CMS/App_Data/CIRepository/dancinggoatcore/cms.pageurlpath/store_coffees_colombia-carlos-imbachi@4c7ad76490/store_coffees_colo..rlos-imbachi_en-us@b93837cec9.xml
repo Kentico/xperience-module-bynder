@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.pageurlpath>
+  <PageUrlPathCulture>en-US</PageUrlPathCulture>
+  <PageUrlPathGUID>1c59b472-c1fe-4082-9b36-1fbc98647313</PageUrlPathGUID>
+  <PageUrlPathNodeID>
+    <CodeName>/Store/Coffees/Colombia-Carlos-Imbachi</CodeName>
+    <GUID>289963c1-904a-4dcf-b772-95b60f10c267</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </PageUrlPathNodeID>
+  <PageUrlPathSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </PageUrlPathSiteID>
+  <PageUrlPathUrlPath>Store/Coffees/Colombia-Carlos-Imbachi</PageUrlPathUrlPath>
+  <PageUrlPathUrlPathHash>
+    <![CDATA[2C87B2399E7205B7758E7C13280C88C3D424B94CA918C0D4B519B2F02763B1F0]]>
+  </PageUrlPathUrlPathHash>
+</cms.pageurlpath>

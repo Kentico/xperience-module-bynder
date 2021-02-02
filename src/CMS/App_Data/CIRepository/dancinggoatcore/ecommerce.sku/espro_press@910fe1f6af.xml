@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUDepartmentID>
+    <CodeName>Brewers</CodeName>
+    <GUID>b06d8273-92ec-473e-ba84-e7d2be2ebe62</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>A major rethink in the way coffee is made. Retains heat for several hours. The filters in this device are up to 12 times finer, and each coffee is filtered twice. This means no sediment, no silt, and a perfectly clear coffee.</p>
+
+<p>The Espro Press is durable, perfect for travelling as well as at home. It can survive practically anything.</p>
+
+<p>Oh, and one more thing. You can easily use this brewer for perfect loose-leaf tea, tonic water, or even vanilla extract.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>b8b926eb-280b-4ccd-91ab-e1a4bd4f7bce</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/10d141e3-caaf-4203-8579-aa47263857a3/espro-press]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:09:37Z</SKUInStoreFrom>
+  <SKUManufacturerID>
+    <CodeName>Espro</CodeName>
+    <GUID>69ffd3b1-f543-4920-922f-8cb5250f238d</GUID>
+    <ObjectType>ecommerce.manufacturer</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUManufacturerID>
+  <SKUName>Espro Press</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>ESP-PR</SKUNumber>
+  <SKUPrice>74.9</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[The Espro Press retains heat for hours, has super-finer filters ensuring no sediment, and is perfect for all travel.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>Disabled</SKUTrackInventory>
+  <SKUWeight>3.2</SKUWeight>
+</ecommerce.sku>

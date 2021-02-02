@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for Paper Filters for Chemex -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2020-08-03 09:44:18Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>0e56c99c-8e64-48bb-ba47-6b1b3702ab29</DocumentGUID>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2020-08-03 09:44:18Z</DocumentModifiedWhen>
+  <DocumentName>Paper Filters for Chemex</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Store/Accessories/Paper-Filters-for-Chemex</CodeName>
+    <GUID>fc7aa7f3-b910-44ba-915c-b516385fabd7</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentShowInMenu>False</DocumentShowInMenu>
+  <DocumentSKUDescription>
+    <![CDATA[Absolutely no grounds and easy-to-use filters? Yes, it is possible. These paper filters for Chemex coffee makers are different. Their thickness and shape may look strange, but the result will amaze you. Just wash them in hot water before starting and you&#39;re ready to go.]]>
+  </DocumentSKUDescription>
+  <DocumentSKUName>Paper Filters for Chemex</DocumentSKUName>
+  <DocumentSKUShortDescription>
+    <![CDATA[These weirdly shaped filters will astonish you&nbsp;by the&nbsp;quality of your coffee.]]>
+  </DocumentSKUShortDescription>
+</cms.documentlocalization>

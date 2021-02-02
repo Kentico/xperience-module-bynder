@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassDisplayName>Brewer</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="BrewerID" columnprecision="0" columntype="integer" guid="0a9502bf-b3cd-48e1-8666-f1918c4b66dc" isPK="true">
+        <properties>
+          <fieldcaption>BrewerID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field allowempty="true" column="BrewerIsDishwasherSafe" columntype="boolean" guid="5d680271-60df-4401-bb6b-52610418b8e2" visible="true">
+        <properties>
+          <defaultvalue>true</defaultvalue>
+          <fieldcaption>Dishwasher safe</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>CheckBoxControl</controlname>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>f8f202e5-0345-4572-860f-e7b81f313f2e</ClassGUID>
+  <ClassHasMetadata>True</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-box</ClassIconClass>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsNavigationItem>False</ClassIsNavigationItem>
+  <ClassIsProduct>True</ClassIsProduct>
+  <ClassIsProductSection>False</ClassIsProductSection>
+  <ClassName>DancingGoatCore.Brewer</ClassName>
+  <ClassNodeAliasSource />
+  <ClassNodeNameSource />
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchImageColumn>SKUImagePath</ClassSearchImageColumn>
+  <ClassSearchSettings>
+    <search>
+      <item content="False" id="765c9b66-f054-49e6-acbc-0bd5b11cf935" name="BrewerIsDishwasherSafe" searchable="False" tokenized="False" />
+      <item azureretrievable="True" content="False" id="a2bb0106-5689-46c8-951c-26173b70e4d3" name="BrewerID" searchable="True" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassSKUDefaultDepartmentName>DancingGoatMvc.Brewers</ClassSKUDefaultDepartmentName>
+  <ClassSKUDefaultProductType>PRODUCT</ClassSKUDefaultProductType>
+  <ClassTableName>DancingGoatCore_Brewer</ClassTableName>
+  <ClassUsePublishFromTo>False</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>False</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

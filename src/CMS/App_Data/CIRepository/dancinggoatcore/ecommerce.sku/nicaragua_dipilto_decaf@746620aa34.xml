@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ecommerce.sku>
+  <SKUDepartmentID>
+    <CodeName>Coffees</CodeName>
+    <GUID>39323402-eac1-4fc0-a4a9-cceafab8cc67</GUID>
+    <ObjectType>ecommerce.department</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUDepartmentID>
+  <SKUDescription>
+<![CDATA[
+<p>Quite a peculiar coffee bean, grown at the El Progresso farm in Nueva Segovie, which is one of Nicaragua&#39;s smallest municipalities. This region is next to the mountainous border with Honduras. The north is known for its pines, natural hot springs, amazing cliff-side views, and, of course, the quality of the locally produced coffee. This is partially thanks to the evenly distributed rainfall throughout the year and mild temperatures. Nicaragua Dipilto is grown by a cooperation created to protect the rights of local farming families in the region. Despite being more of an aggregate of family businesses, it has a central cupping lab that provides unified and modern quality control.</p>
+
+<p>Dipilto is best prepared with a darker roast than most Central American varietals. It has a medium body with an aftertaste that might remind you of a rich, spicy tea. The coffee has excellent depth, strong and rich, but a balanced aroma. The beans themselves have a nut-butter like polish to them. The aroma will remind you of chocolate, caramel, and blooming spring flowers. The finish is uncommonly long.</p>
+
+]]>
+  </SKUDescription>
+  <SKUEnabled>True</SKUEnabled>
+  <SKUGUID>2323e586-0d2e-4554-aa6e-44ca350769b3</SKUGUID>
+  <SKUImagePath>
+    <![CDATA[~/getmetafile/1b28cc65-bd01-47c3-ab9f-111bf8231783/nicaragua]]>
+  </SKUImagePath>
+  <SKUInStoreFrom>2020-08-03 09:01:07Z</SKUInStoreFrom>
+  <SKUName>Nicaragua Dipilto (decaf)</SKUName>
+  <SKUNeedsShipping>True</SKUNeedsShipping>
+  <SKUNumber>CO-NIC-DIPILTO</SKUNumber>
+  <SKUPrice>5</SKUPrice>
+  <SKUProductType>PRODUCT</SKUProductType>
+  <SKUSellOnlyAvailable>False</SKUSellOnlyAvailable>
+  <SKUShortDescription>
+    <![CDATA[With a medium body and a pleasant aftertaste, try the deep, strong and rich aromas of Nicaragua Dipilto, which comes from a region full of hot springs.]]>
+  </SKUShortDescription>
+  <SKUSiteID>
+    <CodeName>DancingGoatCore</CodeName>
+    <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </SKUSiteID>
+  <SKUTaxClassID>
+    <CodeName>SalesTax</CodeName>
+    <GUID>057b1b65-6b0b-43fa-9f72-c0b04bb31000</GUID>
+    <ObjectType>ecommerce.taxclass</ObjectType>
+    <Site>
+      <CodeName>DancingGoatCore</CodeName>
+      <GUID>1068a102-3f26-4a5f-833d-93efd0b18939</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </SKUTaxClassID>
+  <SKUTrackInventory>Disabled</SKUTrackInventory>
+  <SKUWeight>0.5</SKUWeight>
+</ecommerce.sku>

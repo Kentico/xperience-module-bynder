@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<Authors>Kentico Software</Authors>
+		<Version>0.0.1-preview</Version>
+		<Company>Kentico Software</Company>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="..\CMS\CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx.cs" />
+		<Compile Include="..\CMS\CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx.designer.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\CMS\CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="CMS.Base">
+			<HintPath>..\Lib\CMS.Base.dll</HintPath>
+		</Reference>
+		<Reference Include="CMS.Base.Web.UI">
+			<HintPath>..\Lib\CMS.Base.Web.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="CMS.Core">
+			<HintPath>..\Lib\CMS.Core.dll</HintPath>
+		</Reference>
+		<Reference Include="CMS.DataEngine">
+			<HintPath>..\Lib\CMS.DataEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="CMS.FormEngine">
+			<HintPath>..\Lib\CMS.FormEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="CMS.FormEngine.Web.UI">
+			<HintPath>..\Lib\CMS.FormEngine.Web.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Web" />
+	</ItemGroup>
+
+</Project>

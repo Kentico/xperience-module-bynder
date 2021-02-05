@@ -1018,7 +1018,6 @@
     <Content Include="CMSAdminControls\UI\UniGrid\Controls\MassActions.ascx" />
     <Content Include="CMSAdminControls\UI\UniGrid\Pages\MassDelete.aspx" />
     <Content Include="CMSAdminControls\UI\FontIconSelector.ascx" />
-    <Content Include="CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx" />
     <Content Include="CMSInstall\Controls\WizardSteps\CollationDialog.ascx" />
     <Content Include="CMSModules\AdminControls\Controls\UIControls\SmartTipPlaceholder.ascx" />
     <Content Include="CMSModules\BizForms\FormControls\FormFieldSelector.ascx" />
@@ -3202,13 +3201,6 @@
     </Compile>
     <Compile Include="CMSAdminControls\UI\FontIconSelector.ascx.designer.cs">
       <DependentUpon>FontIconSelector.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx.cs">
-      <DependentUpon>BynderImageSelector.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx.designer.cs">
-      <DependentUpon>BynderImageSelector.ascx</DependentUpon>
     </Compile>
     <Compile Include="CMSFormControls\SQL\SqlQueryTextbox.ascx.cs">
       <DependentUpon>SqlQueryTextbox.ascx</DependentUpon>
@@ -14339,6 +14331,12 @@
     <Content Include="CMSScripts\WebComponents\kentico-abtest-variant-listing_35.system.entry.js" />
     <Content Include="CMSScripts\WebComponents\shadow-css-14c5e2cb.js" />
     <Content Include="CMSScripts\WebComponents\shadow-css-8a020e34.system.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kentico.Xperience.Bynder\Kentico.Xperience.Bynder.csproj">
+      <Project>{720b6d51-a42a-458e-b92e-e48b9860d908}</Project>
+      <Name>Kentico.Xperience.Bynder</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

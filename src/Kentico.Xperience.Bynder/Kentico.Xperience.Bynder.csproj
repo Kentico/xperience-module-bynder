@@ -5,6 +5,8 @@
 		<Authors>Kentico Software</Authors>
 		<Version>0.0.1-preview</Version>
 		<Company>Kentico Software</Company>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>OpenSource.snk</AssemblyOriginatorKeyFile>
 	</PropertyGroup>
 
 	<ItemGroup>

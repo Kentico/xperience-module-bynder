@@ -18,7 +18,13 @@
 
                 <div class="col-xs-12 col-md-3 article-tile article-tile-small @lastInRow">
                     <div class="article-tile-inner">
-                        @if (article.TeaserUrl != null)
+                        @if (!String.IsNullOrEmpty(article.BynderTeaserUrl))
+                        {
+                            <a href="@article.Url">
+                                <img src="@article.BynderTeaserUrl" alt="@article.Title" title="@article.Title" class="article-tile-image" />
+                            </a>
+                        }
+                        else @if (article.TeaserUrl != null)
                         {
                             <a href="@article.Url">
                                 <img src="@article.TeaserUrl.WithSizeConstraint(SizeConstraint.Height(200)).RelativePath" alt="@article.Title" title="@article.Title" class="article-tile-image" />

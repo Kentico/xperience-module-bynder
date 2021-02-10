@@ -1,4 +1,5 @@
 ﻿using CMS;
+using CMS.DataEngine;
 
 [assembly: AssemblyDiscoverable]
 
@@ -9,7 +10,7 @@ namespace Kentico.Xperience.Bynder
     /// <summary>
     /// Represents the Bynder image selector module for the Xperience admin interface.
     /// </summary>
-    public class BynderImageSelectorModule : CMS.DataEngine.Module
+    public class BynderImageSelectorModule : Module
     {
         public const string NAME = "Kentico.Xperience.Bynder";
 

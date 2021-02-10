@@ -5,13 +5,15 @@ using System.Linq;
 using CMS.DocumentEngine.Types.DancingGoatCore;
 
 using Kentico.Content.Web.Mvc;
+using Newtonsoft.Json.Linq;
 
 namespace DancingGoat.Models
 {
     public class ArticleViewModel
     {
-        public IPageAttachmentUrl TeaserUrl{ get; set; }
+        public IPageAttachmentUrl TeaserUrl { get; set; }
 
+        public string BynderTeaserUrl { get; set; }
 
         public string Title { get; set; }
 
@@ -38,6 +40,7 @@ namespace DancingGoat.Models
                 RelatedArticles = article.Fields.RelatedArticles.OfType<Article>().Select(relatedArticle => GetViewModel(relatedArticle, pageUrlRetriever, attachmentUrlRetriever)) ?? Enumerable.Empty<ArticleViewModel>(),
                 Summary = article.Fields.Summary,
                 TeaserUrl = article.Fields.Teaser == null ? null : attachmentUrlRetriever.Retrieve(article.Fields.Teaser),
+                BynderTeaserUrl = !string.IsNullOrEmpty(article.Fields.TeaserWithBynder) ? JObject.Parse(article.Fields.TeaserWithBynder)["assetUrl"].ToString() : null,
                 Text = article.Fields.Text,
                 Title = article.Fields.Title,
                 Url = pageUrlRetriever.Retrieve(article).RelativePath

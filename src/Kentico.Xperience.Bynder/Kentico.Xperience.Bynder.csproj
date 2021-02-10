@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>net48</TargetFramework>
 		<Authors>Kentico Software</Authors>
-		<Version>0.0.1-preview</Version>
+		<Version>0.1.0</Version>
 		<Company>Kentico Software</Company>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>OpenSource.snk</AssemblyOriginatorKeyFile>
@@ -16,6 +16,7 @@
 
 	<ItemGroup>
 		<None Include="..\CMS\CMSFormControls\Kentico.Xperience.Bynder\BynderImageSelector.ascx" />
+		<None Include="..\CMS\CMSScripts\CMSModules\Kentico.Xperience.Bynder\BynderImageSelector.js" Link="Scripts\BynderImageSelector.js"/>
 	</ItemGroup>
 
 	<ItemGroup>

@@ -16,8 +16,31 @@
   <UserControlForText>True</UserControlForText>
   <UserControlGUID>f53e1a45-cc6c-4967-a829-d17cb7df7b0e</UserControlGUID>
   <UserControlIsSystem>False</UserControlIsSystem>
-  <UserControlParameters>
-    <form version="2" />
+    <UserControlParameters>
+    <form version="2">
+      <field allowempty="true" column="DefaultDomain" columnsize="200" columntype="text" guid="a99b7575-1bc4-4ea5-aef2-05335d6031cd" resolvedefaultvalue="False" visible="true">
+        <properties>
+          <fieldcaption>Default domain</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="UseModalDisplayMode" columntype="boolean" guid="464d9233-b28b-4edb-8830-db1df10cf13c" resolvedefaultvalue="False" visible="true">
+        <properties>
+          <defaultvalue>false</defaultvalue>
+          <fieldcaption>Use full size modal display mode</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>CheckBoxControl</controlname>
+        </settings>
+      </field>
+    </form>
   </UserControlParameters>
   <UserControlShowInCustomTables>True</UserControlShowInCustomTables>
   <UserControlShowInDocumentTypes>True</UserControlShowInDocumentTypes>

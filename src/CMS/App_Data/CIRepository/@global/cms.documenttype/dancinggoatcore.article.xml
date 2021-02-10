@@ -30,12 +30,24 @@
           <fieldcaption>Teaser</fieldcaption>
         </properties>
         <settings>
+          <Allowed_Extensions>
+            <![CDATA[pdf;doc;docx;ppt;pptx;xls;xlsx;xml;bmp;gif;jpg;jpeg;png;wav;mp3;mp4;mpg;mpeg;mov;avi;rar;zip;txt;rtf]]>
+          </Allowed_Extensions>
           <Autoresize>custom</Autoresize>
           <Autoresize_Height>0</Autoresize_Height>
           <Autoresize_MaxSideSize>1000</Autoresize_MaxSideSize>
           <Autoresize_Width>0</Autoresize_Width>
           <controlname>DirectUploadControl</controlname>
           <Extensions>inherit</Extensions>
+        </settings>
+      </field>
+      <field allowempty="true" column="ArticleTeaserWithBynder" columnsize="500" columntype="text" guid="96763afd-1f0f-4703-adf0-d906547c1ac5" visible="true">
+        <properties>
+          <fieldcaption>Bynder teaser</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>BynderImageSelector</controlname>
+          <UseModalDisplayMode>True</UseModalDisplayMode>
         </settings>
       </field>
       <field column="ArticleSummary" columnsize="190" columntype="text" guid="86ca0bd7-d483-45fd-a902-fe3a261d4a45" visible="true">
@@ -53,7 +65,7 @@
         </settings>
         <rules>
           <rule errormsg="{$basicform.errortexttoolong$}">
-            <![CDATA[{%Rule("(Value.Length <= 190)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>190</t><v>190</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)087e8a132782cad4b8f4e1e945bf338de78f3bc87a3fb722b1584881d07353fe%}]]>
+            <![CDATA[{%Rule("(Value.Length <= 190)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MaxLength\" ><p n=\"maxlength\"><t>190</t><v>190</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)4bcf3f5226d7eefa04d2e3cc7cff186ab7a1874349e14e7729b0def0235497c3%}]]>
           </rule>
         </rules>
       </field>

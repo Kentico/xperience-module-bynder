@@ -30,7 +30,7 @@
       <objectparameterid>categoryid</objectparameterid>
       <includejquery>False</includejquery>
       <displaybreadcrumbs ismacro="True">
-        <![CDATA[{%EditedObject.CategoryParentID > 0|(identity)GlobalAdministrator|(hash)9f18423162f2afb5a011ae3802be3acc8f670eed3a03e11d761b58dc1a3dd9a6%}]]>
+        <![CDATA[{%EditedObject.CategoryParentID > 0|(identity)GlobalAdministrator|(hash)e9f0a5c2c1be117f84ce4778f794bc1c7d6bbe9c1eb5c0c2ff8e3e618ce0ae90%}]]>
       </displaybreadcrumbs>
       <rememberselectedtab>False</rememberselectedtab>
       <allowsubtabs>True</allowsubtabs>

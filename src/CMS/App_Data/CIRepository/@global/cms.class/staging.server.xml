@@ -34,7 +34,7 @@
       <field column="ServerSiteID" columntype="integer" guid="3a5aac85-f6a7-462c-995c-f87088fccdc7" system="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)24958a118815fb22e0b5d12964394bd025d53c68f2b6c2f96c5f993314e90fb2%}]]>
+            <![CDATA[{%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)b92af2e9de73c983b51e150d126f4d122a04dffafb43e3bfb510a49f3ff657e9%}]]>
           </defaultvalue>
           <fieldcaption>test</fieldcaption>
         </properties>

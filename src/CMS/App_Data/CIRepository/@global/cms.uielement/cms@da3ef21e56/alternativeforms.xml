@@ -29,7 +29,7 @@
     <data>
       <includejquery>False</includejquery>
       <wherecondition>
-        <![CDATA[FormClassID={% UIContext.EditedObjectParent.ID |(identity)GlobalAdministrator|(hash)40974c470c445cb300b1c5861fa862f788bc7085b9b8343ff8180e3bcc774492%}]]>
+        <![CDATA[FormClassID={% UIContext.EditedObjectParent.ID |(identity)GlobalAdministrator|(hash)c452af3d98bd07bf7c4f7f3c9ba9aab15ac1a21275bd61bdc9a3b763a1776397%}]]>
       </wherecondition>
       <category_name_header>False</category_name_header>
       <displaybreadcrumbs>False</displaybreadcrumbs>

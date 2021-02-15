@@ -3,7 +3,7 @@
   <StepActionParameters />
   <StepAllowReject>True</StepAllowReject>
   <StepDefinition>
-    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Step xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <TimeoutEnabled>false</TimeoutEnabled>
       <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
       <SourcePoints>
@@ -14,7 +14,7 @@
           <Text />
           <Tooltip />
           <Condition>
-            <![CDATA[{%Rule("(Contact.DidActivities(\"purchase\", ToInt(10), false))", "<rules><r pos=\"0\" par=\"\" op=\"or\" n=\"CMSContactHasDoneFollowingActivitiesInTheLastXDays\" ><p n=\"activities\"><t>Purchase</t><v>purchase</v><r>1</r><d>select activities</d><vt>text</vt><tv>0</tv></p><p n=\"days\"><t>10</t><v>10</v><r>0</r><d>enter days</d><vt>integer</vt><tv>1</tv></p><p n=\"_any\"><t>any</t><v>false</v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"_perfectum\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)939645a8391d6cb4f04ad5260e5a46e610aa1068052d4147cca8783e5a59bbb5%}]]>
+            <![CDATA[{%Rule("(Contact.DidActivities(\"purchase\", ToInt(10), false))", "<rules><r pos=\"0\" par=\"\" op=\"or\" n=\"CMSContactHasDoneFollowingActivitiesInTheLastXDays\" ><p n=\"activities\"><t>Purchase</t><v>purchase</v><r>1</r><d>select activities</d><vt>text</vt><tv>0</tv></p><p n=\"days\"><t>10</t><v>10</v><r>0</r><d>enter days</d><vt>integer</vt><tv>1</tv></p><p n=\"_any\"><t>any</t><v>false</v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"_perfectum\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)b8218498cb0ab6b5601383489a8ad45fec7cd38b6c16b953467da01765492aa8%}]]>
           </Condition>
           <Type>1</Type>
           <StepRolesSecurity>0</StepRolesSecurity>

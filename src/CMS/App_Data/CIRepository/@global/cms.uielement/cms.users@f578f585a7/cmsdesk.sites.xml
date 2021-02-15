@@ -40,6 +40,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Rule("CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin);", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CurrentUserHasPrivilegeLevel\" ><p n=\"_has\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"privilege\"><t>GlobalAdmin</t><v>GlobalAdmin</v><r>0</r><d>select level</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)a8571e1c5b124b8446b56ce20f0b4b3ddf488c9181d479aa701012d9489e3dfa%}]]>
+    <![CDATA[{%Rule("CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin);", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CurrentUserHasPrivilegeLevel\" ><p n=\"_has\"><t>has</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"privilege\"><t>GlobalAdmin</t><v>GlobalAdmin</v><r>0</r><d>select level</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)e684980a30d9fab4c413265c35faaf9dc13a0b538598a90d16e192070f486cb9%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

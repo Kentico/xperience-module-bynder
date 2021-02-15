@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%Rule("CurrentUser.IsAuthorizedPerResource(\"CMS.Form\",\"ReadForm\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.Form</t><v>CMS.Form</v><r>false</r><d>select module</d><vt>text</vt></p><p n=\"permission\"><t>ReadForm</t><v>ReadForm</v><r>false</r><d>select permission</d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)abdab9cc545635677ecc9373041c27fa0ebd838570cba4aa4314527a51886305%}]]>
+    <![CDATA[{%Rule("CurrentUser.IsAuthorizedPerResource(\"CMS.Form\",\"ReadForm\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.Form</t><v>CMS.Form</v><r>false</r><d>select module</d><vt>text</vt></p><p n=\"permission\"><t>ReadForm</t><v>ReadForm</v><r>false</r><d>select permission</d><vt>text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)234d779b5d48f014e0700913ce33dde9be846241f787b2a412c449030386092b%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$tools.ui.form$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>

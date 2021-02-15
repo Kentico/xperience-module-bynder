@@ -5,7 +5,7 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td class="padding" align="center" style="padding: 10px 0 15px 0;">
-      <img src="{% ImageUrl == String.Empty ? "~/getmedia/d82041ac-2264-463f-81fb-5a7bbda33cd3/default-image-product.png" : ImageUrl |(identity)GlobalAdministrator|(hash)43961e420398c7ac5da45e21c0e4e0c45f6d0dd58bdd955cb2cc3449262fcd8c%}" width="500" border="0" alt="{% AlternateText %}" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="img-max">
+      <img src="{% ImageUrl == String.Empty ? "~/getmedia/d82041ac-2264-463f-81fb-5a7bbda33cd3/default-image-product.png" : ImageUrl |(identity)GlobalAdministrator|(hash)229761d96203a831a0448a704668e218ce6c795bc2d356761f09448260df194e%}" width="500" border="0" alt="{% AlternateText %}" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="img-max">
     </td>
   </tr>
 </table>

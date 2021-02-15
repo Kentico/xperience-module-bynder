@@ -38,6 +38,6 @@
   <ElementTargetURL>~/CMSModules/System/Debug/Log.aspx?name=security</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Debug.IsDebugEnabled("security")|(identity)GlobalAdministrator|(hash)12529cc8ab81e96f4a490bb0ba4e3bd2ff4c41c8b11ba54b9957bf4f62b10cfd%}]]>
+    <![CDATA[{%Debug.IsDebugEnabled("security")|(identity)GlobalAdministrator|(hash)0307a049bca2d1e8ef267d1c9ef175dbf44660805ff94a45f3a8748718b86ce7%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

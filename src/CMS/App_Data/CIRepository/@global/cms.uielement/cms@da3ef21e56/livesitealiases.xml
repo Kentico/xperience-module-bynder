@@ -40,7 +40,7 @@
       <OpenInDialog>False</OpenInDialog>
       <ParentObjectType>cms.site</ParentObjectType>
       <WhereCondition>
-        <![CDATA[SiteID = {% ToInt (UIContext.ParentObjectID) |(identity)GlobalAdministrator|(hash)2696f752ca6c797b10321964baa3aeffdca9bcaf802f70a06d94e0b24d23a9f3%}]]>
+        <![CDATA[SiteID = {% ToInt (UIContext.ParentObjectID) |(identity)GlobalAdministrator|(hash)a2a9a9e215f14c27d31958c4feef788f4be9a4cec3ef7357d36117487c5d8281%}]]>
       </WhereCondition>
     </Data>
   </ElementProperties>

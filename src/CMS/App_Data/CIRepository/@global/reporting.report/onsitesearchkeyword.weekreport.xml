@@ -24,7 +24,7 @@
       <field column="FromDate" columnprecision="7" columntype="datetime" guid="15c19984-cb9a-44bb-9a6c-1aa2513b259c" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddMonths(-6).Date|(identity)GlobalAdministrator|(hash)51677b15d6765c1a27133cbd858e6c342d6ab14d2c0b8254441945d02f3f47be%}]]>
+            <![CDATA[{%CurrentDateTime.AddMonths(-6).Date|(identity)GlobalAdministrator|(hash)18648d7ef9d564e1557866d278a110e0ad4dbd7c8f9ca2929d0b642278ebc379%}]]>
           </defaultvalue>
           <fieldcaption>From</fieldcaption>
         </properties>

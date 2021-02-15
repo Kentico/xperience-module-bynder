@@ -33,6 +33,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%LicenseHelper.CheckFeature(FeatureEnum.FullContactManagement) && CurrentUser.IsAuthorizedPerResource("CMS.Activities", "ReadActivities")|(identity)GlobalAdministrator|(hash)612a7882ab0b4f06732007b85172c90be4c793bc95c60ccc4e8060ad28d6a034%}]]>
+    <![CDATA[{%LicenseHelper.CheckFeature(FeatureEnum.FullContactManagement) && CurrentUser.IsAuthorizedPerResource("CMS.Activities", "ReadActivities")|(identity)GlobalAdministrator|(hash)efe152ae17eddbca6d89c6939d924b40f9ff52e8f91c782a6fb161fa9c58ed97%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

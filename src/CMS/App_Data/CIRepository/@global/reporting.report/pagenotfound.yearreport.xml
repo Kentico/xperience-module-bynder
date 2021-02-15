@@ -25,7 +25,7 @@
       <field column="FromDate" columntype="datetime" guid="ff65d7a3-6e8d-454e-9870-91512a45d07a" spellcheck="false" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddYears(-6).Date|(identity)GlobalAdministrator|(hash)53327ee99097a0f87062a63626ba847e9b06416b024bb7ff155dfb5e48994c74%}]]>
+            <![CDATA[{%CurrentDateTime.AddYears(-6).Date|(identity)GlobalAdministrator|(hash)865bc8fa06c99306d7d379e79d95a2b87fbe01e8725c0565d90ebde527b423ac%}]]>
           </defaultvalue>
           <fieldcaption>{$general.from$}</fieldcaption>
         </properties>

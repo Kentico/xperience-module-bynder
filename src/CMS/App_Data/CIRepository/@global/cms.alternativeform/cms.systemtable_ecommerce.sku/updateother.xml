@@ -143,14 +143,14 @@
       <field column="SKUSellOnlyAvailable" guid="ca3ef874-bccc-401d-ae31-f5b40c99f900">
         <properties>
           <visiblemacro ismacro="true">
-            <![CDATA[{%Fields.skutrackinventory.Value != "Disabled"|(identity)GlobalAdministrator|(hash)499891f48afed8eb413fd86deff2f0b6ec0339828b5b0d9c75e6cf19f0771b1a%}]]>
+            <![CDATA[{%Fields.skutrackinventory.Value != "Disabled"|(identity)GlobalAdministrator|(hash)4b07a90f0f3f71f87381e8bbfe638c323ed2d77842b454400553a83dce67041e%}]]>
           </visiblemacro>
         </properties>
       </field>
       <field column="SKUAvailableItems" guid="db263b45-b660-45e4-b02e-fa0819e75472">
         <properties>
           <visiblemacro>
-            <![CDATA[{%SKUTrackInventory.Value == "ByProduct"|(identity)GlobalAdministrator|(hash)46c73337df6185c53a21627dca85a14b55ec5f542ce821c78053ba016337bf43%}]]>
+            <![CDATA[{%SKUTrackInventory.Value == "ByProduct"|(identity)GlobalAdministrator|(hash)019ba40cbf99d1e8de77747418c46150ac4eaf6e9fa3f9fc868dfb800865a08b%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -158,7 +158,7 @@
       <field column="SKUAvailableInDays" guid="7d56b109-15d2-41ed-ab41-c505b50b8386">
         <properties>
           <visiblemacro ismacro="true">
-            <![CDATA[{%Fields.skutrackinventory.Value != "Disabled"|(identity)GlobalAdministrator|(hash)499891f48afed8eb413fd86deff2f0b6ec0339828b5b0d9c75e6cf19f0771b1a%}]]>
+            <![CDATA[{%Fields.skutrackinventory.Value != "Disabled"|(identity)GlobalAdministrator|(hash)4b07a90f0f3f71f87381e8bbfe638c323ed2d77842b454400553a83dce67041e%}]]>
           </visiblemacro>
         </properties>
       </field>

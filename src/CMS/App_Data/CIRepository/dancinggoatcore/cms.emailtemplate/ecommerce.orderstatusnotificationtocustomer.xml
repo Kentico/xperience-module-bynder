@@ -15,7 +15,7 @@
   </head>
   <body>
     <h1>Status of your order has changed.</h1>
-    <p>The status of your order has changed to '{% Order.OrderStatus.DisplayName|(encode)true |(identity)GlobalAdministrator|(hash)6045cb1eab1b1e2e0d9e02303d506c53d8c5c7ddb8076b9175d3f9265fa8dee9%}'.</p>
+    <p>The status of your order has changed to '{% Order.OrderStatus.DisplayName|(encode)true |(identity)GlobalAdministrator|(hash)64f259dde21f8e6efe7c41a6525b41fd2fdff5ebc76dd0dfb9003a9f9ecf6625%}'.</p>
     <p>
       Check the <i>E-commerce - Order notification to customer</i> email template to 
       see a more complex template example.

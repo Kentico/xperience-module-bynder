@@ -17,7 +17,7 @@
       <field column="date" columnprecision="7" columntype="datetime" guid="64dee43d-3cf4-4863-aac6-7029fbb97c0c" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%DateTime.Now|(identity)GlobalAdministrator|(hash)b42ea0370132f61d63b10b5a9460552e94d6de460da1b67cd9362b18bda89b41%}]]>
+            <![CDATA[{%DateTime.Now|(identity)GlobalAdministrator|(hash)dca366cd649a80448c94793cb960328ba09cf5752be2a75ce1cfb5c019bfa023%}]]>
           </defaultvalue>
           <fieldcaption>select date</fieldcaption>
         </properties>

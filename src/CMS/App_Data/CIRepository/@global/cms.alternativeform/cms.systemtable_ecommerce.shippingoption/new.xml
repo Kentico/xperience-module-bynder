@@ -56,7 +56,7 @@
         </settings>
         <properties>
           <visiblemacro ismacro="true">
-            <![CDATA[{%ShippingOptionCarrierID.Value > 0|(identity)GlobalAdministrator|(hash)ec93b5bc2407c592976cc2e5f7e13c78aca9de66c003c251f900781bcbf36b6f%}]]>
+            <![CDATA[{%ShippingOptionCarrierID.Value > 0|(identity)GlobalAdministrator|(hash)8097694376ecccc988d974e1066d49dbcdfac89bf8caf5a9256d8ac9869db6f8%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -66,7 +66,7 @@
       <field column="ShippingOptionSiteID" guid="fd1414cc-26d1-4d35-8dfe-6d6c0edf3a92" order="7">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)e789fd0ebad2c88342578f7556ad4e7b1150249e250a7cd4bfd9cd9fc34d3aca%}]]>
+            <![CDATA[{% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)d9da9b4124817abedf63290a5ac38810d82d0f9b6b94588fe94a672feb020381%}]]>
           </defaultvalue>
         </properties>
       </field>

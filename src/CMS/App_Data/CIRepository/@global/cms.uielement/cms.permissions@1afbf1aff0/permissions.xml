@@ -37,7 +37,7 @@
   </ElementResourceID>
   <ElementSize>0</ElementSize>
   <ElementTargetURL>
-    <![CDATA[~/CMSModules/Permissions/Pages/Administration/default.aspx?siteid={%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)24958a118815fb22e0b5d12964394bd025d53c68f2b6c2f96c5f993314e90fb2%}]]>
+    <![CDATA[~/CMSModules/Permissions/Pages/Administration/default.aspx?siteid={%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)b92af2e9de73c983b51e150d126f4d122a04dffafb43e3bfb510a49f3ff657e9%}]]>
   </ElementTargetURL>
   <ElementType>Url</ElementType>
 </cms.uielement>

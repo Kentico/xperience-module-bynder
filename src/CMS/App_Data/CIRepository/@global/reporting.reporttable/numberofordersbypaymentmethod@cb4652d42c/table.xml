@@ -8,7 +8,7 @@
 <![CDATA[
 /* Variable determines whether global payment methods should be displayed */
 DECLARE @GlobalOptions bit;
-SET @GlobalOptions = {%Settings.CMSStoreAllowGlobalPaymentMethods?1:0|(identity)GlobalAdministrator|(hash)3bfa6b509f9895f8bcb56c51aa90d6266faeb93678c3c5495fe67664c22d1fc6%}; 
+SET @GlobalOptions = {%Settings.CMSStoreAllowGlobalPaymentMethods?1:0|(identity)GlobalAdministrator|(hash)a23165f7171777538e6325be15315816e9a4226f89afbd1d8dbf4e653994b603%}; 
 
 SELECT
    PaymentOptionDisplayName  AS '{$paymentoption_edit.itemlistlink$}',

@@ -14,7 +14,7 @@ This is sometimes a better option than using a default value in the property its
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center" style="padding: 10px 0 15px 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding">
-      {% Text == String.Empty ? "Enter your text and add some basic formatting." : Text |(identity)GlobalAdministrator|(hash)fe700fb79c3a398add2809d2811afc247590bd09cbaf5c098cac40faf4775a7e%}
+      {% Text == String.Empty ? "Enter your text and add some basic formatting." : Text |(identity)GlobalAdministrator|(hash)4029b90f747c7cce140b7b8899a374736d755caa46d468b25334859ef5b4d2f6%}
     </td>
   </tr>
 </table>

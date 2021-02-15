@@ -42,7 +42,7 @@
   </ElementResourceID>
   <ElementSize>0</ElementSize>
   <ElementTargetURL>
-    <![CDATA[~/CMSModules/DataProtection/Pages/ConsentArchive_Detail.aspx?culture={% LocalizationContext.PreferredCultureCode |(identity)GlobalAdministrator|(hash)8ee0474497590f47ef28cef2adb092132d07d45b8fdef5b422aa017bc6a4f5de%}]]>
+    <![CDATA[~/CMSModules/DataProtection/Pages/ConsentArchive_Detail.aspx?culture={% LocalizationContext.PreferredCultureCode |(identity)GlobalAdministrator|(hash)7087189d2e4775375c6fce0aca0ccc080b5e242d9b89c8bf2284452a57acdb6a%}]]>
   </ElementTargetURL>
   <ElementType>Url</ElementType>
 </cms.uielement>

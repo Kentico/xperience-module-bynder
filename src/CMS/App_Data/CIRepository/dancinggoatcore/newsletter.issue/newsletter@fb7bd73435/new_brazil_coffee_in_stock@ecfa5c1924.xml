@@ -14,7 +14,7 @@
     </Site>
   </IssueNewsletterID>
   <IssuePreheader>
-    <![CDATA[{% Recipient.FirstName == "" ? "Hello" : "Hi " + Recipient.FirstName |(identity)GlobalAdministrator|(hash)87adfcb444a92e9b099bd86dbc779c5380c0d55e44d0e58d5763e8200e267385%}! Come and taste our new coffee with a creamy mouth sensation, and a cherry and chocolaty flavor.]]>
+    <![CDATA[{% Recipient.FirstName == "" ? "Hello" : "Hi " + Recipient.FirstName |(identity)GlobalAdministrator|(hash)799824148b8169fa3a2b64a2fb9f5be5bd3cb405df086ad40a730c7b1f27580b%}! Come and taste our new coffee with a creamy mouth sensation, and a cherry and chocolaty flavor.]]>
   </IssuePreheader>
   <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
   <IssueSenderName>Zoey from Dancing Goat</IssueSenderName>

@@ -3,7 +3,7 @@
   <DiscountApplyFurtherDiscounts>True</DiscountApplyFurtherDiscounts>
   <DiscountApplyTo>Order</DiscountApplyTo>
   <DiscountCartCondition>
-    <![CDATA[{%Rule("(Data.OrderIsOneOfTheFirstOrdersPlacedByRegisteredCustomer(1))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"OrderIsOneOfTheFirstXOrder_s_ThatTheRegisteredCustomerHasPlaced\" ><p n=\"numOrders\"><t>1</t><v>1</v><r>0</r><d>select count</d><vt>integer</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)d5240382a05b74cb872ef9b5a7a4f4aa8becf8143cc1662dc88c53473bfab1db%}]]>
+    <![CDATA[{%Rule("(Data.OrderIsOneOfTheFirstOrdersPlacedByRegisteredCustomer(1))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"OrderIsOneOfTheFirstXOrder_s_ThatTheRegisteredCustomerHasPlaced\" ><p n=\"numOrders\"><t>1</t><v>1</v><r>0</r><d>select count</d><vt>integer</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)271d5a68af3b0e5cd4c6dc57097414149f674bba9b6edc4438575c19993f67d2%}]]>
   </DiscountCartCondition>
   <DiscountCustomerRestriction>All</DiscountCustomerRestriction>
   <DiscountDisplayName>10% off for the first order</DiscountDisplayName>

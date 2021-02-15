@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%Rule("(CurrentUser.IsAuthorizedPerResource(\"CMS.Ecommerce\",\"ReadDiscounts\")) || (CurrentUser.IsAuthorizedPerResource(\"CMS.Ecommerce\",\"EcommerceRead\"))", "<rules><r pos=\"0\" par=\"\" op=\"or\" n=\"Permission\" ><p n=\"module\"><t>CMS.Ecommerce</t><v>CMS.Ecommerce</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p><p n=\"permission\"><t>ReadDiscounts</t><v>ReadDiscounts</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p></r><r pos=\"1\" par=\"\" op=\"or\" n=\"Permission\" ><p n=\"module\"><t>CMS.Ecommerce</t><v>CMS.Ecommerce</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p><p n=\"permission\"><t>EcommerceRead</t><v>EcommerceRead</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)16e2c8b3f9cd38180f9246bf2b663517ea4ffd988b55bddbb4302ce1620d566a%}]]>
+    <![CDATA[{%Rule("(CurrentUser.IsAuthorizedPerResource(\"CMS.Ecommerce\",\"ReadDiscounts\")) || (CurrentUser.IsAuthorizedPerResource(\"CMS.Ecommerce\",\"EcommerceRead\"))", "<rules><r pos=\"0\" par=\"\" op=\"or\" n=\"Permission\" ><p n=\"module\"><t>CMS.Ecommerce</t><v>CMS.Ecommerce</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p><p n=\"permission\"><t>ReadDiscounts</t><v>ReadDiscounts</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p></r><r pos=\"1\" par=\"\" op=\"or\" n=\"Permission\" ><p n=\"module\"><t>CMS.Ecommerce</t><v>CMS.Ecommerce</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p><p n=\"permission\"><t>EcommerceRead</t><v>EcommerceRead</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)69299e4d8e19e91ac7c059c333205d9f5b475432cba702ba11562ddd64a4e4d8%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$com.giftcards$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
@@ -42,7 +42,7 @@
       <ObjectType>ecommerce.giftcard</ObjectType>
       <OpenInDialog>False</OpenInDialog>
       <WhereCondition>
-        <![CDATA[GiftCardSiteID = {%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)5ab67cbaf747222116ac1f01b5bacfa15eec1c940bd7ae259665e101c3ec5a98%}]]>
+        <![CDATA[GiftCardSiteID = {%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)a32949b73d750bc358302cabddf946285a077ab5032e96e28365771b39a7e294%}]]>
       </WhereCondition>
     </Data>
   </ElementProperties>

@@ -77,7 +77,7 @@
         <properties>
           <fieldcaption>{$general.module$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%SystemContext.DevelopmentMode|(identity)GlobalAdministrator|(hash)fd5519b37951b67fef5fa7ef87f9d314c89e0759ef01fcce1863d97f0ea493d4%}]]>
+            <![CDATA[{%SystemContext.DevelopmentMode|(identity)GlobalAdministrator|(hash)1ffc6b581a13adc9ea5ac1d6aa4011394d7f671a604707dd59ce058523ab35b7%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -168,7 +168,7 @@
       <field allowempty="true" column="ActionWorkflowType" columntype="integer" guid="ed6b7241-0a4b-4ae0-a1ba-bdc07ce3756f" system="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% Enums.WorkflowTypeEnum.Approval |(identity)GlobalAdministrator|(hash)02b14535e7a1552ce19e0a4ef2aedfa8e267c8f82c6c29e21e2ae156f751da46%}]]>
+            <![CDATA[{% Enums.WorkflowTypeEnum.Approval |(identity)GlobalAdministrator|(hash)1071c55db5f2824860cb001988202c1d2765ddf0c16cbd9d4059f1ef8e06f539%}]]>
           </defaultvalue>
         </properties>
         <settings>

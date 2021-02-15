@@ -50,7 +50,7 @@
         </settings>
         <rules>
           <rule errormsg="{$site_edit.PresentationURL.mustStartWith$}">
-            <![CDATA[{%Rule("(Value.Matches(\"^https?://\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^https?://</t><v>^https?://</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)2893e91bd2a2f2c80211e1a589687bcdaf1e3bb6b1e63150af0641cca0c14bf9%}]]>
+            <![CDATA[{%Rule("(Value.Matches(\"^https?://\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^https?://</t><v>^https?://</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)fd27bbdb94a71b89f62244be424b522161b4a0887e69c851e8e4ddb0c6aae054%}]]>
           </rule>
         </rules>
       </field>

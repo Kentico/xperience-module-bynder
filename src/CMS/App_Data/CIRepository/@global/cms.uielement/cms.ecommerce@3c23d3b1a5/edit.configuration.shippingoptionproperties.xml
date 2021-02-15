@@ -32,7 +32,7 @@
     <Data>
       <AllowSubTabs>True</AllowSubTabs>
       <breadcrumbsitemtext>
-        <![CDATA[{% (EditedObject.SiteID >0)? EditedObject.DisplayName : EditedObject.DisplayName + " " + GetResourceString("general.global") |(identity)GlobalAdministrator|(hash)7bb70966b6fe6723918e1828198740fc8c2bc08d499170a0bd9950e35a511e9f%}]]>
+        <![CDATA[{% (EditedObject.SiteID >0)? EditedObject.DisplayName : EditedObject.DisplayName + " " + GetResourceString("general.global") |(identity)GlobalAdministrator|(hash)5309ea655a609deb8d5f566d27ff37ea0710faf973aad32c204ab47588786488%}]]>
       </breadcrumbsitemtext>
       <DisplayBreadcrumbs>True</DisplayBreadcrumbs>
       <DisplayTitleInTabs>False</DisplayTitleInTabs>

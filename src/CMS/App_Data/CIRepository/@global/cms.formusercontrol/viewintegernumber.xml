@@ -25,7 +25,7 @@
       <field column="OutputFormat" guid="2387d647-17a8-4bf9-9cb2-06599d1c83e6" visible="" ismacro="true">
         <properties>
           <defaultvalue>
-            <![CDATA[{%Value.ToInt(0)|(identity)GlobalAdministrator|(hash)6538288ca5ea32475933bbb2a9ce37340e459bce64bd6d082e2d56334e3d8914%}]]>
+            <![CDATA[{%Value.ToInt(0)|(identity)GlobalAdministrator|(hash)e5bbf3eb6ab3a88bb1d914a7ff8e9998cdc2832a61c3dbb7e413a43d69b3f91e%}]]>
           </defaultvalue>
         </properties>
       </field>

@@ -30,9 +30,6 @@
           <fieldcaption>Teaser</fieldcaption>
         </properties>
         <settings>
-          <Allowed_Extensions>
-            <![CDATA[pdf;doc;docx;ppt;pptx;xls;xlsx;xml;bmp;gif;jpg;jpeg;png;wav;mp3;mp4;mpg;mpeg;mov;avi;rar;zip;txt;rtf]]>
-          </Allowed_Extensions>
           <Autoresize>custom</Autoresize>
           <Autoresize_Height>0</Autoresize_Height>
           <Autoresize_MaxSideSize>1000</Autoresize_MaxSideSize>

@@ -3,7 +3,7 @@
   <StepActionParameters />
   <StepAllowReject>True</StepAllowReject>
   <StepDefinition>
-    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Step xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <TimeoutEnabled>true</TimeoutEnabled>
       <TimeoutInterval>
         <![CDATA[day;1/1/0001 12:00:00 AM;2;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday]]>

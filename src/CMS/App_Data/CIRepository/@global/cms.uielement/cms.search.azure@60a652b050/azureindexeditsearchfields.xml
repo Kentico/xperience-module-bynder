@@ -35,6 +35,6 @@
   <ElementTargetURL>~/CMSModules/SmartSearch/SearchIndex_Fields.aspx</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%EditedObject.IndexType  == "smartsearch.general"|(identity)GlobalAdministrator|(hash)4f700b8584148bf956ee1504ebe49d4a65c0f362dd3d3d649033359f327e75c9%}]]>
+    <![CDATA[{%EditedObject.IndexType  == "smartsearch.general"|(identity)GlobalAdministrator|(hash)eb64efdbcaa1a86dd32b65293af56f84d3ba1687b85e8eb382e748c7bd44e4b3%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

@@ -36,7 +36,7 @@
   </ElementResourceID>
   <ElementSize>0</ElementSize>
   <ElementTargetURL>
-    <![CDATA[{% UIContext.GetElementUrl("cms.ecommerce", "Configuration.TaxClasses", false, 0, "siteid=-4&issitemanager=true") |(identity)GlobalAdministrator|(hash)c055345b3caf06216d4ab04deeb5a5ea70ebdd4085ce6e007b2b7c3a55b8e289%}]]>
+    <![CDATA[{% UIContext.GetElementUrl("cms.ecommerce", "Configuration.TaxClasses", false, 0, "siteid=-4&issitemanager=true") |(identity)GlobalAdministrator|(hash)c8f7857c067e12867d33a66e6ff481b07a75fc3f501f6b0aece2604e4fb0478d%}]]>
   </ElementTargetURL>
   <ElementType>Url</ElementType>
 </cms.uielement>

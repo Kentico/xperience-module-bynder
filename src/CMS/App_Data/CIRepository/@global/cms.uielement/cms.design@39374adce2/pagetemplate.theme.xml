@@ -40,6 +40,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) && !EditedObject.UsesExternalStorage|(identity)GlobalAdministrator|(hash)c9df0b64c278ad352845282a80ae4e008c33de91a4d54ee51156b8b7f1c8d8cd%}]]>
+    <![CDATA[{%CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) && !EditedObject.UsesExternalStorage|(identity)GlobalAdministrator|(hash)63fe8848ff4f8860c4a6f1775790c1d4bcd29977c1e87e28ad833ac3ad93b159%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

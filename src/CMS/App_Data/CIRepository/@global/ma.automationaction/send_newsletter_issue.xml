@@ -26,7 +26,7 @@
           <AddGlobalObjectNamePrefix>False</AddGlobalObjectNamePrefix>
           <AddGlobalObjectSuffix>False</AddGlobalObjectSuffix>
           <AdditionalColumns ismacro="true">
-            <![CDATA[(CASE WHEN [SiteID] = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)e789fd0ebad2c88342578f7556ad4e7b1150249e250a7cd4bfd9cd9fc34d3aca%} THEN 1 ELSE 0 END) AS [IsCurrent]]]>
+            <![CDATA[(CASE WHEN [SiteID] = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)d9da9b4124817abedf63290a5ac38810d82d0f9b6b94588fe94a672feb020381%} THEN 1 ELSE 0 END) AS [IsCurrent]]]>
           </AdditionalColumns>
           <AllowAll>False</AllowAll>
           <AllowDefault>False</AllowDefault>
@@ -77,7 +77,7 @@
           <MaxDisplayedItems>25</MaxDisplayedItems>
           <MaxDisplayedTotalItems>50</MaxDisplayedTotalItems>
           <ObjectSiteName ismacro="true">
-            <![CDATA[{% Site.Value |(identity)GlobalAdministrator|(hash)cad479482d373eb46b968273f49abf892066c9bb2b63fcdbe3b66c9a9302cbfd%}]]>
+            <![CDATA[{% Site.Value |(identity)GlobalAdministrator|(hash)0cab8952b6c8192ed41cd51c7d11998dbf1266e4e35889a58106d36521944e12%}]]>
           </ObjectSiteName>
           <ObjectType>newsletter.newsletter</ObjectType>
           <RemoveMultipleCommas>False</RemoveMultipleCommas>
@@ -101,7 +101,7 @@
           <AddGlobalObjectSuffix>False</AddGlobalObjectSuffix>
           <AdditionalColumns>IssueIsABTest</AdditionalColumns>
           <AdditionalUrlParameters>
-            <![CDATA[&parentobjectguid={% Newsletter.Value |(identity)GlobalAdministrator|(hash)c76ddb7801a1b1494946a57812a5b96f73b8faa30cd43ec81973fe9fd91ef574%}&isinautomation=true]]>
+            <![CDATA[&parentobjectguid={% Newsletter.Value |(identity)GlobalAdministrator|(hash)c851d49ff863186cfe7dbfe81a18a6395e028f411e9c32032b947f71e62b2714%}&isinautomation=true]]>
           </AdditionalUrlParameters>
           <AllowAll>False</AllowAll>
           <AllowDefault>False</AllowDefault>
@@ -110,11 +110,11 @@
           <controlname>Uni_selector</controlname>
           <DialogWindowName>SelectionDialog</DialogWindowName>
           <DisplayNameFormat>
-            <![CDATA[{% IssueDisplayName + (IssueIsABTest ? " (" + GetResourceString("unigrid.newsletter_issue.abtesticontooltip") + ")" : "") |(identity)GlobalAdministrator|(hash)38a0327e52519f0e83ed5b8fa823d4d5df8bb6631937c22b154f2dd530e45ec2%}]]>
+            <![CDATA[{% IssueDisplayName + (IssueIsABTest ? " (" + GetResourceString("unigrid.newsletter_issue.abtesticontooltip") + ")" : "") |(identity)GlobalAdministrator|(hash)de30dffe833bbdcd1099207de4b141ea241be521941887bdf68f8aed5a1c5e4d%}]]>
           </DisplayNameFormat>
           <EditDialogWindowOpenInFullscreen>True</EditDialogWindowOpenInFullscreen>
           <EditItemElementName ismacro="true">
-            <![CDATA[{% Fields["Site"].Value == CurrentSite.SiteName ? "EditIssueProperties" : "" |(identity)GlobalAdministrator|(hash)405f4359e66528b14b5d3041ac6156db0763291a06af8b8bf64fdffcb1502722%}]]>
+            <![CDATA[{% Fields["Site"].Value == CurrentSite.SiteName ? "EditIssueProperties" : "" |(identity)GlobalAdministrator|(hash)1b91cb57b1758e51e779925bc5c8b43eefa64db34f032da043ba504d985f8ee1%}]]>
           </EditItemElementName>
           <ElementResourceName>CMS.Newsletter</ElementResourceName>
           <FilterControl>~/CMSFormControls/Filters/ObjectFilter.ascx</FilterControl>
@@ -124,10 +124,10 @@
           <MaxDisplayedItems>25</MaxDisplayedItems>
           <MaxDisplayedTotalItems>50</MaxDisplayedTotalItems>
           <NewItemElementName ismacro="true">
-            <![CDATA[{% Fields["Site"].Value == CurrentSite.SiteName ? "NewIssue" : "" |(identity)GlobalAdministrator|(hash)97ac96064ed6885a8a9b613f442f4218b36e9865437a630b85cdc5f7543de26a%}]]>
+            <![CDATA[{% Fields["Site"].Value == CurrentSite.SiteName ? "NewIssue" : "" |(identity)GlobalAdministrator|(hash)97e108087ab7924b87fc0f705385fc077fe28c3eab85ff2c468d370e3248218d%}]]>
           </NewItemElementName>
           <ObjectSiteName ismacro="true">
-            <![CDATA[{% Site.Value |(identity)GlobalAdministrator|(hash)cad479482d373eb46b968273f49abf892066c9bb2b63fcdbe3b66c9a9302cbfd%}]]>
+            <![CDATA[{% Site.Value |(identity)GlobalAdministrator|(hash)0cab8952b6c8192ed41cd51c7d11998dbf1266e4e35889a58106d36521944e12%}]]>
           </ObjectSiteName>
           <ObjectType>newsletter.issue</ObjectType>
           <RemoveMultipleCommas>False</RemoveMultipleCommas>
@@ -145,7 +145,7 @@ IssueForAutomation = 1 AND
 IssueNewsletterID IN 
 (
     Select NewsletterID FROM Newsletter_Newsletter 
-    WHERE NewsletterGUID =  N'{% Newsletter.Value.ToGuid()|(handlesqlinjection) |(identity)GlobalAdministrator|(hash)4f284b91324e0cce684ce45baf73181992ba0446dee796790857bbae68cfedaf%}'
+    WHERE NewsletterGUID =  N'{% Newsletter.Value.ToGuid()|(handlesqlinjection) |(identity)GlobalAdministrator|(hash)861dbb908f154bf1241863bbf53f949018a2a94753f0e2a0eb7b4357eafa1e6d%}'
 )
 ]]>
           </WhereCondition>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%CurrentUser.IsAuthorizedPerContent()|(identity)GlobalAdministrator|(hash)2f370a1449e82db04b18d5a5158cbab3a7ea7787ed5002768d87039f42b91185%}]]>
+    <![CDATA[{%CurrentUser.IsAuthorizedPerContent()|(identity)GlobalAdministrator|(hash)8dfb3d304da8e69798e7b88b46ebe386ba7ad95db9c69493bdee26f7c52be446%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$app.pages$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>

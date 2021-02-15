@@ -18,7 +18,7 @@
       <field column="SharePointLibrarySiteID" columntype="integer" guid="26d08a81-6a68-4fb6-b121-694dfbdf4d33" refobjtype="cms.site" reftype="Required" system="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)e789fd0ebad2c88342578f7556ad4e7b1150249e250a7cd4bfd9cd9fc34d3aca%}]]>
+            <![CDATA[{% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)d9da9b4124817abedf63290a5ac38810d82d0f9b6b94588fe94a672feb020381%}]]>
           </defaultvalue>
         </properties>
       </field>
@@ -65,7 +65,7 @@
             <![CDATA[{$SharePoint.SharePointLibrary.SharePointConnection$}]]>
           </fieldcaption>
           <fielddescription ismacro="true">
-            <![CDATA[{% SharePointLibraryID == 0 ? String.Empty : "{$SharePoint.Library.PropertyCannotBeModified$}" |(identity)GlobalAdministrator|(hash)6d42a0f08b4912d9ad1f413ada5b7306a9ee7517fd3043453e5e46c99d0d337f%}]]>
+            <![CDATA[{% SharePointLibraryID == 0 ? String.Empty : "{$SharePoint.Library.PropertyCannotBeModified$}" |(identity)GlobalAdministrator|(hash)34d6befde00ea63b42809702e2ec947bca8ce9166a67710c90a806b8f6e64b05%}]]>
           </fielddescription>
         </properties>
         <settings>
@@ -106,7 +106,7 @@
           <enabledmacro ismacro="true">{%SharePointLibraryID == 0%}</enabledmacro>
           <fieldcaption>{$sharepoint.sharepointlibrary.listtype$}</fieldcaption>
           <fielddescription ismacro="true">
-            <![CDATA[{%SharePointLibraryID == 0 ? "{$sharepoint.sharepointlibrary.listtype.description$}" : "{$SharePoint.Library.PropertyCannotBeModified$}"|(identity)GlobalAdministrator|(hash)ba17c66913b460243abdf3c4dc60abe3e6c8db530b11bed9b04b89e5dc3df6d7%}]]>
+            <![CDATA[{%SharePointLibraryID == 0 ? "{$sharepoint.sharepointlibrary.listtype.description$}" : "{$SharePoint.Library.PropertyCannotBeModified$}"|(identity)GlobalAdministrator|(hash)2e614b3e5298a3d24add2f7e56d6164600b7d72f116338534263a123d36a1d63%}]]>
           </fielddescription>
         </properties>
         <settings>
@@ -130,7 +130,7 @@
             <![CDATA[{$SharePoint.SharePointLibrary.SharePointListTitle$}]]>
           </fieldcaption>
           <fielddescription ismacro="true">
-            <![CDATA[{% SharePointLibraryID == 0 ? String.Empty : "{$SharePoint.Library.PropertyCannotBeModified$}" |(identity)GlobalAdministrator|(hash)6d42a0f08b4912d9ad1f413ada5b7306a9ee7517fd3043453e5e46c99d0d337f%}]]>
+            <![CDATA[{% SharePointLibraryID == 0 ? String.Empty : "{$SharePoint.Library.PropertyCannotBeModified$}" |(identity)GlobalAdministrator|(hash)34d6befde00ea63b42809702e2ec947bca8ce9166a67710c90a806b8f6e64b05%}]]>
           </fielddescription>
         </properties>
         <settings>

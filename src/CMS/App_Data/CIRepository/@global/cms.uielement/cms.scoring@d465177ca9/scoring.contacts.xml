@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%EditedObject.ScorePersonaID == null|(identity)GlobalAdministrator|(hash)d11f370066bcf53acb43e13cb3036e7250142a859c2321c36936fa30695f7c17%}]]>
+    <![CDATA[{%EditedObject.ScorePersonaID == null|(identity)GlobalAdministrator|(hash)bee53806d9c29b1fc7b26434b8c241948e790d58dc603d8c4b2e299405886ef9%}]]>
   </ElementAccessCondition>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
   <ElementDisplayName>{$om.ui.contacts$}</ElementDisplayName>

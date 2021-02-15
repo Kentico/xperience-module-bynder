@@ -2,7 +2,9 @@
 <cms.formusercontrol>
   <UserControlCodeName>BynderImageSelector</UserControlCodeName>
   <UserControlDisplayName>Bynder image selector</UserControlDisplayName>
-  <UserControlFileName>~/CMSFormControls/Kentico.Xperience.Bynder/BynderImageSelector.ascx</UserControlFileName>
+  <UserControlFileName>
+    <![CDATA[~/CMSFormControls/Kentico.Xperience.Bynder/BynderImageSelector.ascx]]>
+  </UserControlFileName>
   <UserControlForBinary>False</UserControlForBinary>
   <UserControlForBoolean>False</UserControlForBoolean>
   <UserControlForDateTime>False</UserControlForDateTime>
@@ -16,7 +18,7 @@
   <UserControlForText>True</UserControlForText>
   <UserControlGUID>f53e1a45-cc6c-4967-a829-d17cb7df7b0e</UserControlGUID>
   <UserControlIsSystem>False</UserControlIsSystem>
-    <UserControlParameters>
+  <UserControlParameters>
     <form version="2">
       <field allowempty="true" column="DefaultDomain" columnsize="200" columntype="text" guid="a99b7575-1bc4-4ea5-aef2-05335d6031cd" resolvedefaultvalue="False" visible="true">
         <properties>

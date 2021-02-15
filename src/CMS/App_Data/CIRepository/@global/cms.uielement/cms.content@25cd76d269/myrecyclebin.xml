@@ -39,6 +39,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Rule("!CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin);", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CurrentUserHasPrivilegeLevel\" ><p n=\"_has\"><t>does not have</t><v>!</v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"privilege\"><t>GlobalAdmin</t><v>GlobalAdmin</v><r>0</r><d>select level</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)19ce22899531e5ab96886d0f1fce5464d71842c162459894863560af2994fe1c%}]]>
+    <![CDATA[{%Rule("!CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin);", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CurrentUserHasPrivilegeLevel\" ><p n=\"_has\"><t>does not have</t><v>!</v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"privilege\"><t>GlobalAdmin</t><v>GlobalAdmin</v><r>0</r><d>select level</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)72c332b4c96435acf7e2ab5c6f7ddd86f88ec9232496dbccce220c128017d7bc%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

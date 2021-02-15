@@ -37,6 +37,6 @@
   <ElementTargetURL>~/CMSModules/System/Debug/System_DebugFiles.aspx</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Debug.IsDebugEnabled("files")|(identity)GlobalAdministrator|(hash)c59d800683bf3e53f5cbc0fc87fc1388399c0df73479e895e6e93cb63dd7c461%}]]>
+    <![CDATA[{%Debug.IsDebugEnabled("files")|(identity)GlobalAdministrator|(hash)3737694b991a34770ce9d2060927ed5a28efb73b261131dd7ff7d6a0764bec21%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

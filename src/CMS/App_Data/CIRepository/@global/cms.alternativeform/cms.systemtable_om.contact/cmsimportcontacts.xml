@@ -111,7 +111,7 @@
         <properties>
           <fieldcaption>{$personas.persona$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%IsModuleLoaded("CMS.Personas") && SiteObjects.Personas.Count > 0|(identity)GlobalAdministrator|(hash)95b967f4a39b1eee4831434b714314a2a6a6a2b7241b5c74d837a30386844266%}]]>
+            <![CDATA[{%IsModuleLoaded("CMS.Personas") && SiteObjects.Personas.Count > 0|(identity)GlobalAdministrator|(hash)9122992a96a3101387aa351fe1b81968daea63e2e323f74959871690e7bd899c%}]]>
           </visiblemacro>
         </properties>
       </field>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ReadCustomers") || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceRead")|(identity)GlobalAdministrator|(hash)4810b2e77d86c34eac81ceb285b270ae589f933ea8849bc3c895994486f2f1ad%}]]>
+    <![CDATA[{%CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ReadCustomers") || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceRead")|(identity)GlobalAdministrator|(hash)67b64741bd9fd734ebd2ffbf4a469f0e20eafc40cf4448b63971fdd1bacd0ca2%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$com.ui.customersgeneral$}</ElementCaption>
   <ElementCheckModuleReadPermission>True</ElementCheckModuleReadPermission>

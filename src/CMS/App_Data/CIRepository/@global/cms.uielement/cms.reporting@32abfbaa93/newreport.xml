@@ -30,7 +30,7 @@
     <data>
       <category_name_custom>False</category_name_custom>
       <aftersavescript>
-        <![CDATA[parent.location = '{%UIContext.GetElementUrl("cms.reporting", "reporting.reporting", false, EditedObject.ID, "tabindex=1") |(identity)GlobalAdministrator|(hash)a65f45a6e7f8bbdd857345452c0f2295c6ce12f5fa3e94edd96694d46cb48ad3%}';]]>
+        <![CDATA[parent.location = '{%UIContext.GetElementUrl("cms.reporting", "reporting.reporting", false, EditedObject.ID, "tabindex=1") |(identity)GlobalAdministrator|(hash)ac83513a1ffcf95f3b3c8790685393ac9fe90be6d5da2a01c9ee6830d0d5eb97%}';]]>
       </aftersavescript>
       <defaultformlayout>Divs</defaultformlayout>
       <category_name_breadcrumbs>False</category_name_breadcrumbs>

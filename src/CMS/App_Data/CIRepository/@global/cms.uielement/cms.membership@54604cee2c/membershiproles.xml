@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%Rule("CurrentUser.IsAuthorizedPerResource(\"CMS.Roles\",\"read\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.Roles</t><v>CMS.Roles</v><r>false</r><d>select module</d><vt>Text</vt></p><p n=\"permission\"><t>read</t><v>read</v><r>false</r><d>select permission</d><vt>Text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)7694705197f5305b33c03f5cd41c304a23d7fc5ce99c6875ac76bac06ecdbfc4%}]]>
+    <![CDATA[{%Rule("CurrentUser.IsAuthorizedPerResource(\"CMS.Roles\",\"read\")", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.Roles</t><v>CMS.Roles</v><r>false</r><d>select module</d><vt>Text</vt></p><p n=\"permission\"><t>read</t><v>read</v><r>false</r><d>select permission</d><vt>Text</vt></p></r></rules>")|(identity)GlobalAdministrator|(hash)6bb4d3fb5df36b2d8f81a378675c136985d236279d385b1a6f640e976b54e837%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$general.roles$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
@@ -35,14 +35,14 @@
       <BindingObjectType>cms.membershiprole</BindingObjectType>
       <checkmodifypermission>True</checkmodifypermission>
       <DialogWhereCondition>
-        <![CDATA[ISNULL(SiteID,0) = {% UIContext.ObjectSiteID |(identity)GlobalAdministrator|(hash)11ebff53cfe77596068dfea1e0bb795a51fb0cf771276c0c5ed3f03099ee1ec7%}]]>
+        <![CDATA[ISNULL(SiteID,0) = {% UIContext.ObjectSiteID |(identity)GlobalAdministrator|(hash)44e5a52028993fff43d23f1f518d1e75a27363edf623556274874615e4438546%}]]>
       </DialogWhereCondition>
       <DisplayBreadcrumbs>False</DisplayBreadcrumbs>
       <includejquery>False</includejquery>
       <ListPrefaceText>{$membership.assignedtoroles$}</ListPrefaceText>
       <ResourcePrefix>addroles</ResourcePrefix>
       <WhereCondition>
-        <![CDATA[MembershipID = {% UIContext.ObjectID |(identity)GlobalAdministrator|(hash)9c922ffca81d94c188615f4175731e3561ad031d4d6075ff3db125062abe6b99%}]]>
+        <![CDATA[MembershipID = {% UIContext.ObjectID |(identity)GlobalAdministrator|(hash)fc0ffebb40415d906b521e0937b85b76ce0f2afc9f6b8466a0061b4e09d740a8%}]]>
       </WhereCondition>
     </Data>
   </ElementProperties>

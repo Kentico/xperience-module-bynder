@@ -52,6 +52,6 @@
   <ElementSize>1</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%System.IsModuleLoaded("CMS.Reporting")|(identity)GlobalAdministrator|(hash)cfb41ef05285356935525bb6cfeb92b1238386abeb6c187a744fa5bfa980df35%}]]>
+    <![CDATA[{%System.IsModuleLoaded("CMS.Reporting")|(identity)GlobalAdministrator|(hash)8ab853a583ebc0d5eed8d4c0409fe8574b72365a7842229872328a297c954628%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

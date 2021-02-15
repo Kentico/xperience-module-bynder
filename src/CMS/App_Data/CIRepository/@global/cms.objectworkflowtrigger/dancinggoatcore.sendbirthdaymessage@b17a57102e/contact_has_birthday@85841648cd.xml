@@ -3,7 +3,7 @@
   <TriggerDisplayName>Contact has birthday</TriggerDisplayName>
   <TriggerGUID>26df1c5a-2b4c-4ff3-b190-030347ec5523</TriggerGUID>
   <TriggerMacroCondition>
-    <![CDATA[{%Rule("(selectedDay = DateTime.Now.AddDays(ToInt(0));\r\nContact.ContactBirthday != null && (Contact.ContactBirthday.Month == selectedDay.Month && Contact.ContactBirthday.Day == selectedDay.Day);)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CMSContactHasBirthday\" ><p n=\"days\"><t>today</t><v>0</v><r>1</r><d>select day</d><vt>integer</vt><tv>0</tv></p><p n=\"_is\"><t>is</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)db90941d22ee0ff7cfe5c813a007e2d7b87cf12abad943c660e9a815de2e9f98%}]]>
+    <![CDATA[{%Rule("(selectedDay = DateTime.Now.AddDays(ToInt(0));\r\nContact.ContactBirthday != null && (Contact.ContactBirthday.Month == selectedDay.Month && Contact.ContactBirthday.Day == selectedDay.Day);)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CMSContactHasBirthday\" ><p n=\"days\"><t>today</t><v>0</v><r>1</r><d>select day</d><vt>integer</vt><tv>0</tv></p><p n=\"_is\"><t>is</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)7b8a6a813ead705a8cd155207d701cf130a98d6789b362080422b0edbedf4b81%}]]>
   </TriggerMacroCondition>
   <TriggerObjectType>cms.objectscheduledtask</TriggerObjectType>
   <TriggerParameters>

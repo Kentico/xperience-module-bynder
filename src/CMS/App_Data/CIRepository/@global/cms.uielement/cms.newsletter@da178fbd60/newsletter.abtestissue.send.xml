@@ -38,6 +38,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{% EditedObject.IssueIsABTest |(identity)GlobalAdministrator|(hash)3c53de0e3ee185cf163893d43830ea48c3404ad9a5a6f677234626cba8bb191f%}]]>
+    <![CDATA[{% EditedObject.IssueIsABTest |(identity)GlobalAdministrator|(hash)b325ca9b5e6b5eef67831c9e2734006293ccbd9cb82cd207e92becec1a86a495%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

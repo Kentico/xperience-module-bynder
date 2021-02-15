@@ -27,7 +27,7 @@
         </settings>
         <rules>
           <rule errormsg="Must start with http:// or https:// scheme.">
-            <![CDATA[{%Rule("(Value.Matches(\"^https?://\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^https?://</t><v>^https?://</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)2893e91bd2a2f2c80211e1a589687bcdaf1e3bb6b1e63150af0641cca0c14bf9%}]]>
+            <![CDATA[{%Rule("(Value.Matches(\"^https?://\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"RegExp\" ><p n=\"regexp\"><t>^https?://</t><v>^https?://</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)fd27bbdb94a71b89f62244be424b522161b4a0887e69c851e8e4ddb0c6aae054%}]]>
           </rule>
         </rules>
       </field>
@@ -54,7 +54,7 @@
         <properties>
           <fieldcaption>{$sitedomainalias.visitorculture$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AllSites[EditedObjectParent.SiteName].DataContext.Settings.CMSRoutingURLCultureFormat == Enums.PageRoutingUrlCultureFormatEnum.DomainDriven || AllSites[EditedObjectParent.SiteName].DataContext.Settings.CMSRoutingMode == Enums.PageRoutingModeEnum.Custom|(identity)GlobalAdministrator|(hash)bd26d21f484591d5ccb5fb1c6b4fc6583f7edd86630b8f87f81b8d742e5321dd%}]]>
+            <![CDATA[{%AllSites[EditedObjectParent.SiteName].DataContext.Settings.CMSRoutingURLCultureFormat == Enums.PageRoutingUrlCultureFormatEnum.DomainDriven || AllSites[EditedObjectParent.SiteName].DataContext.Settings.CMSRoutingMode == Enums.PageRoutingModeEnum.Custom|(identity)GlobalAdministrator|(hash)69b971e58300241df9718eeeed41128d4b1b0ab49879915ecda7f480c3da47b7%}]]>
           </visiblemacro>
         </properties>
         <settings>

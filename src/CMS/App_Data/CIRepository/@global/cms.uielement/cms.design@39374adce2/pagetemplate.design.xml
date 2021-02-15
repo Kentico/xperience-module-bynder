@@ -38,6 +38,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%!UIContext.IsDialog|(identity)GlobalAdministrator|(hash)c2a6a875488c40a39d1917ffb34334cfab090ed82937d1f3fa4fd841c436fdbd%}]]>
+    <![CDATA[{%!UIContext.IsDialog|(identity)GlobalAdministrator|(hash)f082358259c4806e644b70061408cc2bebb8e50c81c1db7ccaf07b00f53c6945%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

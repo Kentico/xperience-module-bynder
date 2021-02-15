@@ -37,7 +37,7 @@
       <ExtenderClassName>CMS.Ecommerce.Web.UI.DiscountEditExtender</ExtenderClassName>
       <includejquery>False</includejquery>
       <informationtext>
-        <![CDATA[{% (EditedObject.DiscountUsesCoupons && !EditedObject.HasCoupons) ? GetResourceString("com.discount.createcouponcodes") : "" |(identity)GlobalAdministrator|(hash)03daf0760fc0ddb926a616336c81be82b6ca5abddb135e41277c9326093b6701%}]]>
+        <![CDATA[{% (EditedObject.DiscountUsesCoupons && !EditedObject.HasCoupons) ? GetResourceString("com.discount.createcouponcodes") : "" |(identity)GlobalAdministrator|(hash)b7a2b1154f4109a4ddec9a49aae1fcd42ee9ac50edafebcc900a19a2ce963b91%}]]>
       </informationtext>
     </Data>
   </ElementProperties>

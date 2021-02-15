@@ -32,7 +32,7 @@
     <data>
       <defaultformlayout>Divs</defaultformlayout>
       <redirecturl>
-        <![CDATA[{% UIContext.GetElementUrl("Licenses", "Licenses", false) + "&reload=true" |(identity)GlobalAdministrator|(hash)a4c3ae614d323cbbbf297b3b63c51794693a17913a2dce3f851caea531df534b%}]]>
+        <![CDATA[{% UIContext.GetElementUrl("Licenses", "Licenses", false) + "&reload=true" |(identity)GlobalAdministrator|(hash)0a1af938b6f03286ce4158d56be71a8f8ec07984d61dc69f3c8e67cbd557739c%}]]>
       </redirecturl>
       <includejquery>False</includejquery>
       <alternativeformname>New</alternativeformname>

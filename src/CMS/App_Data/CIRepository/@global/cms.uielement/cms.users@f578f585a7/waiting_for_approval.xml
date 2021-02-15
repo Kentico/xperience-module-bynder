@@ -29,10 +29,10 @@
   </ElementResourceID>
   <ElementSize>0</ElementSize>
   <ElementTargetURL>
-    <![CDATA[~/CMSModules/Membership/Pages/Users/General/User_WaitingForApproval.aspx?siteid={%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)24958a118815fb22e0b5d12964394bd025d53c68f2b6c2f96c5f993314e90fb2%}]]>
+    <![CDATA[~/CMSModules/Membership/Pages/Users/General/User_WaitingForApproval.aspx?siteid={%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)b92af2e9de73c983b51e150d126f4d122a04dffafb43e3bfb510a49f3ff657e9%}]]>
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Settings.CMSRegistrationAdministratorApproval|(identity)GlobalAdministrator|(hash)fcd72d50054fd567283945c1db9ccae2acc203b089000425bae0c2d665fdc23e%}]]>
+    <![CDATA[{%Settings.CMSRegistrationAdministratorApproval|(identity)GlobalAdministrator|(hash)fc10960011b5fb59dd3135982b272648562f17fa9a5d094ac62c524e544ac052%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

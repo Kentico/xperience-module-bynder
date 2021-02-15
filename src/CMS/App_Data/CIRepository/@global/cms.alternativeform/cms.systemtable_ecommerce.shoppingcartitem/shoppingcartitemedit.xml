@@ -14,7 +14,7 @@
       <field allowempty="true" column="CartItemUnitPrice" columnprecision="9" columnsize="18" columntype="decimal" dummy="altform" guid="9052b53e-2c12-45b2-abdc-ce1f39d59092" system="true" visible="true" order="3">
         <properties>
           <contentafter>
-            <![CDATA[<span class="form-control-text">{%HTMLEncode(ParentObject.ShoppingCartCurrency.CurrencyCode)|(identity)GlobalAdministrator|(hash)6c1157961a4b681dba9dcceeccca2aedf3c8be2ae9ca5be2ceb2a0d2e56d439b%}</span>]]>
+            <![CDATA[<span class="form-control-text">{%HTMLEncode(ParentObject.ShoppingCartCurrency.CurrencyCode)|(identity)GlobalAdministrator|(hash)979830d6783aa7fec552a9883bf0f38b30fbbe8072a4db0486fafea1196617cd%}</span>]]>
           </contentafter>
           <controlcellcssclass>form-inline</controlcellcssclass>
           <fieldcaption>{$order_edit_additems.unitprice$}</fieldcaption>
@@ -63,7 +63,7 @@
         <properties>
           <fieldcaption>{$com.optioncategorytype.textattribute$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%EditedObject.SKU.IsProductOption && EditedObject.SKU.SKUOptionCategory.CategorySelectionType == "TEXTAREA"|(identity)GlobalAdministrator|(hash)6e5ebcb19a4657736074d2a4c85a9117a52087ef822c2b07f845d2deb5ecd2ba%}]]>
+            <![CDATA[{%EditedObject.SKU.IsProductOption && EditedObject.SKU.SKUOptionCategory.CategorySelectionType == "TEXTAREA"|(identity)GlobalAdministrator|(hash)81c9e3036a4816330f03d14f1b6ae70fc3f164f61775dc34cd9949012fc29a8f%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -79,7 +79,7 @@
         <properties>
           <fieldcaption>{$orderitemedit.validto$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%EditedObject.SKU.SKUProductType == "EPRODUCT"|(identity)GlobalAdministrator|(hash)a5a28864ac9b32eef9242649dafbc880b7af73a42c9de1da620b7a2331848804%}]]>
+            <![CDATA[{%EditedObject.SKU.SKUProductType == "EPRODUCT"|(identity)GlobalAdministrator|(hash)15f5d43e255bc0f9560bd0a50d30cdd1fc8928044286327015d6d7db73952d82%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -91,7 +91,7 @@
         <properties>
           <fieldcaption>{$com.optioncategorytype.textattribute$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%EditedObject.SKU.IsProductOption && EditedObject.SKU.SKUOptionCategory.CategorySelectionType == "TEXTBOX"|(identity)GlobalAdministrator|(hash)9659819426496c0e60e346a2366d35438a9ac2dd7a0b45f90ea1533d74eb2371%}]]>
+            <![CDATA[{%EditedObject.SKU.IsProductOption && EditedObject.SKU.SKUOptionCategory.CategorySelectionType == "TEXTBOX"|(identity)GlobalAdministrator|(hash)5f54dcf8efbc8a7cbe8f3d5c477934261b469092d319af16cecd520d81c619e2%}]]>
           </visiblemacro>
         </properties>
         <settings>

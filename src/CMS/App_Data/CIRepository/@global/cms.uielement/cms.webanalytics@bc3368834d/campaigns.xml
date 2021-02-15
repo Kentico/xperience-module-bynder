@@ -46,6 +46,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%System.IsModuleLoaded("CMS.Reporting") && CurrentUser.IsAuthorizedPerResource("CMS.WebAnalytics", "ManageCampaigns")|(identity)GlobalAdministrator|(hash)f28e31b5bed6a750b02af6741547c0ecc03ba56aa91506eac8695d653506a331%}]]>
+    <![CDATA[{%System.IsModuleLoaded("CMS.Reporting") && CurrentUser.IsAuthorizedPerResource("CMS.WebAnalytics", "ManageCampaigns")|(identity)GlobalAdministrator|(hash)537d21597112bdb5536e663870163abb6d205156302c8791888955d7cc5acd70%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

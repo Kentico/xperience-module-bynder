@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.usersettings>
   <UserAccountLockReason>0</UserAccountLockReason>
+  <UserActivationDate>2021-02-15 08:34:24Z</UserActivationDate>
+  <UserCustomData />
   <UserInvalidLogOnAttempts>0</UserInvalidLogOnAttempts>
   <UserLogActivities>True</UserLogActivities>
   <UserNickName />

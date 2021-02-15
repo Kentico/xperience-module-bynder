@@ -4,7 +4,7 @@
   <StepAllowPublish>False</StepAllowPublish>
   <StepAllowReject>True</StepAllowReject>
   <StepDefinition>
-    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Step xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <TimeoutEnabled>false</TimeoutEnabled>
       <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
       <SourcePoints>
@@ -15,7 +15,7 @@
             <![CDATA[If translation is ready, the page will be translated.]]>
           </Tooltip>
           <Condition>
-            <![CDATA[{%Document.IsTranslationReady()|(identity)GlobalAdministrator|(hash)faca6e44b77e25e59eb265468227bd4f5823328407eb3e16adac60eda7682af0%}]]>
+            <![CDATA[{%Document.IsTranslationReady()|(identity)GlobalAdministrator|(hash)336126f64567bfdc90e6e56282f16508ed53677b810c4f1f9b6edbda98a8c1d9%}]]>
           </Condition>
           <Type>1</Type>
           <StepRolesSecurity>0</StepRolesSecurity>

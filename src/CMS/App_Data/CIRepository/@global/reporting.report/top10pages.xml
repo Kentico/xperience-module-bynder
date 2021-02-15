@@ -31,7 +31,7 @@
       <field column="FromDate" columntype="datetime" guid="df39ec9f-e5f0-4a55-84a9-8b49d910b22b">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddMonths(-1).Date|(identity)GlobalAdministrator|(hash)fe3dcd3b2789825518f08839c7e2846deeaf17a9a6a95c35468d400aa7842979%}]]>
+            <![CDATA[{%CurrentDateTime.AddMonths(-1).Date|(identity)GlobalAdministrator|(hash)af5ca2a40df0d9c4ead50ed047f4b14e6f9c7da4499fff1a47d5427efced165b%}]]>
           </defaultvalue>
           <fieldcaption>Code name</fieldcaption>
         </properties>

@@ -40,7 +40,7 @@
         <![CDATA[{% GetMultiBuyCouponsMessage(EditedObjectParent); %}]]>
       </Text>
       <WhereCondition>
-        <![CDATA[MultiBuyCouponCodeMultiBuyDiscountID = {%EditedObjectParent.MultiBuyDiscountID|(identity)GlobalAdministrator|(hash)f9bc74f35ba3729bd096c0644612d484bb3812e38aa9c465dc933d536b1ba0aa%}]]>
+        <![CDATA[MultiBuyCouponCodeMultiBuyDiscountID = {%EditedObjectParent.MultiBuyDiscountID|(identity)GlobalAdministrator|(hash)00e885aec7a8481ccf0dca10986ebb2b27758055bfd5a33351d614e8a8bd5f3c%}]]>
       </WhereCondition>
       <ZeroRowsText>{$com.discount.codenodatafound$}</ZeroRowsText>
     </Data>

@@ -29,7 +29,7 @@
           <defaultvalue ismacro="true">
 <![CDATA[
 {% siteName=(QueryString.siteid!=null)?GetObject("CMS.Site",QueryString.siteid).DisplayName:CurrentSite.SiteDisplayName;
-String.FormatString(GetResourceString("general.assigntosite"),siteName) |(identity)GlobalAdministrator|(hash)fc4e2b5a4801b0427fc0b0f6efc13a81f855a3e11f10a9a686f6b420c84254a1%}
+String.FormatString(GetResourceString("general.assigntosite"),siteName) |(identity)GlobalAdministrator|(hash)bf3658d7e1a9c997276f8846f6cdfe63a04549e930dc4876184524ea2e101dad%}
 ]]>
           </defaultvalue>
           <fieldcaption />
@@ -44,7 +44,7 @@ String.FormatString(GetResourceString("general.assigntosite"),siteName) |(identi
         </settings>
         <properties>
           <defaultvalue>
-            <![CDATA[{% UIContext.EditedObject.TypeInfo.SiteBinding |(identity)GlobalAdministrator|(hash)ee6a0a26ae59f679ba7b2d0017cf8a7109bd38ab9ebff1bafeee4c56f8570576%}]]>
+            <![CDATA[{% UIContext.EditedObject.TypeInfo.SiteBinding |(identity)GlobalAdministrator|(hash)d2d9c5b076451f2bfc37bc7fc8f60940014f922f72c88ba7dad48f02c7eaa4e4%}]]>
           </defaultvalue>
           <fieldcaption />
           <fielddescription />
@@ -61,7 +61,7 @@ String.FormatString(GetResourceString("general.assigntosite"),siteName) |(identi
         </settings>
         <properties>
           <defaultvalue>
-            <![CDATA[{? if (siteid != null) {siteid} else {CurrentSite.SiteID}|(identity)GlobalAdministrator|(hash)182d621dfcf20019676a54fcf878c3be29f835f014a03df41a0e3632a8969c0b?}]]>
+            <![CDATA[{? if (siteid != null) {siteid} else {CurrentSite.SiteID}|(identity)GlobalAdministrator|(hash)0739d35782798dc3f3bed89094a111bb0869b62a2384805e035fc6de0fa8188f?}]]>
           </defaultvalue>
           <fieldcaption />
         </properties>

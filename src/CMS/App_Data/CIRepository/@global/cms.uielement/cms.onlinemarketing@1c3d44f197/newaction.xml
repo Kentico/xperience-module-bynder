@@ -37,7 +37,7 @@
         <![CDATA[CMS.WorkflowEngine.Web.UI.WorkflowActionEditExtender]]>
       </ExtenderClassName>
       <RedirectURL ismacro="True">
-        <![CDATA[{% UIContext.GetElementUrl("CMS.OnlineMarketing", "ActionList") |(identity)GlobalAdministrator|(hash)7dc2d92f0304a332e14a3f079b81d2b39ad7159a3b053eec72875901ffb7ae46%}]]>
+        <![CDATA[{% UIContext.GetElementUrl("CMS.OnlineMarketing", "ActionList") |(identity)GlobalAdministrator|(hash)f4f707a63edce239004078d874e393d86a1760b7c9bbfc4cf85df5519c1135d6%}]]>
       </RedirectURL>
     </Data>
   </ElementProperties>

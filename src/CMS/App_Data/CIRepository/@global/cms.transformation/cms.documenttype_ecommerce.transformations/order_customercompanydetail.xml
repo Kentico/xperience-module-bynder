@@ -14,7 +14,7 @@
     {% } %}
   {% Localize("{$customers_edit.lblorganizationid$}")|(encode)true %} {% ((CustomerOrganizationID == null) ? Localize("{$general.na$}") : CustomerOrganizationID)|(encode)true %} <br/>
   {% Localize("{$customers_edit.lbltaxregistrationid$}")|(encode)true %} {% ((CustomerTaxRegistrationID == null) ? Localize("{$general.na$}") : CustomerTaxRegistrationID)|(encode)true %} <br/>
-{% } |(identity)GlobalAdministrator|(hash)30b586cca0586d9e5d5083011ce108e0e64945c71db4c2cd4b9aa142bbc8189c%}
+{% } |(identity)GlobalAdministrator|(hash)f902ac7b06d7f4ccffef28217f2baf46a3c6b5725dd7c5e3cfe32f77a78f0190%}
 ]]>
   </TransformationCode>
   <TransformationGUID>3eba2b54-3bfd-40fb-881f-611bcf03cc77</TransformationGUID>

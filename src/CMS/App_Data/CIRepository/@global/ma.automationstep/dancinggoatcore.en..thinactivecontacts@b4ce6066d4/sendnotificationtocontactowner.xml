@@ -9,17 +9,17 @@
     <Parameters>
       <BasedOn>1</BasedOn>
       <Body>
-        <![CDATA[The system&#39;s &#39;Engage with inactive contacts&#39; automation process has evaluated contact &#39;{% Contact.ContactFirstName + " " + Contact.ContactLastName |(identity)GlobalAdministrator|(hash)d957c2d625bbf272d71f4582018bb141a91efb2e483071509a1b685a64bb3320%}&#39; as inactive. This contact does not have a known email address, but can be contacted by phone using the number &#39;{% Contact.ContactMobilePhone |(identity)GlobalAdministrator|(hash)acc1b5be264170a1e80db9030c665bea1e9c482901637fd286ab670e1f92ecfe%}&#39;. Call the contact and attempt to re-engage them. Then move the contact to the &#39;Finished&#39; step within the process.]]>
+        <![CDATA[The system&#39;s &#39;Engage with inactive contacts&#39; automation process has evaluated contact &#39;{% Contact.ContactFirstName + " " + Contact.ContactLastName |(identity)GlobalAdministrator|(hash)a79a7a282e3aa9a215349fa9be4720a04e2772a143276c89d52a8ea76d599551%}&#39; as inactive. This contact does not have a known email address, but can be contacted by phone using the number &#39;{% Contact.ContactMobilePhone |(identity)GlobalAdministrator|(hash)ee697fbf47e74b32662f3f383152def44786a720adb2953f1470c54ccbe5f6b7%}&#39;. Call the contact and attempt to re-engage them. Then move the contact to the &#39;Finished&#39; step within the process.]]>
       </Body>
       <From>dancinggoat@localhost.local</From>
       <Subject>New pending inactive contact</Subject>
       <To ismacro="True">
-        <![CDATA[{% Contact.ContactOwnerUser.Email |(identity)GlobalAdministrator|(hash)cd1fe3252fb43eae5a6acb1152220781af0ef0af32876f5a85135fab4b1a7485%}]]>
+        <![CDATA[{% Contact.ContactOwnerUser.Email |(identity)GlobalAdministrator|(hash)0e368dd672994f5802acbd86b31ab912b15b2831cd7c81c8439bfa745fd94bf0%}]]>
       </To>
     </Parameters>
   </StepActionParameters>
   <StepDefinition>
-    <Step xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Step xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <TimeoutEnabled>false</TimeoutEnabled>
       <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
       <SourcePoints>

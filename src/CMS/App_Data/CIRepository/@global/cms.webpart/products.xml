@@ -234,7 +234,7 @@ PRODUCTOPTIONS;{$com.productswidget.productoptions$}
           <SpecialFields>;{$general.selectall$}</SpecialFields>
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition ismacro="true">
-            <![CDATA[TaxClassSiteID IS NULL OR TaxClassSiteID = {% CurrentSite.SiteID |(identity)GlobalAdministrator|(hash)eebe5c7ed47960d76118ee1f81af5ab9d2bcfb187bf270bec568fe5f356d1095%}]]>
+            <![CDATA[TaxClassSiteID IS NULL OR TaxClassSiteID = {% CurrentSite.SiteID |(identity)GlobalAdministrator|(hash)9ef68084fdab885a4e8895c95ef4710f417405fa0ad688d1e92fbe7adfd9b7b4%}]]>
           </WhereCondition>
         </settings>
       </field>

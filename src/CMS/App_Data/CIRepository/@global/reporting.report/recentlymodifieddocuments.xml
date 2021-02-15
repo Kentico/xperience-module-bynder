@@ -22,7 +22,7 @@
       <field column="ModifiedSince" columntype="datetime" guid="f5fc6aff-2c8d-4107-aae5-2782fc6dfeab" spellcheck="false" visible="true">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%CurrentDateTime.AddWeeks(-1)|(identity)GlobalAdministrator|(hash)9e24739754ed4e672f21a7bc07902156bf0708ddf479400f06a45fc0caa488be%}]]>
+            <![CDATA[{%CurrentDateTime.AddWeeks(-1)|(identity)GlobalAdministrator|(hash)58b565c952584360e1d42c85fbaa6a3d0a842ea0e1f9e40f486f50921a99e1a1%}]]>
           </defaultvalue>
           <fieldcaption>Modified since</fieldcaption>
         </properties>

@@ -20,7 +20,7 @@
           <controlname>labelcontrol</controlname>
           <OutputFormat>
 <![CDATA[
-{% GetResourceString("smartsearch.indextype." + IndexType.ToString()); |(identity)GlobalAdministrator|(hash)6957666eb67dd601b949d12fdfe8867f1b754aa685d7505c589b0f7beec79aac%}
+{% GetResourceString("smartsearch.indextype." + IndexType.ToString()); |(identity)GlobalAdministrator|(hash)a9c88d1747b6e3f5faa6814bff6a13f990609d7e30cce3e0d0f01d1d85c6959f%}
 
 
 

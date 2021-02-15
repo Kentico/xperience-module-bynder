@@ -46,7 +46,7 @@
                 <Property>
                   <Name>Text</Name>
                   <Value>
-                    <![CDATA[Hello {% Recipient.FirstName |(identity)GlobalAdministrator|(hash)283759c25604f073c34f89be0380255ecd146bd3feb5c32da46a80fb6cafdd77%},]]>
+                    <![CDATA[Hello {% Recipient.FirstName |(identity)GlobalAdministrator|(hash)77cc883f87e3e3c73eed91c67c203e21aa532bb2180a56fd27f684486c0964a4%},]]>
                   </Value>
                 </Property>
               </Properties>

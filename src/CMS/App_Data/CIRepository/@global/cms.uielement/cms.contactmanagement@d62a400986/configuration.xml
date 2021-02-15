@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%Rule("(CurrentUser.IsAuthorizedPerResource(\"CMS.ContactManagement\",\"ReadConfiguration\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.ContactManagement</t><v>CMS.ContactManagement</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p><p n=\"permission\"><t>ReadConfiguration</t><v>ReadConfiguration</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)bc0e46756b6188f99ad5785bc4139192b4d7c28626e5bd682608d33e37399c25%}]]>
+    <![CDATA[{%Rule("(CurrentUser.IsAuthorizedPerResource(\"CMS.ContactManagement\",\"ReadConfiguration\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.ContactManagement</t><v>CMS.ContactManagement</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p><p n=\"permission\"><t>ReadConfiguration</t><v>ReadConfiguration</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)f1ddeb335ced7383a599a7cd27ee2c82be7a2d0a0583a3a717f8f6ddad3c994f%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$om.ui.config$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
@@ -53,6 +53,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%LicenseHelper.CheckFeature(FeatureEnum.FullContactManagement)|(identity)GlobalAdministrator|(hash)bc80902eb0026b3906993beff6aab1588b33232468589d01ae499e16a7f904aa%}]]>
+    <![CDATA[{%LicenseHelper.CheckFeature(FeatureEnum.FullContactManagement)|(identity)GlobalAdministrator|(hash)73de76647b0c873307d15f49de9f6b7cdd7bb21cc59b34dfb6e3903f049d6fd9%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

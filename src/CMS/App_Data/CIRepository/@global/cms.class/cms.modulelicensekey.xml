@@ -85,7 +85,7 @@
         </settings>
         <rules>
           <rule errormsg="{$modulelicenses.modulelicensekeylicense.validation$}">
-            <![CDATA[{%Rule("(Value.Length >= 1)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinLength\" ><p n=\"minlength\"><t>1</t><v>1</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)009ca11cddf400acb0f5c3c83b0419a25cc408e9510aad3b7644925a548489a7%}]]>
+            <![CDATA[{%Rule("(Value.Length >= 1)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"MinLength\" ><p n=\"minlength\"><t>1</t><v>1</v><r>0</r><d></d><vt>integer</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)81896f59f6076170ca071f276a12ec4dc829b1c5da34b74b5ace371fc49ee77d%}]]>
           </rule>
         </rules>
       </field>

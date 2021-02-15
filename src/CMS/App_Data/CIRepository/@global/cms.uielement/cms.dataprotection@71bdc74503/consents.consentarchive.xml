@@ -29,7 +29,7 @@
     <Data>
       <DisplayBreadcrumbs>False</DisplayBreadcrumbs>
       <EditActionURL>
-        <![CDATA[{% UIContext.GetElementUrl("CMS.DataProtection", "Consents.ConsentArchive.Detail", false, EditedObject.ID, "&objectid={0}") |(identity)GlobalAdministrator|(hash)61b4b3fa508292bb030d7f062159629ecac2ec97079a58d6143c6e1a4b645fd9%}]]>
+        <![CDATA[{% UIContext.GetElementUrl("CMS.DataProtection", "Consents.ConsentArchive.Detail", false, EditedObject.ID, "&objectid={0}") |(identity)GlobalAdministrator|(hash)f708247629a4b46874475842d7593bee762f6fb470dc45222d90dcfb059db893%}]]>
       </EditActionURL>
       <EditInDialog>False</EditInDialog>
       <GridName>

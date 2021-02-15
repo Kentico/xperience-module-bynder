@@ -34,7 +34,7 @@
         </settings>
         <properties>
           <defaultvalue>
-            <![CDATA[{%GetDate(Value, GetResourceString("general.na"))|(identity)GlobalAdministrator|(hash)e14b52d4148ed3e455d156be4dde97926bd997a20f57688d3921cf984f77df27%}]]>
+            <![CDATA[{%GetDate(Value, GetResourceString("general.na"))|(identity)GlobalAdministrator|(hash)a7ab2e8538d43daabcf5e2666802ab51846167e83225dbb748c8fa312201aeff%}]]>
           </defaultvalue>
           <fieldcaption />
           <fielddescription />

@@ -34,7 +34,7 @@
       <listprefacetext>{$culture_edit_sites.sitetitle$}</listprefacetext>
       <displaybreadcrumbs>False</displaybreadcrumbs>
       <wherecondition>
-        <![CDATA[CultureID = {% UIContext.ObjectID |(identity)GlobalAdministrator|(hash)9c922ffca81d94c188615f4175731e3561ad031d4d6075ff3db125062abe6b99%}]]>
+        <![CDATA[CultureID = {% UIContext.ObjectID |(identity)GlobalAdministrator|(hash)fc0ffebb40415d906b521e0937b85b76ce0f2afc9f6b8466a0061b4e09d740a8%}]]>
       </wherecondition>
       <includejquery>False</includejquery>
       <resourceprefix>siteselect</resourceprefix>

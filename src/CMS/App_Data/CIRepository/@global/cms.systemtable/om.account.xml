@@ -231,7 +231,7 @@
         <properties>
           <fieldcaption>{$om.account.primarycontact$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountPrimaryContactID.Visible|(identity)GlobalAdministrator|(hash)abd62b33ef476bd4aaf99e8c882c287f997785e3e4180dc7d6563e479d1557ca%}]]>
+            <![CDATA[{%AccountPrimaryContactID.Visible|(identity)GlobalAdministrator|(hash)1d1bc9dd75b5d9de0bae3192e5e81978af77dbeb21655c4a74aeaa73dd91f84a%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -258,7 +258,7 @@
         <properties>
           <fieldcaption>{$edituserroles.role$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountPrimaryContactID.Visible|(identity)GlobalAdministrator|(hash)abd62b33ef476bd4aaf99e8c882c287f997785e3e4180dc7d6563e479d1557ca%}]]>
+            <![CDATA[{%AccountPrimaryContactID.Visible|(identity)GlobalAdministrator|(hash)1d1bc9dd75b5d9de0bae3192e5e81978af77dbeb21655c4a74aeaa73dd91f84a%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -269,7 +269,7 @@
         <properties>
           <fieldcaption>{$om.account.secondarycontact$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountPrimaryContactID.Visible|(identity)GlobalAdministrator|(hash)abd62b33ef476bd4aaf99e8c882c287f997785e3e4180dc7d6563e479d1557ca%}]]>
+            <![CDATA[{%AccountPrimaryContactID.Visible|(identity)GlobalAdministrator|(hash)1d1bc9dd75b5d9de0bae3192e5e81978af77dbeb21655c4a74aeaa73dd91f84a%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -296,7 +296,7 @@
         <properties>
           <fieldcaption>{$edituserroles.role$}</fieldcaption>
           <visiblemacro ismacro="true">
-            <![CDATA[{%AccountPrimaryContactID.Visible|(identity)GlobalAdministrator|(hash)abd62b33ef476bd4aaf99e8c882c287f997785e3e4180dc7d6563e479d1557ca%}]]>
+            <![CDATA[{%AccountPrimaryContactID.Visible|(identity)GlobalAdministrator|(hash)1d1bc9dd75b5d9de0bae3192e5e81978af77dbeb21655c4a74aeaa73dd91f84a%}]]>
           </visiblemacro>
         </properties>
         <settings>

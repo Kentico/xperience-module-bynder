@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%Rule("(CurrentUser.IsAuthorizedPerResource(\"CMS.ContactManagement\",\"Read\"))", "<rules><r pos=\"0\" par=\"\" op=\"or\" n=\"Permission\" ><p n=\"permission\"><t>Read</t><v>Read</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p><p n=\"module\"><t>CMS.ContactManagement</t><v>CMS.ContactManagement</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)398f759b0156ea6d136c134f8f863923719c7f4eb73e4741d30a53ed3928d2fa%}]]>
+    <![CDATA[{%Rule("(CurrentUser.IsAuthorizedPerResource(\"CMS.ContactManagement\",\"Read\"))", "<rules><r pos=\"0\" par=\"\" op=\"or\" n=\"Permission\" ><p n=\"permission\"><t>Read</t><v>Read</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p><p n=\"module\"><t>CMS.ContactManagement</t><v>CMS.ContactManagement</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)b5b8e2849812b02f9b143ae1a0560b5001b98fa19e8269aa26c81e70fb27e8d8%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$om.mycontacts$}</ElementCaption>
   <ElementCheckModuleReadPermission>True</ElementCheckModuleReadPermission>

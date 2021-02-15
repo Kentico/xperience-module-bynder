@@ -7,9 +7,9 @@
 <![CDATA[
 This is an automatic notification sent by Kentico CMS. The following page status has changed. 
 
-Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "([url=" + DocumentPreviewUrl + "]preview[/url])"|(identity)GlobalAdministrator|(hash)1c52a5f5458619e69231ffcaed6c5063bbf207b0b02041a01f9851c0f730e4ad%}
+Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "([url=" + DocumentPreviewUrl + "]preview[/url])"|(identity)GlobalAdministrator|(hash)cdda7e24ab56caca15d9155ffaad703f0fe9c3989d063f5751c4661e032e3d54%}
 Action: {%DocumentActionName%} 
-Modified by: {%User.Email|(identity)GlobalAdministrator|(hash)c4fe560b180f0cd9707b4802c5e4e595cd90ae67bb1309e8153b332be76c6096%} 
+Modified by: {%User.Email|(identity)GlobalAdministrator|(hash)04b93ddcf3638e5a9b9f115ebd60a34f4bb0ee5a460094bb3ea55bd1523d386b%} 
 Modified when: {%approvedwhen%} 
 Original step: {%originalstepname%} 
 Current step: {%currentstepname%} 
@@ -30,12 +30,12 @@ Comment:
     This is an automatic notification sent by Kentico CMS. The following page status has changed.
     </p>
     <p>
-    <strong>Page:</strong> <a href="{%DocumentEditUrl%}">{%documentname%}</a> {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "(<a href=\"" + DocumentPreviewUrl + "\">preview</a>)"|(encode)false|(identity)GlobalAdministrator|(hash)a95735917bbd6d8b67b2649519777fc971b32348d613964184b049811a23c96e%}
+    <strong>Page:</strong> <a href="{%DocumentEditUrl%}">{%documentname%}</a> {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "(<a href=\"" + DocumentPreviewUrl + "\">preview</a>)"|(encode)false|(identity)GlobalAdministrator|(hash)462765d63fe03f33d39a9f1e94a89c079bdca6d6f295a63af1769fcf21d6f8b8%}
     <br />
     <br />
     <strong>Action:</strong> {%DocumentActionName%}
     <br />
-    <strong>Modified by:</strong> {%User.Email|(identity)GlobalAdministrator|(hash)c4fe560b180f0cd9707b4802c5e4e595cd90ae67bb1309e8153b332be76c6096%}
+    <strong>Modified by:</strong> {%User.Email|(identity)GlobalAdministrator|(hash)04b93ddcf3638e5a9b9f115ebd60a34f4bb0ee5a460094bb3ea55bd1523d386b%}
     <br />
     <strong>Modified when:</strong> {%approvedwhen%}
     <br />

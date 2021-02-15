@@ -15,7 +15,7 @@
       <field column="MacroIdentityName" columnsize="200" columntype="text" guid="2a5d530e-3416-42fa-b3eb-2f19becc675d" isunique="true" system="true" visible="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%EditedObject.ID == 0|(identity)GlobalAdministrator|(hash)2cc4f5b3f94f0da8819a05aa5a22ad574835585e4e095da39e6e3325048560df%}]]>
+            <![CDATA[{%EditedObject.ID == 0|(identity)GlobalAdministrator|(hash)ed4e10b92b66f702f14e02530bf0371b79084081a674415c2db4ad7859db4b1e%}]]>
           </enabledmacro>
           <fieldcaption>{$macroengine.macroidentity.name$}</fieldcaption>
           <fielddescription>{$macroengine.macroidentity.name.description$}</fielddescription>

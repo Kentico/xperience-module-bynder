@@ -10,7 +10,7 @@
   <DiscountName>HarioVacuumPot10_Off</DiscountName>
   <DiscountOrder>1</DiscountOrder>
   <DiscountProductCondition>
-    <![CDATA[{%Rule("( (SKU.SKUGUID.EqualsAny(\"97e2d6f4-5bf7-49a7-b2d2-ece73c236f1f\".Split(\";\"))))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"ProductIsOneOf\" ><p n=\"_is\"><t>is</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"products\"><t>Hario Vacuum Pot</t><v>97e2d6f4-5bf7-49a7-b2d2-ece73c236f1f</v><r>1</r><d>select products</d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)6a52a0472dee05bed4c36509814e366fc26299bc0f607b399061d1dc55f0a592%}]]>
+    <![CDATA[{%Rule("( (SKU.SKUGUID.EqualsAny(\"97e2d6f4-5bf7-49a7-b2d2-ece73c236f1f\".Split(\";\"))))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"ProductIsOneOf\" ><p n=\"_is\"><t>is</t><v></v><r>0</r><d>select operation</d><vt>text</vt><tv>0</tv></p><p n=\"products\"><t>Hario Vacuum Pot</t><v>97e2d6f4-5bf7-49a7-b2d2-ece73c236f1f</v><r>1</r><d>select products</d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)3495ac050a0c06b8fccc1b9ee3dd5adf51fb6cf34113294dee6d0eaea7fc9362%}]]>
   </DiscountProductCondition>
   <DiscountRoles />
   <DiscountSiteID>

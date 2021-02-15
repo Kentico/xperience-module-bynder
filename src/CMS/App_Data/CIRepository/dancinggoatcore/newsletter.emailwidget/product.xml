@@ -25,7 +25,7 @@ The Product email widget displays a selected product with the possibility to ove
      ctaText = ButtonText == String.Empty ? ctaText : ButtonText; 
   }
   return;
-|(identity)GlobalAdministrator|(hash)07e71d897677ca765e2d42660b252105c89f57c5987fac5a49f238ca77d1ff01%}
+|(identity)GlobalAdministrator|(hash)74ebf3005d437e9e412ea36bbbadd1ea37321244aa2b92d443c51b0daf7344b5%}
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>

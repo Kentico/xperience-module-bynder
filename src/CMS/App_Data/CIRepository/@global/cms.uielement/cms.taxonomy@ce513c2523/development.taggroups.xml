@@ -39,7 +39,7 @@
       <selectortype>Classic</selectortype>
       <allowall>False</allowall>
       <wherecondition>
-        <![CDATA[(TagGroupIsAdHoc = 0) AND (taggroupsiteid={%UIContext.SiteID|(identity)GlobalAdministrator|(hash)450b5c95e5a58d7b3e8a028ebd407b4dc9f5a6ddc31b26a2cb207036219a4746%})]]>
+        <![CDATA[(TagGroupIsAdHoc = 0) AND (taggroupsiteid={%UIContext.SiteID|(identity)GlobalAdministrator|(hash)9e25ef6e75039124d3c80a4f308b8cb55a0fe9d79ca2c0da93f282dc1d71dcd8%})]]>
       </wherecondition>
     </data>
   </ElementProperties>

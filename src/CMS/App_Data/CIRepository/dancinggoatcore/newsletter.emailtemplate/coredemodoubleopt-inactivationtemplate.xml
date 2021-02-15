@@ -20,7 +20,7 @@
 			<table cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr>
-						<td align="center" bgcolor="#B49669" height="45" style="padding: 5px 10px; border: 2px solid rgb(180,150,105); border-image: none; color: rgb(255, 255, 255); display: block;" width="180"><a href="{% EmailFeed.SubscriptionConfirmationUrl |(identity)GlobalAdministrator|(hash)b7c31dd324b90def32e1cd6f8e8f21cfb563f3fbcb4a2c40db1a01d118ecd925%}" style="width: 180px; line-height: 45px; font-family: Verdana, sans-serif; font-size: 16px; font-weight: normal; text-decoration: none; display: inline-block;"><span style="color: rgb(255, 255, 255);">SUBSCRIBE</span></a></td>
+						<td align="center" bgcolor="#B49669" height="45" style="padding: 5px 10px; border: 2px solid rgb(180,150,105); border-image: none; color: rgb(255, 255, 255); display: block;" width="180"><a href="{% EmailFeed.SubscriptionConfirmationUrl |(identity)GlobalAdministrator|(hash)ae65f34bb325c664cba6408d8280da00cf17b26bac276db64afabb1ab14cdf62%}" style="width: 180px; line-height: 45px; font-family: Verdana, sans-serif; font-size: 16px; font-weight: normal; text-decoration: none; display: inline-block;"><span style="color: rgb(255, 255, 255);">SUBSCRIBE</span></a></td>
 					</tr>
 				</tbody>
 			</table>

@@ -1,42 +1,50 @@
 # The Kentico Xperience Bynder module
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico)
 
-[Bynder](https://www.bynder.com/) for [Kentico Xperience](https://xperience.io/)
 
-This repository contains source code for Kentico Xperience integration with Bynder.
+NuGet package for Xperience administration: [![NuGet](https://img.shields.io/nuget/v/Kentico.Xperience.Recombee.Admin.KX13.svg)](https://www.nuget.org/packages/Kentico.Xperience.Recombee.Admin.KX13/0.0.1-preview)
+
+[Kentico Xperience](https://xperience.io/) form control for selecting images from the [Bynder](https://www.bynder.com/) digital asset management platform (DAM).
+
+This repository contains source code for the module that integrates Kentico Xperience with Bynder digital asset management platform.
 
 ## Description
-The project contains module to integrate Kentico Xperience with Bynder using Bynder Image Selector form control. The form control lets you select image from Bynder DAM.
-
+This project contains a Kentico Xperience module that adds the *Bynder image selector* [form control](https://docs.xperience.io/custom-development/extending-the-administration-interface/developing-form-controls) for Xperience administration forms. By assigning the form control to a page type field, users can select and display images stored in the Bynder service when editing pages in the Xperience Pages application.
+ 
 ## Requirements and prerequisites
-1. *Kentico Xperience 13* installed.
-1. Bynder portal with account.
-1. Basic knowledge of ASP .NET MVC 5 development with Kentico Xperience.
+* *Kentico Xperience 13* installed.
+  - Both ASP.NET Core and ASP.NET MVC 5 development models are supported.
+* URL and credentials to your Bynder portal.
+* Basic knowledge of developing ASP .NET MVC 5 applications with Kentico Xperience.
 
 ## Installation
 1. Open the solution with your administration project (*~/WebApp.sln*).
 1. Navigate to the *NuGet Package Manager Console*.
-1. Run *Install-Package Kentico.Xperience.Bynder.KX13 -Version 0.1.0
-1. Build the project.
-1. Run the Administration to finish module installation.
+1. Run *Install-Package Kentico.Xperience.Bynder.KX13 -Version 0.1.0*
+1. Build the *CMSApp* project.
+1. Run the Xperience administration to finish the module installation.
 
-Kentico Bynder module with Bynder image selector form control is successfully installed.
+Kentico Bynder module with the Bynder image selector form control is successfully installed.
 
-## Setting up the environment
-### Administration
-* add new text field, size 500 and with Bynder image selector as form control to page type
+## Using the form control 
+### Xperience administration
+To utilize the Bynder integration when editing pages in the Xperience administration, you need to assign the *Bynder image selector* form control to a page type field:
 
+1. Create a new text field for the page type with the following properties:
+  * Size: *500*    
+  * Form control: *Bynder image selector*
 ![General](Images/general.PNG)
-* edit Bynder image selector control settings (optional)
-  * Default domain: insert your Bynder portal domain
-  * Use full size modal display mode: check to set Bynder display mode to full size modal.
 
+2. Configure the editing control settings (optional):
+  * Default domain - A URL of your Bynder portal. If not specified here, you will be prompted to enter the URL when using the form control (e.g. in the Pages application).
+  * Use full size modal display mode - Select to set the display mode of the Bynder dialog to 'Full size modal' (this is recommended). If not selected, the smaller 'In a container' dialog will be used.
 ![Edit control settings](Images/edit_control_settings.PNG)
-* generate code for page types
+
+3. Copy the code of the page type from the Code tab in the Page types application.
 
 ### Live site
-* copy newly generated page type code to live site
-* supply Bynder asset URL to ViewModel
+You need to paste the generated code of the Page type to your live site project.
+1. Supply the Bynder asset URL to the ViewModel:
 ```c#
 public class BynderPreviewViewModel
 {
@@ -48,7 +56,7 @@ public class BynderPreviewViewModel
     }
 }
 ```
-* edit view to show selected image from Bynder DAM
+2. Edit the view to show the selected image from the Bynder DAM:
 ```html
 @model BynderPreviewViewModel
 <div class="BynderAsset">
@@ -58,8 +66,8 @@ public class BynderPreviewViewModel
 
 ## Get involved
 
-Check out the [contributing](CONTRIBUTING.md) page to see the best places to file issues, start discussions, and begin contributing.
+Check out the [contributing](CONTRIBUTING.md) page to see how to file issues, start discussions, and begin contributing.
 
 ## [Questions & Support](https://github.com/Kentico/Home/blob/master/README.md)
 
-See the [Kentico home repository](https://github.com/Kentico/Home/blob/master/README.md) for more information about the product(s), general advice on submitting your questions or directly contacting us.
+See the [Kentico home repository](https://github.com/Kentico/Home/blob/master/README.md) for more information about the product(s) and general advice on submitting your questions.

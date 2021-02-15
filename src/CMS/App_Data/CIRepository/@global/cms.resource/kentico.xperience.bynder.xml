@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.resource>
-  <ResourceAuthor>Kentico</ResourceAuthor>
+  <ResourceAuthor>Kentico Software</ResourceAuthor>
   <ResourceDescription>
     <![CDATA[Kentico Xperience form control for selecting media files from the Bynder digital asset management platform.]]>
   </ResourceDescription>
-  <ResourceDisplayName>Bynder Integration Module</ResourceDisplayName>
+  <ResourceDisplayName>Bynder integration</ResourceDisplayName>
   <ResourceGUID>4d069ed9-9cb9-44e5-92eb-3d6eb329a804</ResourceGUID>
   <ResourceHasFiles>False</ResourceHasFiles>
   <ResourceInstallationState>installed</ResourceInstallationState>

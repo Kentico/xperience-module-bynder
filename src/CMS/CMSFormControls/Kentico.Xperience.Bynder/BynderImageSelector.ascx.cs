@@ -12,6 +12,7 @@ public partial class CMSFormControls_BynderImageSelector : FormEngineUserControl
 {
     private const string MODULE_ID = "Kentico.Xperience.Bynder/BynderImageSelector";
 
+
     /// <summary>
     /// Gets or sets the serialized JSON object value of the selected Bynder asset.
     /// </summary>
@@ -27,6 +28,7 @@ public partial class CMSFormControls_BynderImageSelector : FormEngineUserControl
         }
     }
 
+
     /// <summary>
     /// Gets default domian value.
     /// </summary>
@@ -37,10 +39,6 @@ public partial class CMSFormControls_BynderImageSelector : FormEngineUserControl
     /// Indicates if full modal display mode is used.
     /// </summary>
     public bool UseModalDisplayMode => GetValue("UseModalDisplayMode", false);
-
-    protected void Page_Load(object sender, EventArgs e)
-    {
-    }
 
 
     protected override void OnPreRender(EventArgs e)

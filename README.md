@@ -2,7 +2,7 @@
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico)
 
 
-NuGet package for Xperience administration: [![NuGet](https://img.shields.io/nuget/v/Kentico.Xperience.Recombee.Admin.KX13.svg)](https://www.nuget.org/packages/Kentico.Xperience.Recombee.Admin.KX13/0.0.1-preview)
+[![NuGet](https://img.shields.io/nuget/v/Kentico.Xperience.Recombee.Admin.KX13.svg)](https://www.nuget.org/packages/Kentico.Xperience.Recombee.Admin.KX13/0.0.1-preview) – NuGet package for Xperience administration
 
 [Kentico Xperience](https://xperience.io/) form control for selecting images from the [Bynder](https://www.bynder.com/) digital asset management platform (DAM).
 
@@ -24,27 +24,29 @@ This project contains a Kentico Xperience module that adds the *Bynder image sel
 1. Build the *CMSApp* project.
 1. Run the Xperience administration to finish the module installation.
 
-Kentico Bynder module with the Bynder image selector form control is successfully installed.
+Kentico Bynder module with the *Bynder image selector* form control is successfully installed.
 
 ## Using the form control 
 ### Xperience administration
 To utilize the Bynder integration when editing pages in the Xperience administration, you need to assign the *Bynder image selector* form control to a page type field:
 
 1. Create a new text field for the page type with the following properties:
-  * Size: *500*    
-  * Form control: *Bynder image selector*
+   - Size: *500*    
+   - Form control: *Bynder image selector*
 ![General](Images/general.PNG)
 
 2. Configure the editing control settings (optional):
-  * Default domain - A URL of your Bynder portal. If not specified here, you will be prompted to enter the URL when using the form control (e.g. in the Pages application).
-  * Use full size modal display mode - Select to set the display mode of the Bynder dialog to 'Full size modal' (this is recommended). If not selected, the smaller 'In a container' dialog will be used.
+   - Default domain – A URL of your Bynder portal. If not specified here, you will be prompted to enter the URL when using the form control (e.g. in the Pages application).
+   - Use full size modal display mode – Select to set the display mode of the Bynder dialog to 'Full size modal' (this is recommended). If not selected, the smaller 'In a container' dialog will be used.
 ![Edit control settings](Images/edit_control_settings.PNG)
 
 3. Copy the code of the page type from the Code tab in the Page types application.
 
 ### Live site
-You need to paste the generated code of the Page type to your live site project.
-1. Supply the Bynder asset URL to the ViewModel:
+Adjust the code of your live site application to display the selected images from Bynder:
+
+1. Replace the generated code of your page type's model in your live site application with the new page type code from the Code tab in the Page types application.
+2. Supply the Bynder asset URL to the ViewModel:
 ```c#
 public class BynderPreviewViewModel
 {
@@ -56,7 +58,7 @@ public class BynderPreviewViewModel
     }
 }
 ```
-2. Edit the view to show the selected image from the Bynder DAM:
+3. Edit the view to show the selected image from the Bynder DAM:
 ```html
 @model BynderPreviewViewModel
 <div class="BynderAsset">

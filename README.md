@@ -40,8 +40,6 @@ To utilize the Bynder integration when editing pages in the Xperience administra
    - Use full size modal display mode – Select to set the display mode of the Bynder dialog to 'Full size modal' (this is recommended). If not selected, the smaller 'In a container' dialog will be used.
 <kbd>![Edit control settings](Images/edit_control_settings.PNG)</kbd>
 
-3. Copy the code of the page type from the Code tab in the Page types application.
-
 ### Live site
 Adjust the code of your live site application to display the selected images from Bynder:
 

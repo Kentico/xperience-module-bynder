@@ -33,12 +33,12 @@ To utilize the Bynder integration when editing pages in the Xperience administra
 1. Create a new text field for the page type with the following properties:
    - Size: *500*    
    - Form control: *Bynder image selector*
-![General](Images/general.PNG)
+<kbd>![General](Images/general.PNG)</kbd>
 
 2. Configure the editing control settings (optional):
    - Default domain – A URL of your Bynder portal. If not specified here, you will be prompted to enter the URL when using the form control (e.g. in the Pages application).
    - Use full size modal display mode – Select to set the display mode of the Bynder dialog to 'Full size modal' (this is recommended). If not selected, the smaller 'In a container' dialog will be used.
-![Edit control settings](Images/edit_control_settings.PNG)
+<kbd>![Edit control settings](Images/edit_control_settings.PNG)</kbd>
 
 3. Copy the code of the page type from the Code tab in the Page types application.
 

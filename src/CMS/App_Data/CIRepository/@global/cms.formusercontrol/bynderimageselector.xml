@@ -23,6 +23,9 @@
       <field allowempty="true" column="DefaultDomain" columnsize="200" columntype="text" guid="a99b7575-1bc4-4ea5-aef2-05335d6031cd" resolvedefaultvalue="False" visible="true">
         <properties>
           <fieldcaption>Default domain</fieldcaption>
+          <fielddescription>
+          <![CDATA[A URL of your Bynder portal. If not specified here, you will be prompted to enter the URL when using the form control (e.g. in the Pages application). ]]>
+        </fielddescription>
         </properties>
         <settings>
           <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
@@ -35,8 +38,11 @@
       </field>
       <field allowempty="true" column="UseModalDisplayMode" columntype="boolean" guid="464d9233-b28b-4edb-8830-db1df10cf13c" resolvedefaultvalue="False" visible="true">
         <properties>
-          <defaultvalue>false</defaultvalue>
+          <defaultvalue>true</defaultvalue>
           <fieldcaption>Use full size modal display mode</fieldcaption>
+          <fielddescription>
+            <![CDATA[Select to set the display mode of the Bynder dialog to 'Full size modal' (this is recommended). If not selected, the smaller 'In a container' dialog will be used.]]>
+          </fielddescription>
         </properties>
         <settings>
           <controlname>CheckBoxControl</controlname>

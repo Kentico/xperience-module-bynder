@@ -1,8 +1,8 @@
 # The Kentico Xperience Bynder module
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico)
 
-
-[![NuGet](https://img.shields.io/nuget/v/Kentico.Xperience.Recombee.Admin.KX13.svg)](https://www.nuget.org/packages/Kentico.Xperience.Recombee.Admin.KX13/0.0.1-preview) – NuGet package for Xperience administration
+| [![NuGet](https://img.shields.io/nuget/v/Kentico.Xperience.Recombee.Admin.KX13.svg)](https://www.nuget.org/packages/Kentico.Xperience.Recombee.Admin.KX13/0.0.1-preview) | NuGet package for Xperience administration |
+| ------------- |:-------------:|
 
 [Kentico Xperience](https://xperience.io/) form control for selecting images from the [Bynder](https://www.bynder.com/) digital asset management platform (DAM).
 

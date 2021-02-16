@@ -38,6 +38,12 @@
             document.removeEventListener('click', hideBynderOnOutsideClick);
         }
 
+        function setPageContentChanged() {
+            if (window.CMSContentManager) {
+                window.CMSContentManager.changed(true);
+            }
+        }
+
         function onSuccess(assets, additionalInfo) {
 
             if (assets.length < 1) {
@@ -54,6 +60,8 @@
             }
 
             hideBynder();
+
+            setPageContentChanged();
         }
 
         function hideBynderOnOutsideClick(event) {
@@ -99,6 +107,7 @@
         clearButton.addEventListener("click", function () {
             setValue(null);
             setPreview(null);
+            setPageContentChanged();
         });
 
         // preview init

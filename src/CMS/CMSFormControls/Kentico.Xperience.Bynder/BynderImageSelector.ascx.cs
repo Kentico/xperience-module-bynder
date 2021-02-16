@@ -30,7 +30,7 @@ public partial class CMSFormControls_BynderImageSelector : FormEngineUserControl
 
 
     /// <summary>
-    /// Gets default domian value.
+    /// Gets default domain value.
     /// </summary>
     public string DefaultDomain => GetValue("DefaultDomain", string.Empty);
 

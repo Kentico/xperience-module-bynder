@@ -1,7 +1,7 @@
-# The Kentico Xperience Bynder module
+# Kentico Xperience Bynder module
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico)
 
-| [![NuGet](https://img.shields.io/nuget/v/Kentico.Xperience.Recombee.Admin.KX13.svg)](https://www.nuget.org/packages/Kentico.Xperience.Recombee.Admin.KX13/0.0.1-preview) | NuGet package for Xperience administration |
+| [![NuGet](https://img.shields.io/nuget/v/Kentico.Xperience.Recombee.Admin.KX13.svg)](https://www.nuget.org/packages/Kentico.Xperience.Bynder.Admin.KX13) | NuGet package for Xperience administration |
 | ------------- |:-------------:|
 
 [Kentico Xperience](https://xperience.io/) form control for selecting images from the [Bynder](https://www.bynder.com/) digital asset management platform (DAM).
@@ -9,7 +9,7 @@
 This repository contains source code for the module that integrates Kentico Xperience with Bynder digital asset management platform.
 
 ## Description
-This project contains a Kentico Xperience module that adds the *Bynder image selector* [form control](https://docs.xperience.io/custom-development/extending-the-administration-interface/developing-form-controls) for Xperience administration forms. By assigning the form control to a page type field, users can select and display images stored in the Bynder service when editing pages in the Xperience Pages application.
+This project contains a Kentico Xperience module that adds the *Bynder image selector* [form control](https://docs.xperience.io/x/iwyRBg) for Xperience administration forms. By assigning the form control to a page type field, users can select and display images stored in the Bynder service when editing pages in the Xperience Pages application.
  
 ## Requirements and prerequisites
 * *Kentico Xperience 13* installed.
@@ -30,13 +30,14 @@ Kentico Bynder module with the *Bynder image selector* form control is successfu
 ### Xperience administration
 To utilize the Bynder integration when editing pages in the Xperience administration, you need to assign the *Bynder image selector* form control to a page type field:
 
-1. Create a new text field for the page type with the following properties:
+1. Create a new field for the page type with the following properties:
+   - Data type: *Text*
    - Size: *500*    
    - Form control: *Bynder image selector*
 <kbd>![General](Images/general.PNG)</kbd>
 
 2. Configure the editing control settings (optional):
-   - Default domain – A URL of your Bynder portal. If not specified here, you will be prompted to enter the URL when using the form control (e.g. in the Pages application).
+   - Default domain – The URL of your Bynder portal. If not specified here, you will be prompted to enter the URL when using the form control (e.g. in the Pages application).
    - Use full size modal display mode – Select to set the display mode of the Bynder dialog to 'Full size modal' (this is recommended). If not selected, the smaller 'In a container' dialog will be used.
 <kbd>![Edit control settings](Images/edit_control_settings.PNG)</kbd>
 

@@ -69,6 +69,6 @@ public class BynderPreviewViewModel
 
 Check out the [contributing](CONTRIBUTING.md) page to see how to file issues, start discussions, and begin contributing.
 
-## [Questions & Support](https://github.com/Kentico/Home/blob/master/README.md)
+## [Questions & Support](https://github.com/Kentico/Home/blob/master/README.md#getting-support-for-open-source-projects)
 
 See the [Kentico home repository](https://github.com/Kentico/Home/blob/master/README.md) for more information about the product(s) and general advice on submitting your questions.

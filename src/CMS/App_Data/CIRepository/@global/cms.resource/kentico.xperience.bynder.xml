@@ -8,7 +8,7 @@
   <ResourceGUID>4d069ed9-9cb9-44e5-92eb-3d6eb329a804</ResourceGUID>
   <ResourceHasFiles>False</ResourceHasFiles>
   <ResourceInstallationState>installed</ResourceInstallationState>
-  <ResourceInstalledVersion>0.1.0</ResourceInstalledVersion>
+  <ResourceInstalledVersion>0.1.1</ResourceInstalledVersion>
   <ResourceIsInDevelopment>False</ResourceIsInDevelopment>
   <ResourceName>Kentico.Xperience.Bynder</ResourceName>
   <ResourceVersion>0.1.1</ResourceVersion>

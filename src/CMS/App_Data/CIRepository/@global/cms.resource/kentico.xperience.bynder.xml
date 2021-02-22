@@ -11,6 +11,6 @@
   <ResourceInstalledVersion>0.1.0</ResourceInstalledVersion>
   <ResourceIsInDevelopment>False</ResourceIsInDevelopment>
   <ResourceName>Kentico.Xperience.Bynder</ResourceName>
-  <ResourceVersion>0.1.0</ResourceVersion>
+  <ResourceVersion>0.1.1</ResourceVersion>
   <ShowInDevelopment>False</ShowInDevelopment>
 </cms.resource>

@@ -33,8 +33,9 @@ To utilize the Bynder integration when editing pages in the Xperience administra
 1. Create a new field for the page type with the following properties:
    - Data type: *Text*
    - Size: *500*    
-   - Form control: *Bynder image selector*
 <kbd>![General](Images/general.PNG)</kbd>
+   - Form control: *Bynder image selector*
+<kbd>![FieldAppearance](Images/form_control.PNG)</kbd>
 
 2. Configure the editing control settings (optional):
    - Default domain – The URL of your Bynder portal. If not specified here, you will be prompted to enter the URL when using the form control (e.g. in the Pages application).
